@@ -1,6 +1,9 @@
-import numpy as np
+from flask import Flask
+app = Flask(__name__)
 
-msg = "Roll a dice"
-print(msg)
+@app.route("/")
+def main():
+    return "Flask App - Hello World!"
 
-print(np.random.randint(1,9))
+if __name__ == "__main__":
+    app.run()
