@@ -1,12 +1,17 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from dotenv import load_dotenv
 
-load_dotenv()  # take environment variables from .flaskenv
-app = Flask(__name__) # set app
+load_dotenv()  # take environment variables
+app = Flask(__name__)  # set app
 
 @app.route("/")
 def main():
-    return "Flask - Hello World!"
+    return render_template(
+        'base.html',  # from templates folder
+        title="Jinja Demo Site",
+        content="Smarter page templates with Flask & Jinja."
+    )
+    # return "Hello World!"
 
 @app.route("/hello", methods=["GET"])
 def say_hello():
