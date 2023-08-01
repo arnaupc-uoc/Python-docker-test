@@ -1,9 +1,18 @@
-from flask import Flask, jsonify, render_template
 from dotenv import load_dotenv
+from flask import Flask, jsonify, render_template
+from flask_assets import Bundle, Environment
 
 load_dotenv()  # take environment variables
 app = Flask(__name__)  # set app
 
+# set assets
+assets = Environment(app)
+css = Bundle("src/main.css", output="dist/main.css")
+
+assets.register("css", css)
+css.build()
+
+# set routes
 @app.route("/")
 def main():
     return render_template(

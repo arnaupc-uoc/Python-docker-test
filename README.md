@@ -63,3 +63,14 @@ https://jinja.palletsprojects.com/en/3.1.x/templates/
 # Set up Tailwind CSS with Flowbite inside a Flask project 
 
 Make sure that you have both Node.js and Python installed on your local machine.
+
+Flask-Assets helps you to integrate webassets into your Flask application:
+pip install Flask-Assets
+
+Tailwind CSS is notoriously dependent on Node.js, this dependency may not be welcome in your Docker container.
+pip install pytailwindcss
+tailwindcss init
+tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --minify
+
+https://testdriven.io/blog/flask-htmx-tailwind/
+
