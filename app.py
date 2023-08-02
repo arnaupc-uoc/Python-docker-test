@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from flask import Flask, jsonify, render_template, request, redirect, url_for
+from flask import Flask, jsonify, render_template, request, redirect, url_for, abort
 from flask_assets import Bundle, Environment
 
 load_dotenv()  # take environment variables
@@ -16,7 +16,7 @@ css.build()
 @app.route("/")
 def main():
     return render_template(
-        'base.html',  # from templates folder
+        'main.html',  # from templates folder
         title="Jinja Demo Site",
         content="Smarter page templates with Flask & Jinja."
     )
@@ -28,6 +28,18 @@ def send_form():
     print("Send Form!")
     return redirect(url_for('main'))
     #return jsonify({"msg": "Form send."})
+
+@app.route("/error")
+def error():
+    code = 404
+    message = 'There\'s an error!'
+    abort(code, message)
+
+# Error handlers
+@app.errorhandler(404)
+def page_not_found(e):
+    # note that we set the 404 status explicitly
+    return render_template('error.html'), 404
 
 # API routes
 

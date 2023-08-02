@@ -16,24 +16,14 @@
 
 <body>
   <div class="text-3xl font-light">
-    {{ title }}
+    {% block title %}
+        {{ title }}
+    {% endblock %}
   </div>
   <div class="">
     {% block content %}
         {{ content }}
-    {% endblock content %}
-
-    <form action="/send-form" method="POST">
-        <div class="">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name">
-        </div>
-        <div class="name">
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email">
-        </div>
-        <button type="submit">Submit</button>
-    </form>
+    {% endblock %}
   </div>
 </body>
 </html>
