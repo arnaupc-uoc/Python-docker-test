@@ -9,6 +9,7 @@ Before starting to install dependencies, let’s create the Python virtual envir
 python3 -m venv venv 
 source venv/bin/activate 
 
+Flask is a Micro Framework written in Python, extremely flexible, with low footprint and lightweight:
 pip install flask
 pip install python-dotenv
 
@@ -72,5 +73,14 @@ pip install pytailwindcss
 tailwindcss init
 tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --minify
 
+Fonts:
 https://testdriven.io/blog/flask-htmx-tailwind/
+https://flowbite.com/docs/getting-started/flask/
 
+
+# Makefile
+
+JS developers are lucky, their package.json has a special scripts section.
+Nothing like this is provided with Python. You can, of course, make a .sh script for each task.
+Linux and macOS already have a great task automation tool for any project - Makefile
+A task can include multiple steps.
