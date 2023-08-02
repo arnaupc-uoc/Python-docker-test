@@ -29,6 +29,8 @@ def init_app():
 
         return app
 
+# TODO: how to run app ??
+
 app = init_app()
 
 if __name__ == "__main__":
