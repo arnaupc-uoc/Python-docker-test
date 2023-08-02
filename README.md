@@ -69,6 +69,7 @@ Flask-Assets helps you to integrate webassets into your Flask application:
 pip install Flask-Assets
 
 Tailwind CSS is notoriously dependent on Node.js, this dependency may not be welcome in your Docker container.
+Python package pytailwindcss lets you install the Tailwind CSS executable via pip, it runs a standalone Tailwind CSS build that doesn’t require Node.js to be installed:
 pip install pytailwindcss
 tailwindcss init
 tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --minify
@@ -76,11 +77,30 @@ tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --minify
 Fonts:
 https://testdriven.io/blog/flask-htmx-tailwind/
 https://flowbite.com/docs/getting-started/flask/
+https://timonweb.com/python/you-can-now-use-pip-to-install-tailwind-css-nodejs-is-no-longer-required/
+https://byby.dev/at-rule-tailwind
+
 
 
 # Makefile
 
 JS developers are lucky, their package.json has a special scripts section.
 Nothing like this is provided with Python. You can, of course, make a .sh script for each task.
-Linux and macOS already have a great task automation tool for any project - Makefile
+Linux and macOS already have a great task automation tool for any project: Makefile
+
 A task can include multiple steps.
+To only print the output, we can prefix each shell script line with a “@”.
+
+We can also use variables within makefiles, usually these would be stored in a separate .env file, we would use add the line include .env in the make code at the top of our makefile.
+
+Fonts:
+https://www.saattrupdan.com/2022-08-28-makefu
+
+
+
+# Docker Live Reload
+
+
+
+
+
