@@ -5,7 +5,7 @@ from flask_assets import Bundle, Environment
 load_dotenv()  # take environment variables
 
 # Create Flask application
-def init_app():
+def create_app():
 
     app = Flask(__name__, instance_relative_config=False)  # set app
 
@@ -28,10 +28,3 @@ def init_app():
         compile_static_assets(assets)
 
         return app
-
-# TODO: how to run app ??
-
-app = init_app()
-
-if __name__ == "__main__":
-    app.run()

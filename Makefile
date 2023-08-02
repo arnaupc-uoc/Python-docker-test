@@ -1,7 +1,7 @@
 include .env
 
 run:  ## Run app
-	@python app.py
+	@flask run
 
 reqs:  ## Recreate requirements.txt
 	@pipreqs --force
@@ -11,3 +11,6 @@ css:  ## Minify css --watch
 
 docker:  ## Build docker image
 	@docker build -t python-docker-test:1.0.0 .
+
+docker-dev:  ## Build docker image
+	@docker run -dp 5000:5000 -w  -v "$(pwd):" python-docker-test:1.0.0
