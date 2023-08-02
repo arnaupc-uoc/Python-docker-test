@@ -9,5 +9,5 @@ reqs:  ## Recreate requirements.txt
 css:  ## Minify css --watch
 	@cd frontend && tailwindcss -i ./static/src/css/main.css -o ./static/dist/css/main.css --minify
 
-docker: ## Build docker image
-    @docker build -t python-docker-test:1.0.0 .
+docker:  ## Build docker image
+	@docker build -t python-docker-test:1.0.0 .
