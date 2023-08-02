@@ -108,12 +108,22 @@ https://hackersandslackers.com/flask-assets/
 https://github.com/hackersandslackers/flask-blueprint-tutorial/blob/master/flask_blueprint_tutorial/home/home.py
 
 
+
 # Docker Live Reload
+
 
 
 # WSGI
 
 WSGI is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications, and how web applications can be chained together to process one request.
+
+
+
+# Flask RESTfull
+
+
+
+# Flask SQLAlchemy
 
 
 
