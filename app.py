@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request, redirect, url_for
 from flask_assets import Bundle, Environment
 
 load_dotenv()  # take environment variables
@@ -12,7 +12,7 @@ css = Bundle("src/main.css", output="dist/main.css")
 assets.register("css", css)
 css.build()
 
-# set routes
+# Frontend routes
 @app.route("/")
 def main():
     return render_template(
@@ -21,6 +21,15 @@ def main():
         content="Smarter page templates with Flask & Jinja."
     )
     # return "Hello World!"
+
+@app.route("/send-form", methods=["POST"])
+def send_form():
+    data = request.form.to_dict();
+    print("Send Form!")
+    return redirect(url_for('main'))
+    #return jsonify({"msg": "Form send."})
+
+# API routes
 
 @app.route("/hello", methods=["GET"])
 def say_hello():

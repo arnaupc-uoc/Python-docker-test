@@ -1,5 +1,8 @@
 include .env
 
+run:  ## Run app
+	@python app.py
+
 reqs:  ## Recreate requirements.txt
 	@pipreqs --force
 
