@@ -7,7 +7,7 @@ reqs:  ## Recreate requirements.txt
 	@pipreqs --force
 
 css:  ## Minify css
-	@tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --minify
+	@tailwindcss -i ./frontend/static/src/main.css -o ./frontend/static/dist/main.css --minify --watch
 
 docker: ## Build docker image
     @docker build -t python-docker-test:1.0.0 .

@@ -98,9 +98,22 @@ https://www.saattrupdan.com/2022-08-28-makefu
 
 
 
+# Blueprints
+
+Used to organize our application into distinct components.
+A blueprint defines a collection of views, templates, static files and other elements that can be applied to an application.
+
+https://hackersandslackers.com/flask-blueprints/
+https://hackersandslackers.com/flask-assets/
+https://github.com/hackersandslackers/flask-blueprint-tutorial/blob/master/flask_blueprint_tutorial/home/home.py
+
+
 # Docker Live Reload
 
 
+# WSGI
+
+WSGI is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications, and how web applications can be chained together to process one request.
 
 
 

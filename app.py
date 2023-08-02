@@ -1,51 +1,35 @@
 from dotenv import load_dotenv
-from flask import Flask, jsonify, render_template, request, redirect, url_for, abort
+from flask import Flask
 from flask_assets import Bundle, Environment
 
 load_dotenv()  # take environment variables
-app = Flask(__name__)  # set app
 
-# set assets
-assets = Environment(app)
-css = Bundle("src/main.css", output="dist/main.css")
+# Create Flask application
+def init_app():
 
-assets.register("css", css)
-css.build()
+    app = Flask(__name__, instance_relative_config=False)  # set app
 
-# Frontend routes
-@app.route("/")
-def main():
-    return render_template(
-        'main.html',  # from templates folder
-        title="Jinja Demo Site",
-        content="Smarter page templates with Flask & Jinja."
-    )
-    # return "Hello World!"
+    assets = Environment()
+    assets.init_app(app)
 
-@app.route("/send-form", methods=["POST"])
-def send_form():
-    data = request.form.to_dict();
-    print("Send Form!")
-    return redirect(url_for('main'))
-    #return jsonify({"msg": "Form send."})
+    with app.app_context():
+        # Import parts of our application
+        
+        # Frontend register
+        from frontend.views import mod as front
+        app.register_blueprint(front)
 
-@app.route("/error")
-def error():
-    code = 404
-    message = 'There\'s an error!'
-    abort(code, message)
+        # API register
+        from api.views import mod as api
+        app.register_blueprint(api)
 
-# Error handlers
-@app.errorhandler(404)
-def page_not_found(e):
-    # note that we set the 404 status explicitly
-    return render_template('error.html'), 404
+        # Compile static assets
+        from assets import compile_static_assets
+        compile_static_assets(assets)
 
-# API routes
+        return app
 
-@app.route("/hello", methods=["GET"])
-def say_hello():
-    return jsonify({"msg": "Hello from Flask."})
+app = init_app()
 
 if __name__ == "__main__":
     app.run()
