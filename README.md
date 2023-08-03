@@ -17,8 +17,6 @@ Before starting to install dependencies, let’s create the Python virtual envir
 python3 -m venv venv 
 source venv/bin/activate 
 
---> PYTHON ENV
-
 Flask is a Micro Framework written in Python, extremely flexible, with low footprint and lightweight:
 pip install flask
 pip install python-dotenv
@@ -28,9 +26,10 @@ flask run --host 0.0.0.0 --port 5000 --debug
 
 docker build -t python-docker-test:1.0.0 .
 
-
 Fonts:
 https://www.imaginarycloud.com/blog/flask-python/
+
+--> Install all dependencies in virtual environment.
 
 
 
@@ -106,7 +105,16 @@ We can also use variables within makefiles, usually these would be stored in a s
 Fonts:
 https://www.saattrupdan.com/2022-08-28-makefu
 
---> PYTHON ENV
+
+
+# Mail
+
+The Flask-Mail extension provides a simple interface to set up SMTP with your Flask application and to send messages from your views and scripts.
+
+pip3 install Flask-Mail
+
+Fonts:
+https://pythonhosted.org/Flask-Mail/
 
 
 
@@ -117,8 +125,6 @@ pip3 install -U click
 Fonts:
 https://flask.palletsprojects.com/en/1.1.x/cli/#registering-commands-with-blueprints
 https://click.palletsprojects.com/en/8.1.x/options/
-
---> COMMAND BLUEPRINTS OPTIONS !!!
 
 
 
@@ -132,14 +138,16 @@ https://hackersandslackers.com/flask-blueprints/
 https://hackersandslackers.com/flask-assets/
 https://github.com/hackersandslackers/flask-blueprint-tutorial/blob/master/flask_blueprint_tutorial/home/home.py
 
---> COMMAND BLUEPRINTS OPTIONS !!!
-
 
 
 # Tests
 
 In general, testing helps ensure that your app will work as expected for your end users.
-The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries. pytest will recursively search through your project structure to find the Python files that start with test_*.py
+
+The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing. 
+pytest will recursively search through your project structure to find the Python files that start with test_*.py
+pytest supports running Python unittest-based tests out of the box.
+
 pip3 install pytest
 
 To run the tests:
@@ -155,6 +163,7 @@ Fonts:
 https://testdriven.io/blog/flask-pytest/
 https://flask.palletsprojects.com/en/2.3.x/testing/
 
+--> In Python you should add self as the first parameter to all defined methods in classes.
 
 
 
