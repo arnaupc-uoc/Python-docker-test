@@ -1,8 +1,10 @@
 
 # Python-docker-test
 
-Test Docker container Python Flask App
+Install Python, add route to PATH:
+export PATH="$PATH:/Users/arnaupc/Library/Python/3.9/bin"
 
+Create and go to app folder:
 cd python-docker-test
 
 Before starting to install dependencies, let’s create the Python virtual environment: is used to isolate the installation of the packages, so whenever you try to install anything with pip these new dependencies are added in the lib folder inside venv.
@@ -124,6 +126,9 @@ WSGI is the Web Server Gateway Interface. It is a specification that describes h
 
 
 # Flask SQLAlchemy
+
+
+# Gunicorn 
 
 
 

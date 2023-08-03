@@ -2,12 +2,11 @@ from dotenv import load_dotenv
 from flask import Flask
 from flask_assets import Bundle, Environment
 
-load_dotenv()  # take environment variables
-
 # Create Flask application
 def create_app():
 
     app = Flask(__name__, instance_relative_config=False)  # set app
+    app.config.from_pyfile("./config.py")  # load config
 
     assets = Environment()
     assets.init_app(app)
