@@ -5,7 +5,7 @@ bp = Blueprint('frontend', __name__, template_folder='templates', static_folder=
 
 # Frontend routes
 
-@bp.route("/")
+@bp.route('/')
 def main():
     return render_template(
         'main.html',  # from templates folder
@@ -19,9 +19,9 @@ def send_form():
     data = request.form.to_dict();
     print('Send Form!')
     return redirect(url_for('frontend.main'))
-    #return jsonify({"msg": "Form send."})
+    #return jsonify({'msg': 'Form send.'})
 
-@bp.route("/error")
+@bp.route('/error')
 def error():
     code = 404
     message = 'There\'s an error!'

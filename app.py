@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from flask import Flask
-from flask_assets import Bundle, Environment
-from flask.cli import with_appcontext
+from flask_assets import Environment
+from flask_mail import Mail
 import click
 
 # Create Flask application
@@ -20,6 +20,10 @@ def create_app():
         # Frontend register
         from apps.frontend.views import bp as front
         flask_app.register_blueprint(front)
+        
+        # Panel register
+        from apps.admin.views import bp as admin
+        flask_app.register_blueprint(admin)
 
         # API register
         from apps.api.views import bp as api

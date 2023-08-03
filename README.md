@@ -14,10 +14,12 @@ Create and go to app folder:
 cd python-docker-test
 
 Before starting to install dependencies, let’s create the Python virtual environment: is used to isolate the installation of the packages, so whenever you try to install anything with pip these new dependencies are added in the lib folder inside venv.
+
 python3 -m venv venv 
 source venv/bin/activate 
 
 Flask is a Micro Framework written in Python, extremely flexible, with low footprint and lightweight:
+
 pip install flask
 pip install python-dotenv
 
@@ -79,6 +81,7 @@ pip install Flask-Assets
 
 Tailwind CSS is notoriously dependent on Node.js, this dependency may not be welcome in your Docker container.
 Python package pytailwindcss lets you install the Tailwind CSS executable via pip, it runs a standalone Tailwind CSS build that doesn’t require Node.js to be installed:
+
 pip install pytailwindcss
 tailwindcss init
 tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --minify
@@ -125,6 +128,17 @@ pip3 install -U click
 Fonts:
 https://flask.palletsprojects.com/en/1.1.x/cli/#registering-commands-with-blueprints
 https://click.palletsprojects.com/en/8.1.x/options/
+
+
+
+# User Control Access
+
+Flask-User is a Customizable User Authentication, User Management, and more.
+
+pip install Flask-User
+
+Fonts:
+https://flask-user.readthedocs.io/en/latest/authorization.html
 
 
 
@@ -175,6 +189,7 @@ https://flask.palletsprojects.com/en/2.3.x/testing/
 
 # Flask RESTfull
 
+--> Swagger Annotations
 
 
 # Flask SQLAlchemy

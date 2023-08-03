@@ -15,6 +15,10 @@ test:  ## Run tests
 css:  ## Minify css --watch
 	@cd frontend && tailwindcss -i ./static/src/css/main.css -o ./static/dist/css/main.css --minify
 
+cmd:
+	@flask utils hello --count=3 --name=John
+	@flask utils hello --count=3
+
 docker:  ## Build docker image
 	@docker build -t python-docker-test:1.0.0 .
 
