@@ -10,7 +10,7 @@ reqs:  ## Recreate requirements.txt
 	@pipreqs --force
 
 test:  ## Run tests
-	@python3 -m pytest
+	@python3 -m pytest -v --setup-show --disable-warnings 
 
 css:  ## Minify css --watch
 	@cd frontend && tailwindcss -i ./static/src/css/main.css -o ./static/dist/css/main.css --minify

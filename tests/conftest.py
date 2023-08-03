@@ -1,8 +1,8 @@
-from models import User
+# from models import User
 
-# Fixtures
+# # Fixtures
 
-@pytest.fixture(scope='module')
-def new_user():
-    user = User('patkennedy79@gmail.com', 'FlaskIsAwesome')
-    return user
+# @pytest.fixture(scope='module')
+# def new_user():
+#     user = User('patkennedy79@gmail.com', 'FlaskIsAwesome')
+#     return user

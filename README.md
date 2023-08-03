@@ -138,15 +138,23 @@ https://github.com/hackersandslackers/flask-blueprint-tutorial/blob/master/flask
 
 # Tests
 
-
 In general, testing helps ensure that your app will work as expected for your end users.
-pytest is a test framework for Python used to write, organize, and run test cases.
+The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries. pytest will recursively search through your project structure to find the Python files that start with test_*.py
+pip3 install pytest
 
 To run the tests:
-python3 -m pytest
+python3 -m pytest -v --setup-show
+
+If you only want to run a specific type of test:
+python3 -m pytest tests/functional/
+
+When developing tests, it's nice to get an understanding of how much of the source code is actually tested (code coverage).
+python3 -m pytest --cov=project
 
 Fonts:
 https://testdriven.io/blog/flask-pytest/
+https://flask.palletsprojects.com/en/2.3.x/testing/
+
 
 
 
