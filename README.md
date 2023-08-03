@@ -1,4 +1,10 @@
 
+# WSGI
+
+WSGI is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications, and how web applications can be chained together to process one request.
+
+
+
 # Python-docker-test
 
 Install Python, add route to PATH:
@@ -10,6 +16,8 @@ cd python-docker-test
 Before starting to install dependencies, let’s create the Python virtual environment: is used to isolate the installation of the packages, so whenever you try to install anything with pip these new dependencies are added in the lib folder inside venv.
 python3 -m venv venv 
 source venv/bin/activate 
+
+--> PYTHON ENV
 
 Flask is a Micro Framework written in Python, extremely flexible, with low footprint and lightweight:
 pip install flask
@@ -98,6 +106,20 @@ We can also use variables within makefiles, usually these would be stored in a s
 Fonts:
 https://www.saattrupdan.com/2022-08-28-makefu
 
+--> PYTHON ENV
+
+
+
+# Commands
+
+pip3 install -U click
+
+Fonts:
+https://flask.palletsprojects.com/en/1.1.x/cli/#registering-commands-with-blueprints
+https://click.palletsprojects.com/en/8.1.x/options/
+
+--> COMMAND BLUEPRINTS OPTIONS !!!
+
 
 
 # Blueprints
@@ -105,19 +127,32 @@ https://www.saattrupdan.com/2022-08-28-makefu
 Used to organize our application into distinct components.
 A blueprint defines a collection of views, templates, static files and other elements that can be applied to an application.
 
+Fonts:
 https://hackersandslackers.com/flask-blueprints/
 https://hackersandslackers.com/flask-assets/
 https://github.com/hackersandslackers/flask-blueprint-tutorial/blob/master/flask_blueprint_tutorial/home/home.py
+
+--> COMMAND BLUEPRINTS OPTIONS !!!
+
+
+
+# Tests
+
+
+In general, testing helps ensure that your app will work as expected for your end users.
+pytest is a test framework for Python used to write, organize, and run test cases.
+
+To run the tests:
+python3 -m pytest
+
+Fonts:
+https://testdriven.io/blog/flask-pytest/
 
 
 
 # Docker Live Reload
 
-
-
-# WSGI
-
-WSGI is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications, and how web applications can be chained together to process one request.
+--> DOCKER VOLUMES !!!
 
 
 
@@ -126,6 +161,7 @@ WSGI is the Web Server Gateway Interface. It is a specification that describes h
 
 
 # Flask SQLAlchemy
+
 
 
 # Gunicorn 
