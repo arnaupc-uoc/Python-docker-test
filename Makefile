@@ -1,5 +1,9 @@
 include .env
 
+env:  ## Create virtual environment
+	@python3 -m venv venv
+	@source venv/bin/activate 
+
 install:  ## Install dependencies
 	@pip3 install -r requirements.txt
 

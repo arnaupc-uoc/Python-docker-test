@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, jsonify, render_template, request, redirect, url_for, abort
+from flask import Blueprint, render_template, request, redirect, url_for, abort
 from flask_assets import Bundle, Environment
 
 bp = Blueprint('frontend', __name__, template_folder='../../templates/frontend', static_folder='../../static/frontend', url_prefix='')
@@ -19,7 +19,6 @@ def send_form():
     data = request.form.to_dict();
     print('Send Form!')
     return redirect(url_for('frontend.main'))
-    #return jsonify({'msg': 'Form send.'})
 
 @bp.route('/error')
 def error():

@@ -1,5 +1,4 @@
 from flask import Blueprint
-from flask.cli import with_appcontext
 import click
 
 bp = Blueprint('utils', __name__, cli_group='utils')

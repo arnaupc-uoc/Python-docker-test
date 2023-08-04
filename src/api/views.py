@@ -1,5 +1,4 @@
 from flask import Blueprint, render_template, jsonify, current_app as app
-from flask_user import current_user, user_manager
 from src.models import User, Role
 from app import db
 

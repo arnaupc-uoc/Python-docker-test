@@ -1,5 +1,4 @@
-from flask import Blueprint, render_template, jsonify, render_template, request, redirect, url_for, abort
-from flask_assets import Bundle, Environment
+from flask import Blueprint, render_template
 from flask_user import roles_required
 
 bp = Blueprint('admin', __name__, template_folder='../../templates/admin', static_folder='../../static/admin', url_prefix='/admin')
