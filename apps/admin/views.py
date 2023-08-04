@@ -14,6 +14,14 @@ def main():
         content='Smarter page templates with Flask & Jinja.'
     )
 
+@bp.route('/login')
+def login():
+    return render_template(
+        'main.html',  # from templates folder
+        title='Login',
+        content='Smarter page templates with Flask & Jinja.'
+    )
+
 @bp.route('/dashboard')
 @roles_required('Admin')
 def dashboard():

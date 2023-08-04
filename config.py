@@ -2,6 +2,10 @@ import os
 from os.path import join, dirname
 from dotenv import load_dotenv
 
+FLASK_ENV = os.environ.get('FLASK_ENV') or 'development'
+FLASK_DEBUG = os.environ.get('FLASK_DEBUG') or 1
+FLASK_APP = os.environ.get('FLASK_APP') or 'app.py'
+
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # Database
@@ -19,7 +23,7 @@ MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or None
 MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER') or  None
 
 # Flask-User
-USER_UNAUTHORIZED_ENDPOINT=''
+USER_LOGIN_URL='/admin/login'
 
 # Flask-SQLAlchemy
 SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
