@@ -1,4 +1,4 @@
-{# templates/base.html #}
+{# templates/admin/base.html #}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% assets "frontend_bundle_css" %}
-      <link rel="stylesheet" href="{{ ASSET_URL }}">
+    {% assets "admin_bundle_css" %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}">
     {% endassets %}
 
     <title>{{ title }}</title>
 </head>
 
-<body>
+<body>admin...
   <div class="text-3xl font-light">
     {% block title %}
         {{ title }}

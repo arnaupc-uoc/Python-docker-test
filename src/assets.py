@@ -7,12 +7,14 @@ def compile_static_assets(assets):
     assets.auto_build = True
     assets.debug = False
 
-    frontend_bundle_css = Bundle('frontend/dist/css/frontend.css',output='css/frontend.css') # folder static in root
+    frontend_bundle_css = Bundle('frontend/dist/css/main.css',output='css/frontend/main.css') # folder static in root
     assets.register('frontend_bundle_css', frontend_bundle_css)
 
+    admin_bundle_css = Bundle('admin/dist/css/main.css',output='css/admin/main.css') # folder static in root
+    assets.register('admin_bundle_css', admin_bundle_css)
+
     # Build assets
-    # if app.config["FLASK_ENV"] == "development":
-    #     frontend_bundle.build()
-    # return assets
-    frontend_bundle_css.build()
+    if app.config["FLASK_ENV"] == "development":
+        frontend_bundle_css.build()
+    return assets
 

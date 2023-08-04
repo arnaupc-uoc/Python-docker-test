@@ -2,14 +2,14 @@ from flask import Blueprint, render_template, jsonify, render_template, request,
 from flask_assets import Bundle, Environment
 from flask_user import roles_required
 
-bp = Blueprint('admin', __name__, template_folder='templates', static_folder='static', url_prefix='/admin')
+bp = Blueprint('admin', __name__, template_folder='../../templates/admin', static_folder='../../static/admin', url_prefix='/admin')
 
 # Frontend routes
 
 @bp.route('/')
 def main():
     return render_template(
-        'admin/admin.html',  # from templates folder
+        'admin.html',  # from templates folder
         title='Admin',
         content='Smarter page templates with Flask & Jinja.'
     )
