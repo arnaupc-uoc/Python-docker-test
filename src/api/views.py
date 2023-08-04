@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, jsonify, current_app
-from apps.models import User, Role
+from src.models import User, Role
 from app import db
 
-bp = Blueprint('api', __name__, template_folder='templates', static_folder='static', url_prefix='/api')
+bp = Blueprint('api', __name__, url_prefix='/api')
 
 @bp.route('/hello', methods=['GET'])
 def say_hello():
@@ -26,3 +26,8 @@ def create_user():
     return jsonify({'msg': 'Example user created.'})
 
 # Error handlers
+@bp.errorhandler(404)
+@bp.errorhandler(405)
+def _handle_api_error(ex):
+    if request.path.startswith('/api/'):
+        return jsonify_error(ex)

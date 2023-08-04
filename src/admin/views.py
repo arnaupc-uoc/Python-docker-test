@@ -9,7 +9,7 @@ bp = Blueprint('admin', __name__, template_folder='templates', static_folder='st
 @bp.route('/')
 def main():
     return render_template(
-        'main.html',  # from templates folder
+        'admin/admin.html',  # from templates folder
         title='Admin',
         content='Smarter page templates with Flask & Jinja.'
     )

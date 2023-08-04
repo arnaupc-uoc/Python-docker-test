@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, jsonify, render_template, request, redirect, url_for, abort
 from flask_assets import Bundle, Environment
 
-bp = Blueprint('frontend', __name__, template_folder='templates', static_folder='static', url_prefix='')
+bp = Blueprint('frontend', __name__, template_folder='../../templates/frontend', static_folder='../../static/frontend', url_prefix='')
 
 # Frontend routes
 

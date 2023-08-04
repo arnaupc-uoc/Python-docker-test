@@ -13,46 +13,46 @@ db = SQLAlchemy() # set db object global
 # Create Flask application
 def create_app():
 
-    flask_app = Flask(__name__, instance_relative_config=False)  # set app
-    flask_app.config.from_pyfile('./config.py')  # load config
+    app = Flask(__name__, instance_relative_config=False)  # set app
+    app.config.from_pyfile('./config.py')  # load config
 
-    db.init_app(flask_app) # initialize it after creating our application
-    migrate = Migrate(flask_app, db) # set migrate
+    db.init_app(app) # initialize it after creating our application
+    migrate = Migrate(app, db) # set migrate
 
-    mail = Mail(flask_app)  # set mail
-    babel = Babel(flask_app) # set babel
+    mail = Mail(app)  # set mail
+    babel = Babel(app) # set babel
 
     # Init assets
     assets = Environment()
-    assets.init_app(flask_app)
+    assets.init_app(app)
 
-    with flask_app.app_context():
+    with app.app_context():
 
         # Create tables
-        import apps.models as models
+        import src.models as models
         db.create_all()
-        user_manager = UserManager(flask_app, db, models.User)  # set user manager
+        user_manager = UserManager(app, db, models.User)  # set user manager
 
         # Import parts of our application
         
         # Frontend register
-        from apps.frontend.views import bp as front
-        flask_app.register_blueprint(front)
+        from src.frontend.views import bp as front
+        app.register_blueprint(front)
         
         # Panel register
-        from apps.admin.views import bp as admin
-        flask_app.register_blueprint(admin)
+        from src.admin.views import bp as admin
+        app.register_blueprint(admin)
 
         # API register
-        from apps.api.views import bp as api
-        flask_app.register_blueprint(api)
+        from src.api.views import bp as api
+        app.register_blueprint(api)
 
         # Import commands
-        from apps.commands.utils import bp as cmd_utils
-        flask_app.register_blueprint(cmd_utils)
+        from src.commands.utils import bp as cmd_utils
+        app.register_blueprint(cmd_utils)
 
         # Compile static assets
-        from apps.assets import compile_static_assets
+        from src.assets import compile_static_assets
         compile_static_assets(assets)
 
-        return flask_app
+        return app
