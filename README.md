@@ -230,6 +230,9 @@ To sync the database in another system just refresh the migrations folder from s
 Fonts:
 https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/quickstart/
 https://flask-migrate.readthedocs.io/en/latest/
+https://cmmorrow.medium.com/using-sqlalchemy-and-flask-to-build-a-simple-data-driven-web-app-17e2d43778bb
+https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy
+
 
 
 # Gunicorn 

@@ -9,8 +9,9 @@ run:  ## Run app
 reqs:  ## Recreate requirements.txt
 	@pipreqs --force
 
-migration:  ## Recreate requirements.txt
-	@pipreqs --force
+migrate:  ## Recreate requirements.txt
+	@flask db migrate -m "migration"
+	@flask db upgrade
 
 test:  ## Run tests
 	@python3 -m pytest -v --setup-show --disable-warnings 

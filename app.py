@@ -5,6 +5,7 @@ from flask_babelex import Babel
 from flask_mail import Mail
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
+from flask_user import UserManager
 import click
 
 db = SQLAlchemy() # set db object global
@@ -30,6 +31,7 @@ def create_app():
         # Create tables
         import apps.models as models
         db.create_all()
+        user_manager = UserManager(flask_app, db, models.User)  # set user manager
 
         # Import parts of our application
         

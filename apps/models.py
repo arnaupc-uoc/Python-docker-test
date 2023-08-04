@@ -1,5 +1,6 @@
 from app import db
-from flask_user import UserMixin
+from flask import current_app
+from flask_user import UserMixin, UserManager
 
 # Define User data-model
 class User(db.Model, UserMixin):
@@ -35,7 +36,7 @@ class UserEmail(db.Model):
     is_primary = db.Column(db.Boolean(), nullable=False, server_default='0')
     
 # # Setup Flask-User
-# user_manager = UserManager(app, User, UserEmailClass=UserEmail)
+# user_manager = UserManager(current_app, User, UserEmailClass=UserEmail)
 
 
 # Define the Role data-model

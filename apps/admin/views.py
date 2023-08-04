@@ -15,7 +15,7 @@ def main():
     )
 
 @bp.route('/dashboard')
-# @roles_required('Admin')
+@roles_required('Admin')
 def dashboard():
     return render_template(
         'main.html',  # from templates folder
