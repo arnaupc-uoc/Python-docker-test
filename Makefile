@@ -9,6 +9,9 @@ run:  ## Run app
 reqs:  ## Recreate requirements.txt
 	@pipreqs --force
 
+migration:  ## Recreate requirements.txt
+	@pipreqs --force
+
 test:  ## Run tests
 	@python3 -m pytest -v --setup-show --disable-warnings 
 

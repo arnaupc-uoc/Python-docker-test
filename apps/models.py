@@ -1,3 +1,6 @@
+from app import db
+from flask_user import UserMixin
+
 # Define User data-model
 class User(db.Model, UserMixin):
     __tablename__ = 'users'
@@ -10,7 +13,7 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(255), nullable=False)
 
     # User fields
-    active = db.Column(db.Boolean()),
+    active = db.Column(db.Boolean())
     first_name = db.Column(db.String(50), nullable=False)
     last_name = db.Column(db.String(50), nullable=False)
 
@@ -31,8 +34,8 @@ class UserEmail(db.Model):
     email_confirmed_at = db.Column(db.DateTime())
     is_primary = db.Column(db.Boolean(), nullable=False, server_default='0')
     
-# Setup Flask-User
-user_manager = UserManager(app, User, UserEmailClass=UserEmail)
+# # Setup Flask-User
+# user_manager = UserManager(app, User, UserEmailClass=UserEmail)
 
 
 # Define the Role data-model
@@ -48,13 +51,13 @@ class UserRoles(db.Model):
     user_id = db.Column(db.Integer(), db.ForeignKey('users.id', ondelete='CASCADE'))
     role_id = db.Column(db.Integer(), db.ForeignKey('roles.id', ondelete='CASCADE'))
 
-# Creare 'admin' role
-admin_role = Role(name='Admin')
-db.session.commit()
+# # Creare 'admin' role
+# admin_role = Role(name='Admin')
+# db.session.commit()
 
-# Create 'user007' user with 'secret' and 'agent' roles
-user1 = User(
-    username='user007', email='admin@example.com', active=True,
-    password=user_manager.hash_password('Password1'))
-user1.roles = [admin_role,]
-db.session.commit()
+# # Create 'user007' user with 'secret' and 'agent' roles
+# user1 = User(
+#     username='user007', email='admin@example.com', active=True,
+#     password=user_manager.hash_password('Password1'))
+# user1.roles = [admin_role,]
+# db.session.commit()

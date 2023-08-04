@@ -136,6 +136,10 @@ https://click.palletsprojects.com/en/8.1.x/options/
 Flask-User is a Customizable User Authentication, User Management, and more.
 
 pip install Flask-User
+pip install email_validator
+
+World timezone definitions, modern and historical:
+pip install pytz
 
 Fonts:
 https://flask-user.readthedocs.io/en/latest/authorization.html
@@ -151,6 +155,7 @@ Fonts:
 https://hackersandslackers.com/flask-blueprints/
 https://hackersandslackers.com/flask-assets/
 https://github.com/hackersandslackers/flask-blueprint-tutorial/blob/master/flask_blueprint_tutorial/home/home.py
+https://flask.palletsprojects.com/es/latest/patterns/appfactories/
 
 
 
@@ -178,7 +183,14 @@ https://testdriven.io/blog/flask-pytest/
 https://flask.palletsprojects.com/en/2.3.x/testing/
 
 --> In Python you should add self as the first parameter to all defined methods in classes.
+--> Python Ternary Operator: x = a if condition else b
+--> Python Null-coalescing Operator (Elvis Operator): other = s or "some default value"
 
+
+# I11N
+
+pip install Flask-BabelEx
+pip install pytz
 
 
 # Docker Live Reload
@@ -194,6 +206,30 @@ https://flask.palletsprojects.com/en/2.3.x/testing/
 
 # Flask SQLAlchemy
 
+Flask-SQLAlchemy simplifies using SQLAlchemy by automatically handling creating, using, and cleaning up the SQLAlchemy objects you’d normally work with. 
+
+pip install -U Flask-SQLAlchemy
+
+Flask-Migrate is an extension that handles SQLAlchemy database migrations for Flask applications using Alembic. The database operations are made available through the Flask command-line interface.
+
+pip install Flask-Migrate
+pip install pymysql
+
+Create a migration repository with the following command:
+flask db init
+
+You can then generate an initial migration:
+flask db migrate -m "Initial migration."
+
+Then you can apply the changes described by the migration script to your database:
+flask db upgrade
+
+Each time the database models change, repeat the migrate and upgrade commands.
+To sync the database in another system just refresh the migrations folder from source control and run the upgrade command.
+
+Fonts:
+https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/quickstart/
+https://flask-migrate.readthedocs.io/en/latest/
 
 
 # Gunicorn 
