@@ -5,10 +5,11 @@ from flask_babelex import Babel
 from flask_mail import Mail
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
-from flask_user import UserManager
+from flask_user import UserManager, SQLAlchemyAdapter
 import click
 
 db = SQLAlchemy() # set db object global
+migrate = Migrate() # set migrate object global
 
 # Create Flask application
 def create_app():
@@ -17,7 +18,7 @@ def create_app():
     app.config.from_pyfile('./config.py')  # load config
 
     db.init_app(app) # initialize it after creating our application
-    migrate = Migrate(app, db) # set migrate
+    migrate.init_app(app, db) # set migrate
 
     mail = Mail(app)  # set mail
     babel = Babel(app) # set babel
@@ -26,12 +27,14 @@ def create_app():
     assets = Environment()
     assets.init_app(app)
 
+
     with app.app_context():
 
-        # Create tables
         import src.models as models
         db.create_all()
-        user_manager = UserManager(app, db, models.User)  # set user manager
+
+        # set user manager
+        user_manager = UserManager(app, db, models.User) 
 
         # Import parts of our application
         

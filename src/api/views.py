@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, jsonify, current_app
+from flask import Blueprint, render_template, jsonify, current_app as app
 from flask_user import current_user, user_manager
 from src.models import User, Role
 from app import db
@@ -18,14 +18,19 @@ def create_user():
         admin_role = Role(name='Admin')
         db.session.add(admin_role)
 
-        # # Create 'user007' user with 'secret' and 'agent' roles
-        # user1 = User(
-        #     username = 'user007', email='admin@example.com', active=True,
-        #     password = user_manager.hash_password('Password1'))
-        # user1.roles = [admin_role,]
-        # db.session.add(user1)
+        # Create 'user007' user with 'secret' and 'agent' roles
+        user1 = User(
+            username = 'user007', 
+            email='admin@example.com', 
+            password = app.user_manager.hash_password('Password1'),
+            first_name='James',
+            last_name='Bond',
+            active=True
+        )
+        user1.roles = [admin_role]
+        db.session.add(user1)
 
-        # db.session.commit()
+        db.session.commit() # write changes to the database
 
         return jsonify({'msg': 'Example user created.'})
 

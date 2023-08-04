@@ -19,22 +19,7 @@ class User(db.Model, UserMixin):
     last_name = db.Column(db.String(50), nullable=False)
 
     # Relationships
-    roles = db.relationship('UserRoles')
-    user_emails = db.relationship('UserEmail')
-
-
-# Define UserEmail data-model
-class UserEmail(db.Model):
-    __tablename__ = 'user_emails'
-    id = db.Column(db.Integer, primary_key=True)
-
-    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
-    user = db.relationship('User', uselist=False)
-
-    # User email information
-    email = db.Column(db.String(255), nullable=False, unique=True)
-    email_confirmed_at = db.Column(db.DateTime())
-    is_primary = db.Column(db.Boolean(), nullable=False, server_default='0')
+    roles = db.relationship('Role', secondary='user_roles')
 
 
 # Define the Role data-model

@@ -187,10 +187,12 @@ https://flask.palletsprojects.com/en/2.3.x/testing/
 --> Python Null-coalescing Operator (Elvis Operator): other = s or "some default value"
 
 
+
 # I11N
 
 pip install Flask-BabelEx
 pip install pytz
+
 
 
 # Docker Live Reload
@@ -202,6 +204,7 @@ pip install pytz
 # Flask RESTfull
 
 --> Swagger Annotations
+
 
 
 # Flask SQLAlchemy
@@ -231,7 +234,13 @@ Fonts:
 https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/quickstart/
 https://flask-migrate.readthedocs.io/en/latest/
 https://cmmorrow.medium.com/using-sqlalchemy-and-flask-to-build-a-simple-data-driven-web-app-17e2d43778bb
-https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy
+https://www.digitalocean.com/community/tutorials/https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy
+https://docs.sqlalchemy.org/en/20/orm/session_basics.html
+
+
+--> 'flask_user.user_manager' has no attribute 'hash_password'
+
+--> relationship 'UserEmail.user' will copy column users.id to column user_emails.user_id, which conflicts with relationship(s): 'User.user_emails' (copies users.id to user_emails.user_id). If this is not the intention, consider if these relationships should be linked with back_populates
 
 
 
