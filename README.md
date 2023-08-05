@@ -69,6 +69,7 @@ https://learnpython.com/blog/python-requirements-file/
 A Jinja template is simply a text file
 
 https://jinja.palletsprojects.com/en/3.1.x/templates/
+https://atufashireen.medium.com/creating-templates-with-jinja-in-python-3ff3b87d6740
 
 
 

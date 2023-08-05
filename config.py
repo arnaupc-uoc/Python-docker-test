@@ -24,6 +24,10 @@ MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER') or  None
 
 # Flask-User
 USER_LOGIN_URL='/admin/login'
+USER_AFTER_LOGIN_ENDPOINT = 'admin.dashboard'
+USER_LOGOUT_URL='/admin/logout'
+USER_AFTER_LOGOUT_ENDPOINT = 'admin.main'
+USER_ENABLE_CHANGE_USERNAME = False
 
 # Flask-SQLAlchemy
 SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')

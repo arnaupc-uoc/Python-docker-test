@@ -1,17 +1,70 @@
+{% set title = "Main" %} 
 {% extends "frontend/base.html" %}
 
 {% block content %}
-    {{ content }}
-    
-    <form action="/send-form" method="POST">
-        <div class="">
-            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
-            <input type="text" name="name" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+<div class="">
+    <div class="md:container md:mx-auto px-4 py-4">
+        <h1>Microservices</h1>
+        <p>...what we do...</p>
+    </div>
+</div>
+<div class="bg-white">  
+    <div class="md:container md:mx-auto px-4 py-4">
+        <h1>Tehnologies</h1>
+        <p>
+            <ul>
+                <li>NGinx</li>
+                <li>Python</li>
+                <li>MySQL</li>
+            </ul>
+        </p>
+    </div>
+</div>
+<div>  
+    <div class="md:container md:mx-auto px-4">
+        <div class="py-4">
+            <h1>Develop and deploy</h1>
+            <p>...what we do...</p>
         </div>
-        <div class="name">
-            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
-            <input type="text" name="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        <div class="py-4">
+            <h1>Frontend</h1>
+            <p>...what we do...</p>
         </div>
-        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
-    </form>
+        <div class="py-4">
+            <h1>Admin</h1>
+            <p>...what we do...</p>
+            <a href="/admin" target="_blank">Admin</a>
+        </div>
+        <div class="py-4">
+            <h1>APIs</h1>
+            <p>...what we do...</p>
+            <a href="/api/hello" target="_blank">API</a>
+        </div>
+    </div>
+</div>
+<div class="bg-slate-200">  
+    <div class="md:container md:mx-auto px-4 py-4">
+        <h1>News</h1>
+        <p>...what we do...</p>
+    </div>
+</div>
+<div>  
+    <div class="md:container md:mx-auto px-4 p-4">
+        <h1>Contact</h1>
+        <p>...what we do...</p>
+        <div>
+            <form action="/send-form" method="POST">
+                <div class="">
+                    <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                    <input type="text" name="name" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="name">
+                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                    <input type="text" name="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
 {% endblock %}

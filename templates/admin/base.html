@@ -14,16 +14,19 @@
     <title>{{ title }}</title>
 </head>
 
-<body>admin...
-  <div class="text-3xl font-light">
-    {% block title %}
-        {{ title }}
-    {% endblock %}
-  </div>
-  <div class="">
-    {% block content %}
-        {{ content }}
-    {% endblock %}
-  </div>
+<body class="bg-slate-50">
+    <div>
+        {% include "admin/components/header.html" %}
+
+        {% block content %}
+            {{ content }}
+        {% endblock %}
+        
+        {% include "admin/components/footer.html" %}
+    </div>
+
+    {% assets "admin_bundle_js" %}
+        <script src="{{ ASSET_URL }}"></script>
+    {% endassets %}
 </body>
 </html>

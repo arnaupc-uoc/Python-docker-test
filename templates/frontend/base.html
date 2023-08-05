@@ -8,22 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {% assets "frontend_bundle_css" %}
-      <link rel="stylesheet" href="{{ ASSET_URL }}">
+        <link rel="stylesheet" href="{{ ASSET_URL }}">
     {% endassets %}
 
     <title>{{ title }}</title>
 </head>
 
-<body>
-  <div class="text-3xl font-light">
-    {% block title %}
-        {{ title }}
-    {% endblock %}
-  </div>
-  <div class="">
-    {% block content %}
-        {{ content }}
-    {% endblock %}
-  </div>
+<body class="bg-slate-50">
+    <div>
+        {% include "frontend/components/header.html" %}
+
+        {% block content %}
+            {{ content }}
+        {% endblock %}
+        
+        {% include "frontend/components/footer.html" %}
+    </div>
+
+    {% assets "frontend_bundle_js" %}
+        <script src="{{ ASSET_URL }}"></script>
+    {% endassets %}
 </body>
 </html>

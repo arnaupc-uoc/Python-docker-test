@@ -1,31 +1,30 @@
-from flask import Blueprint, render_template
-from flask_user import roles_required
+from flask import Blueprint, render_template, redirect, url_for
+from flask_user import roles_required, current_user, login_required
 
 bp = Blueprint('admin', __name__, template_folder='../../templates/admin', static_folder='../../static/admin', url_prefix='/admin')
 
-# Frontend routes
+# Admin routes
 
 @bp.route('/')
 def main():
-    return render_template(
-        'admin.html',  # from templates folder
-        title='Admin',
-        content='Smarter page templates with Flask & Jinja.'
-    )
+    # check is logged and redirect
+    if current_user.is_authenticated:
+        return redirect(url_for('admin.dashboard'))
+    else:
+        return redirect('/admin/login')
 
-@bp.route('/login')
-def login():
-    return render_template(
-        'main.html',  # from templates folder
-        title='Login',
-        content='Smarter page templates with Flask & Jinja.'
-    )
 
 @bp.route('/dashboard')
+# @login_required
 @roles_required('Admin')
 def dashboard():
     return render_template(
-        'main.html',  # from templates folder
-        title='Dashboard',
-        content='xxx'
+        'dashboard.html',
+        title='Dashboard'
     )
+
+# Error handlers
+@bp.errorhandler(404)
+def page_not_found(e):
+    # note that we set the 404 status explicitly
+    return render_template('error.html'), 404
