@@ -5,8 +5,12 @@
 <div class="">
     <div class="md:container md:mx-auto px-4 py-4">
         Dashboard<br>
-        <a href="/admin/login">Login</a>
-        <a href="/admin/logout">Logout</a>
+        <a href="/admin/login">Login</a><br>
+        <a href="/admin/logout">Logout</a><br>
+        <a href="{{ url_for('admin.users.users') }}">Users</a><br>
+        <a href="{{ url_for('admin.users.user_new') }}">New User</a><br>
+        <a href="{{ url_for('admin.posts.posts') }}">Posts</a><br>
+        <a href="{{ url_for('admin.posts.post_new') }}">New Post</a><br>
     </div>
 </div>
 {% endblock %}

@@ -1,0 +1,17 @@
+{% set title = "Users" %} 
+{% extends "admin/base.html" %}
+
+{% block content %}
+<div>  
+    <div class="md:container md:mx-auto px-4 py-4">
+        <div>
+            <h1>Users</h1>
+            <a href="{{ url_for('admin.users.user_new') }}">New User</a><br>
+        </div>
+
+        {% for item in models %}
+            <li><a href="{{ url_for('admin.users.user_detail', id=item.id) }}">{{ item.username }}</a></li>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

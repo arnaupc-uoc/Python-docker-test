@@ -1,0 +1,17 @@
+{% set title = "User" %} 
+{% extends "admin/base.html" %}
+
+{% block content %}
+<div>  
+    <div class="md:container md:mx-auto px-4 py-4">
+        <h1>User {{ model.id }}</h1>
+        <div class="py-4">
+            <p>Username: {{ model.username }}</p>
+            <p>Email: {{ model.email }}</p>
+        </div>
+        <a href="{{ url_for('admin.users.user_edit', id=model.id) }}">Edit User</a>
+        {% set url_back = 'admin.users.users' %} 
+        {% include 'admin/components/model_bottom.html' %}
+    </div>
+</div>
+{% endblock %}

@@ -244,6 +244,9 @@ https://docs.sqlalchemy.org/en/20/orm/session_basics.html
 --> relationship 'UserEmail.user' will copy column users.id to column user_emails.user_id, which conflicts with relationship(s): 'User.user_emails' (copies users.id to user_emails.user_id). If this is not the intention, consider if these relationships should be linked with back_populates
 
 
+# WTForms
+
+pip install -U Flask-WTF
 
 # Gunicorn 
 

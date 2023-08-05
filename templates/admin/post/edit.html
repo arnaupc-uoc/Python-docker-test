@@ -1,0 +1,13 @@
+{% set title = "Edit Post" %} 
+{% extends "admin/base.html" %}
+
+{% block content %}
+<div>  
+    <div class="md:container md:mx-auto px-4 py-4">
+        <h1>Edit Post</h1>
+        <a href="{{ url_for('admin.posts.post_detail', id=model.id) }}">Post Detail</a>
+        {% set url_back = 'admin.posts.posts' %} 
+        {% include 'admin/components/model_bottom.html' %}
+    </div>
+</div>
+{% endblock %}
