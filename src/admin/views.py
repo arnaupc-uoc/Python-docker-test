@@ -21,7 +21,7 @@ def main():
 @roles_required('Admin')
 def dashboard():
     return render_template(
-        'dashboard.html'
+        'admin/dashboard.html'
     )
 
 

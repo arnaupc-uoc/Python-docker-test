@@ -5,13 +5,14 @@ from app import db
 
 bp = Blueprint('posts', __name__, url_prefix='')
 
+# Admin Post routes
+
 @bp.route('/posts')
 # @login_required
 @roles_required('Admin')
 def posts():
     return render_template(
-        'post/list.html',
-        title='Dashboard'
+        'admin/post/list.html'
     )
 
 
@@ -20,8 +21,7 @@ def posts():
 @roles_required('Admin')
 def post_new():
     return render_template(
-        'post/new.html',
-        title='Dashboard'
+        'admin/post/new.html'
     )
 
 
@@ -30,8 +30,7 @@ def post_new():
 @roles_required('Admin')
 def post_detail():
     return render_template(
-        'post/show.html',
-        title='Dashboard'
+        'admin/post/show.html'
     )
 
 
@@ -40,6 +39,5 @@ def post_detail():
 @roles_required('Admin')
 def post_edit():
     return render_template(
-        'post/edit.html',
-        title='Dashboard'
+        'admin/post/edit.html'
     )

@@ -160,6 +160,10 @@ https://flask.palletsprojects.com/es/latest/patterns/appfactories/
 
 
 
+# Middleware
+
+
+
 # Tests
 
 In general, testing helps ensure that your app will work as expected for your end users.

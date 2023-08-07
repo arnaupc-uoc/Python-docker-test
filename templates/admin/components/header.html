@@ -2,6 +2,7 @@
 
 <div class="">
     <div class="md:container md:mx-auto px-4 py-4">
-        Admin header <a href="{{ url_for('admin.dashboard') }}">Dashboard</a>
+        Admin header <a href="{{ url_for('admin.dashboard') }}">Dashboard</a><br>
+        <a href="{{ url_for('user.logout') }}">{{ current_user.email | safe }}</a>
     </div>
 </div>

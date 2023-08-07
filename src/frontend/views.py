@@ -8,7 +8,7 @@ bp = Blueprint('frontend', __name__, template_folder='../../templates/frontend',
 @bp.route('/')
 def main():
     return render_template(
-        'main.html',  # from templates folder
+        'frontend/main.html',  # from templates folder
         title='Jinja Demo Site',
         content='Smarter page templates with Flask & Jinja.'
     )
@@ -30,4 +30,4 @@ def error():
 @bp.errorhandler(404)
 def page_not_found(e):
     # note that we set the 404 status explicitly
-    return render_template('error.html'), 404
+    return render_template('frontend/error.html'), 404

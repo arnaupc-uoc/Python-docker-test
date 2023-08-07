@@ -1,5 +1,4 @@
 from app import db
-from flask import current_app
 from flask_user import UserMixin
 
 # Define User data-model
