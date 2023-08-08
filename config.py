@@ -7,6 +7,7 @@ FLASK_DEBUG = os.environ.get('FLASK_DEBUG') or 1
 FLASK_APP = os.environ.get('FLASK_APP') or 'app.py'
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
+LANGUAGES = ['ca', 'es', 'en']
 
 # Database
 DATABASE_PASSWORD = os.environ.get('DATABASE_PASSWORD')

@@ -162,6 +162,20 @@ https://flask.palletsprojects.com/es/latest/patterns/appfactories/
 
 # Middleware
 
+Middlewares are created in Flask by creating a decorator; a function can have multiple middlewares, and the order matters a lot.
+
+
+
+
+# JWT Authentication
+
+Authentication verifies identity (usually through credential validation) while authorization grants or denies permissions to a user.
+Authorization is used to verify that a user has permission to do something.
+
+Inside thie decorator function, you check if there is an Authorization field in the headers, if this is missing you return an authorization error.
+
+pip install pyjwt
+
 
 
 # Tests
@@ -210,6 +224,10 @@ pip install pytz
 
 --> Swagger Annotations
 
+# Flask Swagger
+
+
+
 
 
 # Flask SQLAlchemy
@@ -252,7 +270,41 @@ https://docs.sqlalchemy.org/en/20/orm/session_basics.html
 
 pip install -U Flask-WTF
 
+
+
 # Gunicorn 
 
+Gunicorn is a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model.
+It is best to use Gunicorn behind an HTTP proxy server. We strongly advise you to use nginx.
 
+The most basic and the default worker type is a synchronous worker class that handles a single request at a time.
+The asynchronous workers available are based on Greenlets (via Eventlet and Gevent). Greenlets are an implementation of cooperative multi-threading for Python.
+Gunicorn should only need 4-12 worker processes to handle hundreds or thousands of requests per second.
+Generally we recommend (2 x $num_cores) + 1 as the number of workers to start off with.
+Always remember, there is such a thing as too many workers. After a point your worker processes will start thrashing system resources decreasing the throughput of the entire system.
+
+pip install gunicorn
+
+You may want to install Eventlet or Gevent if you expect that your application code may need to pause for extended periods of time during request processing. 
+Check out the design docs for more information on when you’ll want to consider one of the alternate worker types.
+
+Eventlet is a concurrent networking library for Python that allows you to change how you run your code, not how you write it.
+gevent is inspired by eventlet but features a more consistent API, simpler implementation and better performance.
+
+
+
+# Mongo
+
+PyMongo is a Python distribution containing tools for working with MongoDB, and is the recommended way to work with MongoDB from Python.
+
+pip install pymongo
+
+
+
+# Image Processing
+
+The Python Imaging Library adds image processing capabilities to your Python interpreter.
+The library contains basic image processing functionality.
+
+pip install --upgrade Pillow
 
