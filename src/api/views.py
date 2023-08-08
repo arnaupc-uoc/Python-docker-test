@@ -4,6 +4,8 @@ from src.models import User, Role
 from app import db
 from middleware.token_auth import token_required
 from flask_swagger_ui import get_swaggerui_blueprint
+import jwt
+import os
 
 bp = Blueprint('api', __name__, url_prefix='/api')
 
@@ -44,39 +46,18 @@ def say_hello():
     return jsonify({'msg': 'Hello from Flask.'})
 
 
+@bp.route('/decode-token', methods=['POST'])
+def decode_token():
+    token = request.headers.get('Authorization')
+    data = jwt.decode(token, os.environ.get('SECRET_KEY'), algorithms=["HS256"])
+    token_user = User.query.get(data['id'])
+    return jsonify(token_user.id)
+
 
 @bp.route('/check-token', methods=['GET'])
 @token_required
-def check_token():
+def check_token(token_user):
     return jsonify({'msg': 'Token is valid.'})
-
-
-@bp.route('/create-user', methods=['GET'])
-def create_user():
-
-    try:
-        # Creare 'admin' role
-        admin_role = Role(name='Admin')
-        db.session.add(admin_role)
-
-        # Create 'user007' user with 'secret' and 'agent' roles
-        user1 = User(
-            username = 'user007', 
-            email='admin@example.com', 
-            password = app.user_manager.hash_password('Password1'),
-            first_name='James',
-            last_name='Bond',
-            active=True
-        )
-        user1.roles = [admin_role]
-        db.session.add(user1)
-
-        db.session.commit() # write changes to the database
-
-        return jsonify({'msg': 'Example user created.'})
-
-    except Exception as e:
-        return jsonify({'msg': str(e) })
 
 
 # Error handlers

@@ -5,6 +5,7 @@
 <div class="">
     <div class="md:container md:mx-auto px-4 py-4">
         Dashboard<br>
+        <a href="{{ url_for('admin.get_token') }}" target="_blank">API Token</a><br>
         <a href="/admin/login">Login</a><br>
         <a href="/admin/logout">Logout</a><br>
         <a href="{{ url_for('admin.users.users') }}">Users</a><br>

@@ -131,6 +131,14 @@ https://flask.palletsprojects.com/en/1.1.x/cli/#registering-commands-with-bluepr
 https://click.palletsprojects.com/en/8.1.x/options/
 
 
+# Error Handler
+
+Fonts:
+https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.errorhandler
+https://www.digitalocean.com/community/tutorials/how-to-handle-errors-in-a-flask-application
+
+
+
 
 # User Control Access
 
@@ -163,7 +171,7 @@ https://flask.palletsprojects.com/es/latest/patterns/appfactories/
 # Middleware
 
 Middlewares are created in Flask by creating a decorator; a function can have multiple middlewares, and the order matters a lot.
-
+A decorator is a function that takes in another function as a parameter and then returns a function.
 
 
 
@@ -175,6 +183,10 @@ Authorization is used to verify that a user has permission to do something.
 Inside thie decorator function, you check if there is an Authorization field in the headers, if this is missing you return an authorization error.
 
 pip install pyjwt
+
+Fonts:
+https://www.loginradius.com/blog/engineering/guest-post/securing-flask-api-with-jwt/
+https://www.geeksforgeeks.org/using-jwt-for-user-authentication-in-flask/
 
 
 
@@ -224,9 +236,17 @@ pip install pytz
 
 --> Swagger Annotations
 
+
+
 # Flask Swagger
 
+Swagger UI allows to visualize and interact with the API’s resources. 
+It’s automatically generated from your OpenAPI specification.
 
+Fonts:
+https://pypi.org/project/flask-swagger/
+https://code.likeagirl.io/swagger-and-postman-build-a-swagger-ui-for-your-python-flask-application-141bb4d0c203
+https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7
 
 
 
@@ -260,10 +280,6 @@ https://cmmorrow.medium.com/using-sqlalchemy-and-flask-to-build-a-simple-data-dr
 https://www.digitalocean.com/community/tutorials/https://www.digitalocean.com/community/tutorials/how-to-structure-a-large-flask-application-with-flask-blueprints-and-flask-sqlalchemy
 https://docs.sqlalchemy.org/en/20/orm/session_basics.html
 
-
---> 'flask_user.user_manager' has no attribute 'hash_password'
-
---> relationship 'UserEmail.user' will copy column users.id to column user_emails.user_id, which conflicts with relationship(s): 'User.user_emails' (copies users.id to user_emails.user_id). If this is not the intention, consider if these relationships should be linked with back_populates
 
 
 # WTForms
