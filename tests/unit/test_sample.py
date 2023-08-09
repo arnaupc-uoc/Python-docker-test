@@ -1,5 +1,6 @@
 # Sample tests
 
+
 class TestSampleClass:
     value = 0
 

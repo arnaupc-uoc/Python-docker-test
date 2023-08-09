@@ -17,6 +17,12 @@ migrate:  ## Recreate requirements.txt
 	@flask db migrate -m "migration"
 	@flask db upgrade
 
+lint:  ## Run flake8 lint
+	@flake8 *
+
+format:  ## Run black format code
+	@black . 
+
 test:  ## Run tests
 	@python3 -m pytest -v --setup-show --disable-warnings 
 

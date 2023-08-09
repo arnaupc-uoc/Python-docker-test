@@ -14,6 +14,7 @@ exclude =
     .gitignore
     Dockerfile
     Makefile
+    pyproject.toml
     README.md
     requirements.txt
     tailwind.config.js

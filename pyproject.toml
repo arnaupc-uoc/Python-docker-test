@@ -1,0 +1,21 @@
+[tool.black]
+line-length = 120
+complexity = 10
+include = '\.py?$'
+force-exclude = '''
+(
+  /(
+    | \.git 
+    | \.pytest_cache
+    | \.venv
+    | migrations
+    | static
+  )/
+  | Dockerfile
+  | Makefile
+  | pyproject.toml
+  | README.md
+  | requirements.txt
+  | tailwind.config.js
+)
+'''

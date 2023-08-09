@@ -165,6 +165,12 @@ https://stackoverflow.com/questions/58977983/vs-code-preferences-user-settings-e
 
 
 
+Black 
+
+https://stackoverflow.com/questions/73247204/black-not-respecting-extend-exclude-in-pyproject-toml/73296261#73296261
+
+
+
 # User Control Access
 
 Flask-User is a Customizable User Authentication, User Management, and more.
