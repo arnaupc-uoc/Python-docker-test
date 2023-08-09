@@ -1,0 +1,19 @@
+[flake8]
+max-line-length = 120
+max-complexity = 10
+exclude =
+    .pytest_cache
+    migrations
+    static
+    manage.py
+    settings.py
+    venv
+    .env
+    .env.demo
+    .flake8
+    .gitignore
+    Dockerfile
+    Makefile
+    README.md
+    requirements.txt
+    tailwind.config.js

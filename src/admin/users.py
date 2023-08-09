@@ -1,14 +1,14 @@
 from flask import Blueprint, render_template, request
-from flask_user import roles_required, login_required
+from flask_user import roles_required
 from src.models import User
 from app import db
 
 bp = Blueprint('users', __name__, url_prefix='')
 
+
 # Admin User routes
 
 @bp.route('/users')
-# @login_required
 @roles_required('Admin')
 def users():
     # get all users
@@ -22,7 +22,6 @@ def users():
 
 
 @bp.route('/user/new')
-# @login_required
 @roles_required('Admin')
 def user_new():
     if request.method == 'POST':
@@ -34,7 +33,6 @@ def user_new():
 
 
 @bp.route('/user/<int:id>')
-# @login_required
 @roles_required('Admin')
 def user_detail(id):
     user = db.get_or_404(User, id)
@@ -46,7 +44,6 @@ def user_detail(id):
 
 
 @bp.route('/user/<int:id>/edit')
-# @login_required
 @roles_required('Admin')
 def user_edit(id):
     if request.method == 'POST':

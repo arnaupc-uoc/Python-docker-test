@@ -1,11 +1,20 @@
 from flask import Blueprint, render_template, redirect, url_for, current_app as app, jsonify
-from flask_user import roles_required, current_user, login_required
+from flask_user import roles_required, current_user
 from src.models import User, Role
 from app import db
 import jwt
 from datetime import datetime, timezone, timedelta
+from src.admin.users import bp as users
+from src.admin.posts import bp as posts
 
-bp = Blueprint('admin', __name__, template_folder='../../templates/admin', static_folder='../../static/admin', url_prefix='/admin')
+bp = Blueprint(
+    'admin',
+    __name__,
+    template_folder='../../templates/admin',
+    static_folder='../../static/admin',
+    url_prefix='/admin'
+)
+
 
 # Admin routes
 
@@ -34,10 +43,10 @@ def get_token():
     token = jwt.encode({
         'id': current_user.id,
         'email': current_user.email,
-        'exp' : datetime.now(timezone.utc) + timedelta(days = 30)
+        'exp': datetime.now(timezone.utc) + timedelta(days=30)
     }, app.config['SECRET_KEY'])
-  
-    return jsonify({'token' : token}), 201
+
+    return jsonify({'token': token}), 201
 
 
 @bp.route('/create-user', methods=['GET'])
@@ -49,9 +58,9 @@ def create_user():
 
         # Create 'user007' user with 'secret' and 'agent' roles
         user1 = User(
-            username = 'user007', 
-            email='admin@example.com', 
-            password = app.user_manager.hash_password('Password1'),
+            username='user007',
+            email='admin@example.com',
+            password=app.user_manager.hash_password('Password1'),
             first_name='James',
             last_name='Bond',
             active=True
@@ -59,20 +68,17 @@ def create_user():
         user1.roles = [admin_role]
         db.session.add(user1)
 
-        db.session.commit() # write changes to the database
+        db.session.commit()  # write changes to the database
 
         return jsonify({'msg': 'Example user created.'})
 
     except Exception as e:
-        return jsonify({'msg': str(e) })
+        return jsonify({'msg': str(e)})
 
 
-# Admin subroutes
+# Register admin subroutes
 
-from src.admin.users import bp as users
 bp.register_blueprint(users)
-
-from src.admin.posts import bp as posts
 bp.register_blueprint(posts)
 
 

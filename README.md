@@ -30,8 +30,7 @@ docker build -t python-docker-test:1.0.0 .
 
 Fonts:
 https://www.imaginarycloud.com/blog/flask-python/
-
---> Install all dependencies in virtual environment.
+http://exploreflask.com/en/latest/views.html#custom-decorators
 
 
 
@@ -131,12 +130,38 @@ https://flask.palletsprojects.com/en/1.1.x/cli/#registering-commands-with-bluepr
 https://click.palletsprojects.com/en/8.1.x/options/
 
 
+
 # Error Handler
 
 Fonts:
 https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.errorhandler
 https://www.digitalocean.com/community/tutorials/how-to-handle-errors-in-a-flask-application
 
+
+
+# DebugToolbar
+
+This extension adds a toolbar overlay to Flask applications containing useful information for debugging.
+
+pip install flask-debugtoolbar
+
+Fonts:
+https://flask-debugtoolbar.readthedocs.io/en/latest/#installationpip 
+
+
+
+# flake8
+
+Your Tool For Style Guide Enforcement.
+
+pip install flake8
+
+Fonts:
+https://flake8.pycqa.org/en/latest/index.html
+https://stackoverflow.com/questions/60865887/exclude-env-directory-from-flake8-tests
+
+El podem instal·lar i configurar com a extensió de VSCode.
+https://stackoverflow.com/questions/58977983/vs-code-preferences-user-settings-extensions-python-linting-flake8-a
 
 
 
@@ -187,6 +212,9 @@ pip install pyjwt
 Fonts:
 https://www.loginradius.com/blog/engineering/guest-post/securing-flask-api-with-jwt/
 https://www.geeksforgeeks.org/using-jwt-for-user-authentication-in-flask/
+https://circleci.com/blog/authentication-decorators-flask/
+https://circleci.com/blog/authentication-decorators-flask/
+https://4geeks.com/lesson/what-is-JWT-and-how-to-implement-with-Flask
 
 
 
@@ -240,13 +268,16 @@ pip install pytz
 
 # Flask Swagger
 
+API description formats like the OpenAPI/Swagger Specification have automated the documentation process, making it easier for teams to generate and maintain them.
 Swagger UI allows to visualize and interact with the API’s resources. 
 It’s automatically generated from your OpenAPI specification.
+
 
 Fonts:
 https://pypi.org/project/flask-swagger/
 https://code.likeagirl.io/swagger-and-postman-build-a-swagger-ui-for-your-python-flask-application-141bb4d0c203
 https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7
+https://developer.lsst.io/python/numpydoc.html
 
 
 

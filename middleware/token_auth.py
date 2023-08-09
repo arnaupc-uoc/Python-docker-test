@@ -3,6 +3,7 @@ from flask import request, abort, current_app as app
 from src.models import User
 import jwt
 
+
 def token_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
@@ -18,13 +19,12 @@ def token_required(f):
         try:
             data = jwt.decode(token, app.config["SECRET_KEY"], algorithms=["HS256"])
             token_user = User.query.get(data['id'])
-            print('xx',token_user.active)
             if token_user is None:
                 return {
-                "message": "Invalid Authentication token!",
-                "data": None,
-                "error": "Unauthorized"
-            }, 401
+                    "message": "Invalid Authentication token!",
+                    "data": None,
+                    "error": "Unauthorized"
+                }, 401
             if not token_user.active:
                 abort(403)
         except Exception as e:

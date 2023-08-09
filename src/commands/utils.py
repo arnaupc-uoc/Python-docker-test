@@ -5,7 +5,8 @@ bp = Blueprint('utils', __name__, cli_group='utils')
 
 bp.cli.short_help = 'App Utilities'
 
-# Util commands
+
+# Util commands
 
 @bp.cli.command('hello')
 @click.option('--count', default=1, help='Number of greetings.')

@@ -10,7 +10,7 @@ class TestSampleClass:
     def test_two(self):
         assert self.value != 1
 
-    def sum_one(self,x):
+    def sum_one(self, x):
         return x + 1
 
     def test_answer(self):
