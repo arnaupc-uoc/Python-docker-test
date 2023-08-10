@@ -147,6 +147,9 @@ pip install flask-debugtoolbar
 
 Fonts:
 https://flask-debugtoolbar.readthedocs.io/en/latest/#installationpip 
+https://github.com/ckan/ckan/issues/6995
+https://stackoverflow.com/questions/31128764/show-the-sql-generated-by-flask-sqlalchemy
+
 
 
 
@@ -159,14 +162,24 @@ pip install flake8
 Fonts:
 https://flake8.pycqa.org/en/latest/index.html
 https://stackoverflow.com/questions/60865887/exclude-env-directory-from-flake8-tests
+https://www.flake8rules.com
 
 El podem instal·lar i configurar com a extensió de VSCode.
 https://stackoverflow.com/questions/58977983/vs-code-preferences-user-settings-extensions-python-linting-flake8-a
 
+McCabe complexity value
+Essential complexity is a measurement developed by Thomas McCabe to determine how well a program is structured. It measures the number of entry points, termination points, and nondeductible nodes. The closer to 1 this value is, the more well structured the program is.
 
 
-Black 
 
+# Black 
+
+By using Black, you agree to cede control over minutiae of hand-formatting. 
+In return, Black gives you speed, determinism, and freedom from pycodestyle nagging about formatting. 
+You will save time and mental energy for more important matters.
+
+Fonts:
+https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html#configuration-via-a-file
 https://stackoverflow.com/questions/73247204/black-not-respecting-extend-exclude-in-pyproject-toml/73296261#73296261
 
 
@@ -183,6 +196,10 @@ pip install pytz
 
 Fonts:
 https://flask-user.readthedocs.io/en/latest/authorization.html
+
+
+
+## Flask-Limiter adds rate limiting to Flask applications.
 
 
 
@@ -284,6 +301,7 @@ https://pypi.org/project/flask-swagger/
 https://code.likeagirl.io/swagger-and-postman-build-a-swagger-ui-for-your-python-flask-application-141bb4d0c203
 https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7
 https://developer.lsst.io/python/numpydoc.html
+https://developer.lsst.io/python/numpydoc.html#sections-in-method-and-function-docstring-sections
 
 
 

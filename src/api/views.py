@@ -3,6 +3,7 @@ from src.models import User
 from middleware.token_auth import token_required
 import jwt
 import os
+from app import db
 
 bp = Blueprint("api", __name__, url_prefix="/api")
 
@@ -26,7 +27,7 @@ def say_hello():
 def decode_token():
     token = request.headers.get("Authorization")
     data = jwt.decode(token, os.environ.get("SECRET_KEY"), algorithms=["HS256"])
-    token_user = User.query.get(data["id"])
+    token_user = db.get_or_404(User, data["id"])
     return jsonify(token_user.id)
 
 

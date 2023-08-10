@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, request
-from flask_user import roles_required
+from flask import current_app as app
+from flask_user import roles_required, current_user
 from src.models import User
 from app import db
 
@@ -15,6 +16,7 @@ def users():
     # get all users
     query = db.select(User).order_by(User.username)
     users = db.session.execute(query).scalars()
+    app.logger.info('%s logged in successfully', current_user.username)
 
     return render_template("admin/user/list.html", models=users)
 
