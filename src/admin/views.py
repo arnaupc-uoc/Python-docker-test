@@ -24,8 +24,9 @@ def main():
 
 
 @bp.route("/dashboard")
-@cache.cached(timeout=60)
+# @cache.cached(timeout=5)
 def dashboard():
+    app.logger.info("Dashboard...")
     return render_template("admin/dashboard.html")
 
 
@@ -75,6 +76,16 @@ def clear_cache():
 
     return jsonify({"msg": "Cache cleared."})
 
+
+@bp.route("/test-logs", methods=["GET"])
+def test_logs():
+    app.logger.debug("Este es un log DEBUG")
+    app.logger.info("Este es un log INFO")
+    app.logger.warning("Este es un log WARNING")
+    app.logger.error("Este es un log ERROR")
+    app.logger.critical("Este es un log CRITICAL")
+
+    return jsonify({"msg": "Test Logs."})
 
 # Register admin subroutes
 

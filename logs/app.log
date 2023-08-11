@@ -1,0 +1,95 @@
+2023-08-11 18:24:13,556 werkzeug     WARNING   * Debugger is active!
+2023-08-11 18:24:13,571 werkzeug     INFO      * Debugger PIN: 330-413-422
+2023-08-11 18:24:13,944 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:13] "GET / HTTP/1.1" 200 -
+2023-08-11 18:24:14,135 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:24:14,145 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /static/img/flask5.png HTTP/1.1" 200 -
+2023-08-11 18:24:14,151 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:24:14,154 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:24:14,159 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:24:14,168 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
+2023-08-11 18:24:14,225 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/css/toolbar.css?0.4865477988344298 HTTP/1.1" 200 -
+2023-08-11 18:24:14,333 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-11 18:24:31,009 app          INFO     Dashboard...
+2023-08-11 18:24:31,108 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /admin/dashboard HTTP/1.1" 200 -
+2023-08-11 18:24:31,137 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:24:31,150 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 -
+2023-08-11 18:24:31,153 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:24:31,157 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:24:31,164 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:24:31,209 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/css/toolbar.css?0.9391386188134769 HTTP/1.1" 200 -
+2023-08-11 18:24:31,246 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-11 18:24:57,155 app          DEBUG    Este es un log DEBUG
+2023-08-11 18:24:57,155 app          INFO     Este es un log INFO
+2023-08-11 18:24:57,155 app          WARNING  Este es un log WARNING
+2023-08-11 18:24:57,156 app          ERROR    Este es un log ERROR
+2023-08-11 18:24:57,156 app          CRITICAL Este es un log CRITICAL
+2023-08-11 18:24:57,157 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:57] "GET /admin/test-logs HTTP/1.1" 200 -
+2023-08-11 18:28:16,863 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/tests/unit/test_app.py', reloading
+2023-08-11 18:28:18,832 werkzeug     WARNING   * Debugger is active!
+2023-08-11 18:28:18,843 werkzeug     INFO      * Debugger PIN: 330-413-422
+2023-08-11 18:29:11,749 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/tests/unit/test_app.py', reloading
+2023-08-11 18:29:14,006 werkzeug     WARNING   * Debugger is active!
+2023-08-11 18:29:14,014 werkzeug     INFO      * Debugger PIN: 330-413-422
+2023-08-11 18:29:14,363 app          INFO     Dashboard...
+2023-08-11 18:29:14,603 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /admin/dashboard HTTP/1.1" 200 -
+2023-08-11 18:29:14,653 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 -
+2023-08-11 18:29:14,656 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:29:14,667 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:29:14,675 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:29:14,683 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:29:14,715 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/css/toolbar.css?0.3870448535524763 HTTP/1.1" 200 -
+2023-08-11 18:29:14,780 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-11 18:29:15,872 app          INFO     Dashboard...
+2023-08-11 18:29:15,949 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:15] "GET /admin/dashboard HTTP/1.1" 200 -
+2023-08-11 18:29:15,976 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:15] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 -
+2023-08-11 18:29:15,985 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:15] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:29:15,996 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:15] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:29:16,002 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:16] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:29:16,010 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:16] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:29:16,041 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:16] "GET /_debug_toolbar/static/css/toolbar.css?0.337804114580016 HTTP/1.1" 200 -
+2023-08-11 18:29:16,066 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:16] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-11 18:29:18,760 app          INFO     Dashboard...
+2023-08-11 18:29:18,817 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /admin/dashboard HTTP/1.1" 200 -
+2023-08-11 18:29:18,845 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 -
+2023-08-11 18:29:18,845 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:29:18,857 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:29:18,861 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:29:18,863 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:29:18,885 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/css/toolbar.css?0.772245654822901 HTTP/1.1" 200 -
+2023-08-11 18:29:18,929 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-11 18:29:23,290 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET / HTTP/1.1" 200 -
+2023-08-11 18:29:23,365 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
+2023-08-11 18:29:23,427 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /static/img/flask5.png HTTP/1.1" 200 -
+2023-08-11 18:29:23,449 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:29:23,459 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:29:23,465 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:29:23,471 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:29:23,534 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/css/toolbar.css?0.07195173777602581 HTTP/1.1" 200 -
+2023-08-11 18:29:23,600 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-11 18:29:24,822 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET / HTTP/1.1" 200 -
+2023-08-11 18:29:24,878 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
+2023-08-11 18:29:24,898 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /static/img/flask5.png HTTP/1.1" 200 -
+2023-08-11 18:29:24,918 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:29:24,938 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:29:24,965 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:29:24,997 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:29:25,084 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:25] "GET /_debug_toolbar/static/css/toolbar.css?0.27610850118370256 HTTP/1.1" 200 -
+2023-08-11 18:29:25,116 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:25] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-11 18:29:26,437 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET / HTTP/1.1" 200 -
+2023-08-11 18:29:26,493 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
+2023-08-11 18:29:26,509 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /static/img/flask5.png HTTP/1.1" 200 -
+2023-08-11 18:29:26,529 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:29:26,561 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:29:26,595 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:29:26,600 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:29:26,666 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/css/toolbar.css?0.28087784907089197 HTTP/1.1" 200 -
+2023-08-11 18:29:26,697 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-11 18:29:27,558 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET / HTTP/1.1" 200 -
+2023-08-11 18:29:27,627 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
+2023-08-11 18:29:27,642 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /static/img/flask5.png HTTP/1.1" 200 -
+2023-08-11 18:29:27,658 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
+2023-08-11 18:29:27,671 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
+2023-08-11 18:29:27,692 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
+2023-08-11 18:29:27,716 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
+2023-08-11 18:29:27,767 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/css/toolbar.css?0.2983716537176725 HTTP/1.1" 200 -
+2023-08-11 18:29:27,799 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -

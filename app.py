@@ -10,6 +10,7 @@ from flask_cors import CORS
 from flask_caching import Cache
 from flask_wtf.csrf import CSRFProtect
 import json
+import src.logging
 
 # Globally accessible libraries
 

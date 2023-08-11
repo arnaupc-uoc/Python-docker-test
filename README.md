@@ -31,6 +31,15 @@ docker build -t python-docker-test:1.0.0 .
 Fonts:
 https://www.imaginarycloud.com/blog/flask-python/
 http://exploreflask.com/en/latest/views.html#custom-decorators
+https://flask.palletsprojects.com/en/1.1.x/logging/
+
+Flask uses standard Python logging. 
+Messages about your Flask application are logged with app.logger
+
+Fonts:
+https://tenpy.readthedocs.io/en/stable/intro/logging.html
+https://docs.python-guide.org/writing/logging/
+https://stackoverflow.com/questions/46466408/flask-properly-configure-logging
 
 
 
@@ -350,6 +359,7 @@ To enable CSRF protection globally for a Flask app, register the CSRFProtect ext
 Fonts:
 https://flask-wtf.readthedocs.io/en/1.1.x/
 https://flask-wtf.readthedocs.io/en/1.1.x/csrf/#setup
+https://www.geeksforgeeks.org/create-contact-us-using-wtforms-in-flask/
 
 
 
