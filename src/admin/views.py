@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, redirect, url_for, current_app as app, jsonify
 from src.models import User, Role
-from app import db
+from app import db, cache
 import jwt
 from datetime import datetime, timezone, timedelta
 from src.admin.users import bp as users
@@ -24,6 +24,7 @@ def main():
 
 
 @bp.route("/dashboard")
+@cache.cached(timeout=60)
 def dashboard():
     return render_template("admin/dashboard.html")
 
@@ -64,6 +65,15 @@ def create_user():
 
     except Exception as e:
         return jsonify({"msg": str(e)})
+
+
+@bp.route("/clear-cache", methods=["GET"])
+def clear_cache():
+
+    with app.app_context():
+        cache.clear()
+
+    return jsonify({"msg": "Cache cleared."})
 
 
 # Register admin subroutes
