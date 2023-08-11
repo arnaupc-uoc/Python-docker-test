@@ -1,4 +1,6 @@
 from flask import Blueprint, render_template, redirect, url_for, abort
+from app import cache
+
 
 bp = Blueprint("frontend", __name__, template_folder="../../templates/frontend", static_folder="../../static/frontend")
 
@@ -7,6 +9,7 @@ bp = Blueprint("frontend", __name__, template_folder="../../templates/frontend",
 
 
 @bp.route("/")
+@cache.cached(timeout=60)
 def main():
     return render_template(
         "frontend/main.html",  # from templates folder

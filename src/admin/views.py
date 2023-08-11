@@ -1,5 +1,4 @@
 from flask import Blueprint, render_template, redirect, url_for, current_app as app, jsonify
-from flask_user import roles_required, current_user
 from src.models import User, Role
 from app import db
 import jwt
@@ -18,27 +17,24 @@ bp = Blueprint(
 @bp.route("/")
 def main():
     # check is logged and redirect
-    if current_user.is_authenticated:
-        return redirect(url_for("admin.dashboard"))
-    else:
+    # if current_user.is_authenticated:
+    #     return redirect(url_for("admin.dashboard"))
+    # else:
         return redirect("/admin/login")
 
 
 @bp.route("/dashboard")
-# @login_required
-@roles_required("Admin")
 def dashboard():
     return render_template("admin/dashboard.html")
 
 
 @bp.route("/get-token", methods=["GET"])
-@roles_required("Admin")
 def get_token():
     # generates the JWT Token
-    token = jwt.encode(
-        {"id": current_user.id, "email": current_user.email, "exp": datetime.now(timezone.utc) + timedelta(days=30)},
-        app.config["SECRET_KEY"],
-    )
+    # token = jwt.encode(
+    #     {"id": current_user.id, "email": current_user.email, "exp": datetime.now(timezone.utc) + timedelta(days=30)},
+    #     app.config["SECRET_KEY"],
+    # )
 
     return jsonify({"token": token}), 201
 

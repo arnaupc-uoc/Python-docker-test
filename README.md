@@ -339,7 +339,37 @@ https://docs.sqlalchemy.org/en/20/orm/session_basics.html
 
 # WTForms
 
+WTForms is a flexible forms validation and rendering library for Python web development.
+Simple integration of Flask and WTForms, including CSRF, file upload, and reCAPTCHA.
+
 pip install -U Flask-WTF
+
+To enable CSRF protection globally for a Flask app, register the CSRFProtect extension.
+
+
+Fonts:
+https://flask-wtf.readthedocs.io/en/1.1.x/
+https://flask-wtf.readthedocs.io/en/1.1.x/csrf/#setup
+
+
+
+# Flask-CORS
+
+A Flask extension for handling Cross Origin Resource Sharing (CORS), making cross-origin AJAX possible.
+
+pip install -U flask-cors
+
+Fonts:
+https://flask-cors.corydolphin.com/en/latest/api.html
+
+
+
+# Flask-Caching
+
+pip install Flask-Caching
+
+
+Flask-Limiter
 
 
 
@@ -378,4 +408,10 @@ The Python Imaging Library adds image processing capabilities to your Python int
 The library contains basic image processing functionality.
 
 pip install --upgrade Pillow
+
+
+Flask-Session
+
+Flask-SocketIO
+
 

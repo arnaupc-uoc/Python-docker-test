@@ -5,7 +5,8 @@ include = '\.py?$'
 force-exclude = '''
 (
   /(
-    | \.git 
+    | \.git
+    | \.cache
     | \.pytest_cache
     | \.venv
     | migrations

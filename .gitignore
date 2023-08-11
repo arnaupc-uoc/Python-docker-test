@@ -3,3 +3,4 @@ venv
 static
 .webassets-cache/
 .pytest_cache/
+.cache/

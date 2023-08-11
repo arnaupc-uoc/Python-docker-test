@@ -21,12 +21,9 @@ MAIL_USERNAME = env.get("MAIL_USERNAME") or None
 MAIL_PASSWORD = env.get("MAIL_PASSWORD") or None
 MAIL_DEFAULT_SENDER = env.get("MAIL_DEFAULT_SENDER") or None
 
-# Flask-User
-USER_LOGIN_URL = "/admin/login"
-USER_AFTER_LOGIN_ENDPOINT = "admin.dashboard"
-USER_LOGOUT_URL = "/admin/logout"
-USER_AFTER_LOGOUT_ENDPOINT = "admin.main"
-USER_ENABLE_CHANGE_USERNAME = False
+# Flask-Caching
+CACHE_TYPE = "FileSystemCache"
+CACHE_DIR = env.get("CACHE_DIR") or "./.cache"
 
 # Flask-SQLAlchemy
 SQLALCHEMY_DATABASE_URI = env.get("SQLALCHEMY_DATABASE_URI")
