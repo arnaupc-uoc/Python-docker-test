@@ -6,6 +6,7 @@ from datetime import datetime, timezone, timedelta
 from src.admin.users import bp as users
 from src.admin.posts import bp as posts
 from flask_login import login_required, current_user
+from werkzeug.security import generate_password_hash
 
 
 bp = Blueprint(
@@ -25,8 +26,8 @@ def main():
     # check is logged and redirect
     if current_user.is_authenticated:
         return redirect(url_for("admin.dashboard"))
-    
-    return redirect("auth.login")
+
+    return redirect(url_for("auth.login"))
 
 
 @bp.route("/dashboard")
@@ -51,14 +52,15 @@ def get_token():
 def create_user():
     try:
         # Creare 'admin' role
-        admin_role = Role(name="Admin")
-        db.session.add(admin_role)
+        # admin_role = Role(name="Admin")
+        # db.session.add(admin_role)
+        admin_role = Role.query.filter_by(name="Admin").first()
 
         # Create 'user007' user with 'secret' and 'agent' roles
         user1 = User(
             username="user007",
             email="admin@example.com",
-            password=app.user_manager.hash_password("Password1"),
+            password=generate_password_hash("Password1"),
             first_name="James",
             last_name="Bond",
             active=True,

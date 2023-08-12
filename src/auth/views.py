@@ -16,6 +16,8 @@ bp = Blueprint(
 
 @bp.route('/login', methods=['GET'])
 def login():
+    if current_user.is_authenticated:
+        return redirect(url_for("admin.dashboard"))
     form = LoginForm()
     return render_template('auth/login.html', form=form)
 
@@ -31,7 +33,7 @@ def login_post():
 
         # check if the user actually exists
         user = User.query.filter_by(email=email).first()
-        if not user:  # or not check_password_hash(user.password, password):
+        if not user or not check_password_hash(user.password, password):
             flash('Please check your login details and try again.')
             return redirect(url_for('auth.login'))
         

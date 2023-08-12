@@ -45,24 +45,26 @@ def create_app():
     cache.init_app(app)  # set cache
 
     login_manager.init_app(app)  # set login manager
-    login_manager.login_view = 'auth.login'
-    
-    from src.models import User
-    @login_manager.user_loader
-    def load_user(user_id):
-        # since the user_id is just the primary key of our user table, use it in the query for the user
-        return User.query.get(int(user_id))
-
-    assets.init_app(app)  # set assets
-
-    # Register blueprints
 
     with app.app_context():
-        import src.models as models
 
+        # create/use database
+        
         db.create_all()
 
         # set user manager
+
+        login_manager.login_view = "auth.login"
+        login_manager.session_protection = "strong"
+
+        from src.models import User
+
+        @login_manager.user_loader
+        def load_user(user_id):
+            # query for the user
+            return User.query.get(int(user_id))
+
+        assets.init_app(app)  # set assets
 
         # Swagger
 
@@ -124,4 +126,4 @@ def create_app():
 
         compile_static_assets(assets)
 
-        return app
+    return app

@@ -2,6 +2,9 @@
 
 <div class="bg-slate-800 text-white">
     <div class="md:container md:mx-auto px-4 py-4">
-        header | {{ current_user.email }}
+        header 
+        {% if current_user.is_authenticated %}
+             | {{ current_user.email }}
+        {% endif %}
     </div>
 </div>
