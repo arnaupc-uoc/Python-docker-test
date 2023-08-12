@@ -3,5 +3,6 @@
 <div class="">
     <div class="md:container md:mx-auto px-4 py-4">
         Admin header <a href="{{ url_for('admin.dashboard') }}">Dashboard</a><br>
+        {{ current_user.email }}
     </div>
 </div>

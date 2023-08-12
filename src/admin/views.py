@@ -5,9 +5,15 @@ import jwt
 from datetime import datetime, timezone, timedelta
 from src.admin.users import bp as users
 from src.admin.posts import bp as posts
+from flask_login import login_required, current_user
+
 
 bp = Blueprint(
-    "admin", __name__, template_folder="../../templates/admin", static_folder="../../static/admin", url_prefix="/admin"
+    "admin",
+    __name__,
+    template_folder="../../templates/admin",
+    static_folder="../../static/admin",
+    url_prefix="/admin"
 )
 
 
@@ -17,10 +23,10 @@ bp = Blueprint(
 @bp.route("/")
 def main():
     # check is logged and redirect
-    # if current_user.is_authenticated:
-    #     return redirect(url_for("admin.dashboard"))
-    # else:
-        return redirect("/admin/login")
+    if current_user.is_authenticated:
+        return redirect(url_for("admin.dashboard"))
+    
+    return redirect("auth.login")
 
 
 @bp.route("/dashboard")
@@ -32,11 +38,11 @@ def dashboard():
 
 @bp.route("/get-token", methods=["GET"])
 def get_token():
-    # generates the JWT Token
-    # token = jwt.encode(
-    #     {"id": current_user.id, "email": current_user.email, "exp": datetime.now(timezone.utc) + timedelta(days=30)},
-    #     app.config["SECRET_KEY"],
-    # )
+    # generate the JWT Token
+    token = jwt.encode(
+        {"id": current_user.id, "email": current_user.email, "exp": datetime.now(timezone.utc) + timedelta(days=30)},
+        app.config["SECRET_KEY"],
+    )
 
     return jsonify({"token": token}), 201
 
@@ -86,6 +92,7 @@ def test_logs():
     app.logger.critical("Este es un log CRITICAL")
 
     return jsonify({"msg": "Test Logs."})
+
 
 # Register admin subroutes
 

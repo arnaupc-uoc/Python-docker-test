@@ -1,95 +1,1035 @@
-2023-08-11 18:24:13,556 werkzeug     WARNING   * Debugger is active!
-2023-08-11 18:24:13,571 werkzeug     INFO      * Debugger PIN: 330-413-422
-2023-08-11 18:24:13,944 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:13] "GET / HTTP/1.1" 200 -
-2023-08-11 18:24:14,135 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:24:14,145 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /static/img/flask5.png HTTP/1.1" 200 -
-2023-08-11 18:24:14,151 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:24:14,154 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:24:14,159 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:24:14,168 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
-2023-08-11 18:24:14,225 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/css/toolbar.css?0.4865477988344298 HTTP/1.1" 200 -
-2023-08-11 18:24:14,333 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:14] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
-2023-08-11 18:24:31,009 app          INFO     Dashboard...
-2023-08-11 18:24:31,108 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /admin/dashboard HTTP/1.1" 200 -
-2023-08-11 18:24:31,137 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:24:31,150 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 -
-2023-08-11 18:24:31,153 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:24:31,157 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:24:31,164 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:24:31,209 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/css/toolbar.css?0.9391386188134769 HTTP/1.1" 200 -
-2023-08-11 18:24:31,246 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:31] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
-2023-08-11 18:24:57,155 app          DEBUG    Este es un log DEBUG
-2023-08-11 18:24:57,155 app          INFO     Este es un log INFO
-2023-08-11 18:24:57,155 app          WARNING  Este es un log WARNING
-2023-08-11 18:24:57,156 app          ERROR    Este es un log ERROR
-2023-08-11 18:24:57,156 app          CRITICAL Este es un log CRITICAL
-2023-08-11 18:24:57,157 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:24:57] "GET /admin/test-logs HTTP/1.1" 200 -
-2023-08-11 18:28:16,863 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/tests/unit/test_app.py', reloading
-2023-08-11 18:28:18,832 werkzeug     WARNING   * Debugger is active!
-2023-08-11 18:28:18,843 werkzeug     INFO      * Debugger PIN: 330-413-422
-2023-08-11 18:29:11,749 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/tests/unit/test_app.py', reloading
-2023-08-11 18:29:14,006 werkzeug     WARNING   * Debugger is active!
-2023-08-11 18:29:14,014 werkzeug     INFO      * Debugger PIN: 330-413-422
-2023-08-11 18:29:14,363 app          INFO     Dashboard...
-2023-08-11 18:29:14,603 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /admin/dashboard HTTP/1.1" 200 -
-2023-08-11 18:29:14,653 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 -
-2023-08-11 18:29:14,656 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:29:14,667 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:29:14,675 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:29:14,683 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:29:14,715 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/css/toolbar.css?0.3870448535524763 HTTP/1.1" 200 -
-2023-08-11 18:29:14,780 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:14] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
-2023-08-11 18:29:15,872 app          INFO     Dashboard...
-2023-08-11 18:29:15,949 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:15] "GET /admin/dashboard HTTP/1.1" 200 -
-2023-08-11 18:29:15,976 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:15] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 -
-2023-08-11 18:29:15,985 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:15] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:29:15,996 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:15] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:29:16,002 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:16] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:29:16,010 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:16] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:29:16,041 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:16] "GET /_debug_toolbar/static/css/toolbar.css?0.337804114580016 HTTP/1.1" 200 -
-2023-08-11 18:29:16,066 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:16] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
-2023-08-11 18:29:18,760 app          INFO     Dashboard...
-2023-08-11 18:29:18,817 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /admin/dashboard HTTP/1.1" 200 -
-2023-08-11 18:29:18,845 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 -
-2023-08-11 18:29:18,845 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:29:18,857 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:29:18,861 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:29:18,863 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:29:18,885 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/css/toolbar.css?0.772245654822901 HTTP/1.1" 200 -
-2023-08-11 18:29:18,929 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:18] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
-2023-08-11 18:29:23,290 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET / HTTP/1.1" 200 -
-2023-08-11 18:29:23,365 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
-2023-08-11 18:29:23,427 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /static/img/flask5.png HTTP/1.1" 200 -
-2023-08-11 18:29:23,449 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:29:23,459 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:29:23,465 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:29:23,471 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:29:23,534 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/css/toolbar.css?0.07195173777602581 HTTP/1.1" 200 -
-2023-08-11 18:29:23,600 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:23] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
-2023-08-11 18:29:24,822 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET / HTTP/1.1" 200 -
-2023-08-11 18:29:24,878 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
-2023-08-11 18:29:24,898 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /static/img/flask5.png HTTP/1.1" 200 -
-2023-08-11 18:29:24,918 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:29:24,938 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:29:24,965 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:29:24,997 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:24] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:29:25,084 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:25] "GET /_debug_toolbar/static/css/toolbar.css?0.27610850118370256 HTTP/1.1" 200 -
-2023-08-11 18:29:25,116 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:25] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
-2023-08-11 18:29:26,437 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET / HTTP/1.1" 200 -
-2023-08-11 18:29:26,493 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
-2023-08-11 18:29:26,509 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /static/img/flask5.png HTTP/1.1" 200 -
-2023-08-11 18:29:26,529 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:29:26,561 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:29:26,595 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:29:26,600 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:29:26,666 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/css/toolbar.css?0.28087784907089197 HTTP/1.1" 200 -
-2023-08-11 18:29:26,697 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:26] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
-2023-08-11 18:29:27,558 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET / HTTP/1.1" 200 -
-2023-08-11 18:29:27,627 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 -
-2023-08-11 18:29:27,642 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /static/img/flask5.png HTTP/1.1" 200 -
-2023-08-11 18:29:27,658 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 -
-2023-08-11 18:29:27,671 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 -
-2023-08-11 18:29:27,692 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 -
-2023-08-11 18:29:27,716 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 -
-2023-08-11 18:29:27,767 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/css/toolbar.css?0.2983716537176725 HTTP/1.1" 200 -
-2023-08-11 18:29:27,799 werkzeug     INFO     127.0.0.1 - - [11/Aug/2023 18:29:27] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 -
+2023-08-12 11:39:47,957 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:47] "GET / HTTP/1.1" 200 - : Thread-38
+2023-08-12 11:39:48,023 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-41
+2023-08-12 11:39:48,028 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-39
+2023-08-12 11:39:48,065 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-43
+2023-08-12 11:39:48,069 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-44
+2023-08-12 11:39:48,074 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-40
+2023-08-12 11:39:48,078 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-42
+2023-08-12 11:39:48,127 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "GET /_debug_toolbar/static/css/toolbar.css?0.6587851981389595 HTTP/1.1" 200 - : Thread-45
+2023-08-12 11:39:48,189 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - : Thread-47
+2023-08-12 11:39:48,190 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 11:39:48] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-46
+2023-08-12 11:53:32,740 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 11:53:34,972 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 11:53:34,987 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 11:59:28,749 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 11:59:31,199 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 11:59:31,209 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 11:59:50,560 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 11:59:52,975 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 11:59:52,983 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:00:48,888 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 12:00:50,957 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:00:50,971 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:00:54,063 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 12:00:55,708 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:00:55,715 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:01:15,069 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 12:01:16,512 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:01:16,519 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:02:00,295 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 12:02:02,364 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:02:02,373 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:02:54,243 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 12:02:56,672 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:02:56,684 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:03:10,967 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 12:03:13,570 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:03:13,580 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:03:41,068 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/admin/views.py', reloading : MainThread
+2023-08-12 12:03:43,149 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:03:43,161 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:05:01,423 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:05:03,299 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:05:03,309 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:05:52,116 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:05:54,605 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:05:54,614 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:08:55,724 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/forms.py', reloading : MainThread
+2023-08-12 12:08:57,947 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:08:57,956 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:09:03,145 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:03] "GET /auth/login HTTP/1.1" 200 - : Thread-2
+2023-08-12 12:09:03,292 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:03] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-3
+2023-08-12 12:09:03,295 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:03] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-4
+2023-08-12 12:09:03,303 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:03] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-5
+2023-08-12 12:09:03,320 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:03] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 12:09:03,321 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:03] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 12:09:03,437 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:03] "GET /_debug_toolbar/static/css/toolbar.css?0.15508532422556287 HTTP/1.1" 200 - : Thread-8
+2023-08-12 12:09:03,549 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:03] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-9
+2023-08-12 12:09:12,621 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:12] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 - : Thread-10
+2023-08-12 12:09:12,658 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:12] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-11
+2023-08-12 12:09:12,665 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:12] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-12
+2023-08-12 12:09:12,700 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:09:12] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-13
+2023-08-12 12:11:13,545 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:11:15,712 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:11:15,724 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:11:28,996 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:11:31,064 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:11:31,076 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:12:43,305 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:12:45,384 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:12:45,394 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:12:56,613 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:12:58,322 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:12:58,332 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:13:12,610 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:13:14,782 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:13:14,793 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:14:05,650 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:14:07,986 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:14:07,995 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:14:10,488 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:14:10] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 12:14:10,562 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:14:10] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 12:14:10,567 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:14:10] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 12:14:10,655 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:14:10] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 12:16:48,483 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:48] "GET / HTTP/1.1" 200 - : Thread-6
+2023-08-12 12:16:48,819 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:48] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-7
+2023-08-12 12:16:48,844 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:48] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-9
+2023-08-12 12:16:48,860 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:48] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-8
+2023-08-12 12:16:48,866 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:48] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-11
+2023-08-12 12:16:48,882 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:48] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-10
+2023-08-12 12:16:48,883 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:48] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-12
+2023-08-12 12:16:49,042 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:49] "GET /_debug_toolbar/static/css/toolbar.css?0.9733059471259716 HTTP/1.1" 200 - : Thread-13
+2023-08-12 12:16:49,279 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:49] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-14
+2023-08-12 12:16:51,331 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET / HTTP/1.1" 200 - : Thread-15
+2023-08-12 12:16:51,383 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-16
+2023-08-12 12:16:51,413 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-18
+2023-08-12 12:16:51,442 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-17
+2023-08-12 12:16:51,466 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-19
+2023-08-12 12:16:51,481 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-20
+2023-08-12 12:16:51,486 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-21
+2023-08-12 12:16:51,515 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET /_debug_toolbar/static/css/toolbar.css?0.9152616636267088 HTTP/1.1" 200 - : Thread-22
+2023-08-12 12:16:51,563 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:16:51] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-23
+2023-08-12 12:17:18,749 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:17:20,748 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:17:20,759 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:17:28,495 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:28] "GET /auth/login HTTP/1.1" 200 - : Thread-2
+2023-08-12 12:17:28,564 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:28] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-3
+2023-08-12 12:17:28,572 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:28] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-4
+2023-08-12 12:17:28,590 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:28] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-5
+2023-08-12 12:17:28,597 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:28] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 12:17:28,608 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:28] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 12:17:28,663 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:28] "GET /_debug_toolbar/static/css/toolbar.css?0.9856458709915521 HTTP/1.1" 200 - : Thread-8
+2023-08-12 12:17:28,774 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:28] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-9
+2023-08-12 12:17:31,627 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:31] "GET /auth/login HTTP/1.1" 200 - : Thread-10
+2023-08-12 12:17:31,656 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:31] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-11
+2023-08-12 12:17:31,673 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:31] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-13
+2023-08-12 12:17:31,673 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:31] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-12
+2023-08-12 12:17:31,690 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:31] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-15
+2023-08-12 12:17:31,694 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:31] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-14
+2023-08-12 12:17:31,724 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:31] "GET /_debug_toolbar/static/css/toolbar.css?0.6298551322438577 HTTP/1.1" 200 - : Thread-16
+2023-08-12 12:17:31,782 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:31] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-17
+2023-08-12 12:17:40,327 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:40] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 - : Thread-18
+2023-08-12 12:17:40,397 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:40] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-19
+2023-08-12 12:17:40,399 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:40] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-20
+2023-08-12 12:17:40,443 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:17:40] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-21
+2023-08-12 12:20:15,942 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:20:18,173 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:20:18,182 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:20:20,362 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:20] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-2
+2023-08-12 12:20:21,889 app          INFO     Dashboard... : Thread-3
+2023-08-12 12:20:22,074 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:22] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-3
+2023-08-12 12:20:22,126 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:22] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-4
+2023-08-12 12:20:22,126 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:22] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-12 12:20:22,129 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:22] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 12:20:22,138 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:22] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 12:20:22,145 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:22] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 12:20:22,215 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:22] "GET /_debug_toolbar/static/css/toolbar.css?0.4049537982036264 HTTP/1.1" 200 - : Thread-9
+2023-08-12 12:20:22,335 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:22] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-10
+2023-08-12 12:20:27,528 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:27] "GET /auth/login HTTP/1.1" 200 - : Thread-11
+2023-08-12 12:20:27,569 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:27] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-12
+2023-08-12 12:20:27,578 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:27] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-13
+2023-08-12 12:20:27,607 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:27] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-15
+2023-08-12 12:20:27,608 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:27] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-14
+2023-08-12 12:20:27,622 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:27] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-16
+2023-08-12 12:20:27,672 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:27] "GET /_debug_toolbar/static/css/toolbar.css?0.3331141331151578 HTTP/1.1" 200 - : Thread-17
+2023-08-12 12:20:27,700 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:27] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-18
+2023-08-12 12:20:30,015 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-19
+2023-08-12 12:20:30,032 app          INFO     Dashboard... : Thread-20
+2023-08-12 12:20:30,098 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-20
+2023-08-12 12:20:30,166 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-21
+2023-08-12 12:20:30,178 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-22
+2023-08-12 12:20:30,189 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-23
+2023-08-12 12:20:30,204 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-24
+2023-08-12 12:20:30,220 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-25
+2023-08-12 12:20:30,265 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "GET /_debug_toolbar/static/css/toolbar.css?0.2902257050957723 HTTP/1.1" 200 - : Thread-26
+2023-08-12 12:20:30,290 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:20:30] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-27
+2023-08-12 12:23:35,718 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:23:37,788 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:23:37,801 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:23:55,180 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:23:57,261 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:23:57,270 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:24:10,550 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:24:12,649 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:24:12,662 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:24:19,548 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-2
+2023-08-12 12:24:19,566 app          INFO     Dashboard... : Thread-3
+2023-08-12 12:24:19,751 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-3
+2023-08-12 12:24:19,829 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-4
+2023-08-12 12:24:19,833 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 12:24:19,836 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-12 12:24:19,847 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 12:24:19,851 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 12:24:19,899 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "GET /_debug_toolbar/static/css/toolbar.css?0.7192301560722899 HTTP/1.1" 200 - : Thread-9
+2023-08-12 12:24:19,943 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:24:19] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-10
+2023-08-12 12:25:37,081 app          INFO     Dashboard... : Thread-11
+2023-08-12 12:25:37,210 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:37] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-11
+2023-08-12 12:25:37,245 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:37] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-12
+2023-08-12 12:25:37,262 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:37] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-13
+2023-08-12 12:25:37,278 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:37] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-14
+2023-08-12 12:25:37,285 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:37] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-15
+2023-08-12 12:25:37,291 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:37] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-16
+2023-08-12 12:25:37,345 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:37] "GET /_debug_toolbar/static/css/toolbar.css?0.5565074182646467 HTTP/1.1" 200 - : Thread-17
+2023-08-12 12:25:37,370 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:37] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-18
+2023-08-12 12:25:39,051 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:39] "[35m[1mGET /auth/logout HTTP/1.1[0m" 500 - : Thread-19
+2023-08-12 12:25:39,109 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:39] "GET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - : Thread-20
+2023-08-12 12:25:39,110 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:39] "GET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-21
+2023-08-12 12:25:39,134 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:39] "GET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - : Thread-22
+2023-08-12 12:25:39,255 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:25:39] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-23
+2023-08-12 12:28:39,902 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:39] "GET / HTTP/1.1" 200 - : Thread-24
+2023-08-12 12:28:40,245 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:40] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-25
+2023-08-12 12:28:40,261 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:40] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-26
+2023-08-12 12:28:40,296 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:40] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-27
+2023-08-12 12:28:40,299 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:40] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-28
+2023-08-12 12:28:40,312 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:40] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-30
+2023-08-12 12:28:40,419 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:40] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-29
+2023-08-12 12:28:40,511 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:40] "GET /_debug_toolbar/static/css/toolbar.css?0.5107137643168238 HTTP/1.1" 200 - : Thread-31
+2023-08-12 12:28:40,729 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:28:40] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-32
+2023-08-12 12:30:51,508 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 12:30:53,703 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:30:53,712 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:31:07,114 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 12:31:08,644 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:31:08,652 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:31:23,918 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 12:31:25,390 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:31:25,405 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:31:37,725 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 12:31:39,751 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:31:39,764 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:31:40,666 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:31:40] "[35m[1mGET /auth/logout HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 12:31:40,767 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:31:40] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 12:31:40,769 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:31:40] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 12:31:40,790 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:31:40] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 12:42:38,163 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:42:40,255 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:42:40,267 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:42:56,618 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:42:58,359 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:42:58,370 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:43:58,433 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:44:01,233 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:44:01,242 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:44:04,731 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:44:04] "[35m[1mGET /auth/logout HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 12:44:04,819 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:44:04] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 12:44:04,820 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:44:04] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 12:44:04,846 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:44:04] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 12:45:46,050 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 12:45:47,878 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:45:47,885 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:52:37,771 app          INFO     Dashboard... : Thread-2
+2023-08-12 12:52:37,979 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:37] "[35m[1mGET /admin/dashboard HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 12:52:38,027 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:38] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 12:52:38,029 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:38] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 12:52:38,080 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:38] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 12:52:40,077 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:40] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 - : Thread-6
+2023-08-12 12:52:40,130 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:40] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-7
+2023-08-12 12:52:42,337 app          INFO     Dashboard... : Thread-8
+2023-08-12 12:52:42,372 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:42] "[35m[1mGET /admin/dashboard HTTP/1.1[0m" 500 - : Thread-8
+2023-08-12 12:52:47,331 app          INFO     Dashboard... : Thread-9
+2023-08-12 12:52:47,379 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[35m[1mGET /admin/dashboard HTTP/1.1[0m" 500 - : Thread-9
+2023-08-12 12:52:47,403 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /static/css/admin/main.css?33ad39b6 HTTP/1.1[0m" 304 - : Thread-12
+2023-08-12 12:52:47,416 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /static/js/admin/main.js?d41d8cd9 HTTP/1.1[0m" 304 - : Thread-10
+2023-08-12 12:52:47,429 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 - : Thread-11
+2023-08-12 12:52:47,444 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /_debug_toolbar/static/css/toolbar.css?0.8499507134108568 HTTP/1.1[0m" 304 - : Thread-13
+2023-08-12 12:52:47,447 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 - : Thread-14
+2023-08-12 12:52:47,458 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 - : Thread-15
+2023-08-12 12:52:47,470 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /_debug_toolbar/static/img/tick.png HTTP/1.1[0m" 304 - : Thread-16
+2023-08-12 12:52:47,496 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-17
+2023-08-12 12:52:47,502 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-18
+2023-08-12 12:52:47,521 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:52:47] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-19
+2023-08-12 12:55:14,043 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/admin/views.py', reloading : MainThread
+2023-08-12 12:55:16,282 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:55:16,294 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:55:25,483 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/api/views.py', reloading : MainThread
+2023-08-12 12:55:27,301 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:55:27,310 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:55:59,917 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/commands/utils.py', reloading : MainThread
+2023-08-12 12:56:01,662 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:56:01,676 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:56:17,988 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/frontend/views.py', reloading : MainThread
+2023-08-12 12:56:19,968 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:56:19,982 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 12:56:58,937 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:56:58] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 12:56:59,229 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:56:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 12:56:59,251 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:56:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 12:56:59,349 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:56:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 12:58:33,464 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 12:58:35,411 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:58:35,424 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-12 12:58:53,812 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 12:58:55,992 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:58:56,003 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-12 12:58:58,084 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 12:58:59,513 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:58:59,527 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-12 12:59:01,624 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 12:59:03,184 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:59:03,192 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-12 12:59:06,257 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:59:06] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 12:59:06,391 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:59:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 12:59:06,409 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:59:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 12:59:06,452 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 12:59:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 12:59:24,744 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 12:59:26,822 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:59:26,834 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-12 12:59:45,200 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 12:59:47,269 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 12:59:47,276 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:00:05,671 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:00:07,334 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:00:07,346 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-12 13:00:07,386 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:07] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:00:07,451 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 13:00:07,453 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 13:00:07,505 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 13:00:24,748 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:00:26,491 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:00:26,499 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:00:48,489 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:48] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:00:48,552 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 13:00:48,570 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 13:00:48,639 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 13:00:54,883 app          INFO     Dashboard... : Thread-6
+2023-08-12 13:00:54,918 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:54] "[35m[1mGET /admin/dashboard HTTP/1.1[0m" 500 - : Thread-6
+2023-08-12 13:00:54,942 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:54] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-7
+2023-08-12 13:00:54,945 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:54] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-8
+2023-08-12 13:00:54,966 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:54] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-9
+2023-08-12 13:00:57,745 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:57] "[35m[1mGET /admin/get-token HTTP/1.1[0m" 500 - : Thread-10
+2023-08-12 13:00:57,844 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:57] "GET /admin/get-token?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - : Thread-11
+2023-08-12 13:00:57,847 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:57] "GET /admin/get-token?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-12
+2023-08-12 13:00:57,916 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:00:57] "GET /admin/get-token?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - : Thread-13
+2023-08-12 13:01:01,916 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:01:01] "[33mGET /admin/login?next=/admin/get-token HTTP/1.1[0m" 404 - : Thread-14
+2023-08-12 13:01:36,725 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/admin/views.py', reloading : MainThread
+2023-08-12 13:01:38,554 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:01:38,564 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-12 13:01:38,611 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:01:38] "[35m[1mGET /admin/login?next=/admin/get-token HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:01:38,638 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:01:38] "GET /admin/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - : Thread-3
+2023-08-12 13:01:38,667 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:01:38] "[36mGET /admin/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 13:01:38,686 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:01:38] "[36mGET /admin/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 13:01:59,073 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/admin/views.py', reloading : MainThread
+2023-08-12 13:02:01,256 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:02:01,263 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:02:06,925 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:02:06] "[33mGET /admin/login?next=/admin/get-token HTTP/1.1[0m" 404 - : Thread-2
+2023-08-12 13:02:08,573 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:02:08] "[33mGET /admin/login?next=/admin/get-token HTTP/1.1[0m" 404 - : Thread-3
+2023-08-12 13:03:10,639 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/admin/views.py', reloading : MainThread
+2023-08-12 13:03:13,504 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:03:13,513 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:03:13,551 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:03:13] "[33mGET /admin/login?next=/admin/get-token HTTP/1.1[0m" 404 - : Thread-2
+2023-08-12 13:03:15,013 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:03:15] "[33mGET /admin/login?next=/admin/get-token HTTP/1.1[0m" 404 - : Thread-3
+2023-08-12 13:03:20,241 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:03:20] "[33mGET /admin/login HTTP/1.1[0m" 404 - : Thread-4
+2023-08-12 13:03:28,427 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:03:28] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 - : Thread-5
+2023-08-12 13:03:28,457 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:03:28] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-6
+2023-08-12 13:03:28,459 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:03:28] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-7
+2023-08-12 13:03:28,475 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:03:28] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-8
+2023-08-12 13:06:37,019 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-9
+2023-08-12 13:06:37,031 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 - : Thread-10
+2023-08-12 13:06:37,038 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 - : Thread-14
+2023-08-12 13:06:37,043 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 - : Thread-13
+2023-08-12 13:06:37,056 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[36mGET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1[0m" 304 - : Thread-12
+2023-08-12 13:06:37,060 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[36mGET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1[0m" 304 - : Thread-11
+2023-08-12 13:06:37,067 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[36mGET /static/img/flask5.png HTTP/1.1[0m" 304 - : Thread-15
+2023-08-12 13:06:37,067 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-16
+2023-08-12 13:06:37,075 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-17
+2023-08-12 13:06:37,098 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - : Thread-18
+2023-08-12 13:06:37,452 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-19
+2023-08-12 13:06:37,505 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - : Thread-20
+2023-08-12 13:06:37,510 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-21
+2023-08-12 13:06:37,629 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - : Thread-22
+2023-08-12 13:06:59,590 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:59] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 - : Thread-23
+2023-08-12 13:06:59,645 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:59] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-24
+2023-08-12 13:06:59,645 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:59] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-25
+2023-08-12 13:06:59,673 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:06:59] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-26
+2023-08-12 13:07:03,087 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:03] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 - : Thread-27
+2023-08-12 13:07:03,110 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:03] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-29
+2023-08-12 13:07:03,113 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:03] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-28
+2023-08-12 13:07:03,131 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:03] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-30
+2023-08-12 13:07:05,114 app          INFO     Dashboard... : Thread-31
+2023-08-12 13:07:05,156 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:05] "[35m[1mGET /admin/dashboard HTTP/1.1[0m" 500 - : Thread-31
+2023-08-12 13:07:05,193 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:05] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-32
+2023-08-12 13:07:05,194 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:05] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-33
+2023-08-12 13:07:05,239 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:05] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-34
+2023-08-12 13:07:07,575 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:07] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-35
+2023-08-12 13:07:07,616 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-36
+2023-08-12 13:07:07,626 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-37
+2023-08-12 13:07:07,712 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:07:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-38
+2023-08-12 13:08:44,379 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:08:46,874 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:08:46,885 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:08:47,040 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:08:47] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:08:47,125 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:08:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 13:08:47,164 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:08:47] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 13:08:47,196 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:08:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 13:09:51,110 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:09:53,108 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:09:53,149 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:13:58,189 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 13:14:00,229 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:14:00,237 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:14:20,632 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 13:14:22,484 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:14:22,493 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:14:24,609 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 13:14:26,482 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:14:26,496 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:14:29,593 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 13:14:31,157 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:14:31,171 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:14:35,288 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 13:14:36,918 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:14:36,932 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:14:40,468 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:14:40] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:14:40,604 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:14:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 13:14:40,618 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:14:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 13:14:40,684 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:14:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 13:15:45,125 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 13:15:47,311 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:15:47,326 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:15:48,406 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 13:15:50,102 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:15:50,114 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:15:59,639 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:15:59] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:15:59,710 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:15:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 13:15:59,717 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:15:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 13:15:59,776 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:15:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 13:18:29,885 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/models.py', reloading : MainThread
+2023-08-12 13:18:32,727 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:18:32,737 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:18:37,170 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:18:37] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:18:37,229 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:18:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 13:18:37,231 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:18:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 13:18:37,308 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:18:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 13:33:42,589 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:33:45,020 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:33:45,034 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:33:45,303 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET / HTTP/1.1" 200 - : Thread-2
+2023-08-12 13:33:45,448 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-3
+2023-08-12 13:33:45,474 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-4
+2023-08-12 13:33:45,481 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-12 13:33:45,537 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 13:33:45,547 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 13:33:45,549 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 13:33:45,644 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET /_debug_toolbar/static/css/toolbar.css?0.8529884109791744 HTTP/1.1" 200 - : Thread-9
+2023-08-12 13:33:45,764 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:33:45] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-10
+2023-08-12 13:34:55,292 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:34:57,725 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:34:57,737 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:35:20,136 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:36:50,673 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:36:50,746 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:36:51,300 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET / HTTP/1.1" 200 - : Thread-2
+2023-08-12 13:36:51,433 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-3
+2023-08-12 13:36:51,466 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 13:36:51,473 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 13:36:51,474 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 13:36:51,478 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-4
+2023-08-12 13:36:51,484 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-12 13:36:51,510 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET /_debug_toolbar/static/css/toolbar.css?0.9651224810071938 HTTP/1.1" 200 - : Thread-9
+2023-08-12 13:36:51,601 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:36:51] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-10
+2023-08-12 13:37:15,427 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:38:18,941 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:38:18,952 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:38:23,388 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET / HTTP/1.1" 200 - : Thread-2
+2023-08-12 13:38:23,482 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-3
+2023-08-12 13:38:23,519 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-4
+2023-08-12 13:38:23,529 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-12 13:38:23,545 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 13:38:23,597 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 13:38:23,635 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 13:38:23,663 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET /_debug_toolbar/static/css/toolbar.css?0.05826716685899602 HTTP/1.1" 200 - : Thread-9
+2023-08-12 13:38:23,707 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:23] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-10
+2023-08-12 13:38:26,153 app          INFO     Dashboard... : Thread-11
+2023-08-12 13:38:26,251 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:26] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-11
+2023-08-12 13:38:26,278 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:26] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-12
+2023-08-12 13:38:26,290 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:26] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-13
+2023-08-12 13:38:26,295 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:26] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-14
+2023-08-12 13:38:26,304 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:26] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-15
+2023-08-12 13:38:26,305 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:26] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-16
+2023-08-12 13:38:26,350 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:26] "GET /_debug_toolbar/static/css/toolbar.css?0.6607588385734773 HTTP/1.1" 200 - : Thread-17
+2023-08-12 13:38:26,390 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:26] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-18
+2023-08-12 13:38:29,345 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:29] "GET /auth/logout HTTP/1.1" 200 - : Thread-19
+2023-08-12 13:38:29,357 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:29] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-21
+2023-08-12 13:38:29,364 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:29] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-20
+2023-08-12 13:38:29,368 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:38:29] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-22
+2023-08-12 13:40:02,655 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/auth/views.py', reloading : MainThread
+2023-08-12 13:40:04,901 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:40:04,909 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:40:04,945 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:04] "[32mGET /auth/logout HTTP/1.1[0m" 302 - : Thread-2
+2023-08-12 13:40:05,183 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:05] "GET /auth/login HTTP/1.1" 200 - : Thread-3
+2023-08-12 13:40:05,226 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:05] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-4
+2023-08-12 13:40:05,226 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:05] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 13:40:05,249 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:05] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 13:40:05,258 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:05] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-12 13:40:05,262 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:05] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 13:40:05,287 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:05] "GET /_debug_toolbar/static/css/toolbar.css?0.8750943428185648 HTTP/1.1" 200 - : Thread-9
+2023-08-12 13:40:05,341 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:05] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-10
+2023-08-12 13:40:10,011 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:10] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-11
+2023-08-12 13:40:10,037 app          INFO     Dashboard... : Thread-12
+2023-08-12 13:40:10,101 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:10] "[35m[1mGET /admin/dashboard HTTP/1.1[0m" 500 - : Thread-12
+2023-08-12 13:40:10,141 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:10] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-13
+2023-08-12 13:40:10,143 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:10] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-14
+2023-08-12 13:40:10,162 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:10] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-15
+2023-08-12 13:40:43,887 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:40:46,581 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:40:46,589 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:40:46,923 app          INFO     Dashboard... : Thread-2
+2023-08-12 13:40:47,033 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:47] "[35m[1mGET /admin/dashboard HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:40:47,240 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:47] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-12 13:40:47,256 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:47] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-12 13:40:47,330 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:40:47] "[36mGET /admin/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-12 13:41:05,938 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:41:08,332 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:41:08,346 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:41:08,384 app          INFO     Dashboard... : Thread-2
+2023-08-12 13:41:08,802 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:08] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-2
+2023-08-12 13:41:08,856 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:08] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-3
+2023-08-12 13:41:08,868 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:08] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 13:41:08,871 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:08] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-5
+2023-08-12 13:41:08,886 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:08] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 13:41:08,886 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:08] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-4
+2023-08-12 13:41:08,921 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:08] "GET /_debug_toolbar/static/css/toolbar.css?0.8960382980685883 HTTP/1.1" 200 - : Thread-8
+2023-08-12 13:41:09,012 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:09] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-9
+2023-08-12 13:41:17,201 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:17] "GET /auth/login HTTP/1.1" 200 - : Thread-10
+2023-08-12 13:41:17,235 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:17] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-11
+2023-08-12 13:41:17,247 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:17] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-14
+2023-08-12 13:41:17,252 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:17] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-12
+2023-08-12 13:41:17,266 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:17] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-13
+2023-08-12 13:41:17,274 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:17] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-15
+2023-08-12 13:41:17,306 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:17] "GET /_debug_toolbar/static/css/toolbar.css?0.9399797380226229 HTTP/1.1" 200 - : Thread-16
+2023-08-12 13:41:17,371 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:41:17] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-17
+2023-08-12 13:42:27,023 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:42:29,271 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:42:29,283 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:42:31,854 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:31] "[35m[1mGET / HTTP/1.1[0m" 500 - : Thread-2
+2023-08-12 13:42:31,912 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:31] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - : Thread-3
+2023-08-12 13:42:31,933 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:31] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-4
+2023-08-12 13:42:31,980 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - : Thread-5
+2023-08-12 13:42:56,773 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-12 13:42:58,618 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 13:42:58,628 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 13:42:58,985 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:58] "GET / HTTP/1.1" 200 - : Thread-2
+2023-08-12 13:42:59,067 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:59] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-3
+2023-08-12 13:42:59,100 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:59] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-12 13:42:59,142 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:59] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-4
+2023-08-12 13:42:59,146 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:59] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 13:42:59,189 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:59] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 13:42:59,197 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:59] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 13:42:59,237 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:59] "GET /_debug_toolbar/static/css/toolbar.css?0.8460313571814174 HTTP/1.1" 200 - : Thread-9
+2023-08-12 13:42:59,405 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:42:59] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-10
+2023-08-12 13:43:05,634 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET / HTTP/1.1" 200 - : Thread-11
+2023-08-12 13:43:05,691 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-12
+2023-08-12 13:43:05,709 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-13
+2023-08-12 13:43:05,730 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-14
+2023-08-12 13:43:05,763 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-15
+2023-08-12 13:43:05,789 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-16
+2023-08-12 13:43:05,797 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-17
+2023-08-12 13:43:05,830 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET /_debug_toolbar/static/css/toolbar.css?0.3457061406173568 HTTP/1.1" 200 - : Thread-18
+2023-08-12 13:43:05,883 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:05] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-19
+2023-08-12 13:43:20,250 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET / HTTP/1.1" 200 - : Thread-20
+2023-08-12 13:43:20,302 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-21
+2023-08-12 13:43:20,340 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-23
+2023-08-12 13:43:20,374 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-22
+2023-08-12 13:43:20,390 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-25
+2023-08-12 13:43:20,399 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-24
+2023-08-12 13:43:20,419 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-26
+2023-08-12 13:43:20,453 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET /_debug_toolbar/static/css/toolbar.css?0.9704247707073153 HTTP/1.1" 200 - : Thread-27
+2023-08-12 13:43:20,503 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:20] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-28
+2023-08-12 13:43:33,939 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:33] "GET / HTTP/1.1" 200 - : Thread-29
+2023-08-12 13:43:33,989 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:33] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-30
+2023-08-12 13:43:34,010 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-32
+2023-08-12 13:43:34,016 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-31
+2023-08-12 13:43:34,064 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-33
+2023-08-12 13:43:34,083 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-35
+2023-08-12 13:43:34,088 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-34
+2023-08-12 13:43:34,130 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /_debug_toolbar/static/css/toolbar.css?0.9278251654670874 HTTP/1.1" 200 - : Thread-36
+2023-08-12 13:43:34,181 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-37
+2023-08-12 13:43:34,905 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET / HTTP/1.1" 200 - : Thread-38
+2023-08-12 13:43:34,972 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-39
+2023-08-12 13:43:34,986 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:34] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-40
+2023-08-12 13:43:35,004 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-41
+2023-08-12 13:43:35,093 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 - : Thread-42
+2023-08-12 13:43:35,114 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 - : Thread-43
+2023-08-12 13:43:35,121 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 - : Thread-44
+2023-08-12 13:43:35,157 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /_debug_toolbar/static/css/toolbar.css?0.7244296160349999 HTTP/1.1" 200 - : Thread-45
+2023-08-12 13:43:35,183 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-46
+2023-08-12 13:43:35,833 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET / HTTP/1.1" 200 - : Thread-47
+2023-08-12 13:43:35,897 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-48
+2023-08-12 13:43:35,908 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-52
+2023-08-12 13:43:35,917 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-51
+2023-08-12 13:43:35,926 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "[36mGET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1[0m" 304 - : Thread-50
+2023-08-12 13:43:35,931 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-49
+2023-08-12 13:43:35,965 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-53
+2023-08-12 13:43:35,992 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:35] "GET /_debug_toolbar/static/css/toolbar.css?0.4113776993858189 HTTP/1.1" 200 - : Thread-54
+2023-08-12 13:43:36,024 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:36] "[36mGET /_debug_toolbar/static/img/tick.png HTTP/1.1[0m" 304 - : Thread-55
+2023-08-12 13:43:36,922 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:36] "GET / HTTP/1.1" 200 - : Thread-56
+2023-08-12 13:43:36,968 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:36] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-57
+2023-08-12 13:43:36,989 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:36] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-58
+2023-08-12 13:43:37,010 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-59
+2023-08-12 13:43:37,025 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-60
+2023-08-12 13:43:37,049 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-61
+2023-08-12 13:43:37,082 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-62
+2023-08-12 13:43:37,121 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET /_debug_toolbar/static/css/toolbar.css?0.008898519777488567 HTTP/1.1" 200 - : Thread-63
+2023-08-12 13:43:37,177 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-64
+2023-08-12 13:43:37,907 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET / HTTP/1.1" 200 - : Thread-65
+2023-08-12 13:43:37,965 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-66
+2023-08-12 13:43:37,981 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:37] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-67
+2023-08-12 13:43:38,003 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "[36mGET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1[0m" 304 - : Thread-68
+2023-08-12 13:43:38,023 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 - : Thread-69
+2023-08-12 13:43:38,037 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 - : Thread-70
+2023-08-12 13:43:38,055 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 - : Thread-71
+2023-08-12 13:43:38,115 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "GET /_debug_toolbar/static/css/toolbar.css?0.2599882744731834 HTTP/1.1" 200 - : Thread-72
+2023-08-12 13:43:38,140 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-73
+2023-08-12 13:43:38,858 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "GET / HTTP/1.1" 200 - : Thread-74
+2023-08-12 13:43:38,906 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "[36mGET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1[0m" 304 - : Thread-75
+2023-08-12 13:43:38,923 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "[36mGET /static/img/flask5.png HTTP/1.1[0m" 304 - : Thread-76
+2023-08-12 13:43:38,933 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-77
+2023-08-12 13:43:38,956 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-78
+2023-08-12 13:43:38,968 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-79
+2023-08-12 13:43:38,991 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:38] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-80
+2023-08-12 13:43:39,098 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:39] "GET /_debug_toolbar/static/css/toolbar.css?0.464065983644386 HTTP/1.1" 200 - : Thread-81
+2023-08-12 13:43:39,130 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:39] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-82
+2023-08-12 13:43:39,847 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:39] "GET / HTTP/1.1" 200 - : Thread-83
+2023-08-12 13:43:39,892 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:39] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-84
+2023-08-12 13:43:39,921 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:39] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-85
+2023-08-12 13:43:39,943 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:39] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-86
+2023-08-12 13:43:39,962 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:39] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-87
+2023-08-12 13:43:39,986 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:39] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-88
+2023-08-12 13:43:40,006 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:40] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-89
+2023-08-12 13:43:40,070 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:40] "GET /_debug_toolbar/static/css/toolbar.css?0.8477688908033598 HTTP/1.1" 200 - : Thread-90
+2023-08-12 13:43:40,132 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 13:43:40] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-91
+2023-08-12 14:14:31,488 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET / HTTP/1.1" 200 - : Thread-92
+2023-08-12 14:14:31,642 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-93
+2023-08-12 14:14:31,676 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-94
+2023-08-12 14:14:31,682 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-95
+2023-08-12 14:14:31,736 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-96
+2023-08-12 14:14:31,737 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-97
+2023-08-12 14:14:31,747 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-98
+2023-08-12 14:14:31,893 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET /_debug_toolbar/static/css/toolbar.css?0.6743141855045413 HTTP/1.1" 200 - : Thread-99
+2023-08-12 14:14:31,968 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:31] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-100
+2023-08-12 14:14:35,814 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:35] "GET /auth/login HTTP/1.1" 200 - : Thread-101
+2023-08-12 14:14:35,871 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:35] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-102
+2023-08-12 14:14:35,879 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:35] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-103
+2023-08-12 14:14:35,889 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:35] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-104
+2023-08-12 14:14:35,903 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:35] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-105
+2023-08-12 14:14:35,918 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:35] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-106
+2023-08-12 14:14:35,952 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:35] "GET /_debug_toolbar/static/css/toolbar.css?0.6826015538452535 HTTP/1.1" 200 - : Thread-107
+2023-08-12 14:14:36,060 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:36] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-108
+2023-08-12 14:14:38,705 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:38] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-109
+2023-08-12 14:14:38,735 app          INFO     Dashboard... : Thread-110
+2023-08-12 14:14:38,880 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:38] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-110
+2023-08-12 14:14:38,954 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:38] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-111
+2023-08-12 14:14:38,975 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:38] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-112
+2023-08-12 14:14:38,985 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:38] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-113
+2023-08-12 14:14:38,997 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:38] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-114
+2023-08-12 14:14:39,013 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:39] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-115
+2023-08-12 14:14:39,062 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:39] "GET /_debug_toolbar/static/css/toolbar.css?0.2692028577074508 HTTP/1.1" 200 - : Thread-116
+2023-08-12 14:14:39,231 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:39] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-117
+2023-08-12 14:14:45,195 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:45] "GET /_debug_toolbar/static/img/indicator.png HTTP/1.1" 200 - : Thread-119
+2023-08-12 14:14:45,197 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:45] "GET /_debug_toolbar/static/img/bg.gif HTTP/1.1" 200 - : Thread-118
+2023-08-12 14:14:45,204 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:14:45] "GET /_debug_toolbar/static/img/close.png HTTP/1.1" 200 - : Thread-120
+2023-08-12 14:15:10,352 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET / HTTP/1.1" 200 - : Thread-121
+2023-08-12 14:15:10,414 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-122
+2023-08-12 14:15:10,449 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-124
+2023-08-12 14:15:10,451 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-123
+2023-08-12 14:15:10,490 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-125
+2023-08-12 14:15:10,499 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-127
+2023-08-12 14:15:10,500 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-126
+2023-08-12 14:15:10,552 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET /_debug_toolbar/static/css/toolbar.css?0.8777476395405841 HTTP/1.1" 200 - : Thread-128
+2023-08-12 14:15:10,643 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:10] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-129
+2023-08-12 14:15:12,208 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET / HTTP/1.1" 200 - : Thread-130
+2023-08-12 14:15:12,261 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-131
+2023-08-12 14:15:12,284 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-132
+2023-08-12 14:15:12,298 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-133
+2023-08-12 14:15:12,331 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-134
+2023-08-12 14:15:12,367 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-136
+2023-08-12 14:15:12,390 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-135
+2023-08-12 14:15:12,472 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET /_debug_toolbar/static/css/toolbar.css?0.7641047073911066 HTTP/1.1" 200 - : Thread-137
+2023-08-12 14:15:12,496 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:12] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-138
+2023-08-12 14:15:13,416 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET / HTTP/1.1" 200 - : Thread-139
+2023-08-12 14:15:13,466 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-140
+2023-08-12 14:15:13,484 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-141
+2023-08-12 14:15:13,498 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-142
+2023-08-12 14:15:13,526 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-143
+2023-08-12 14:15:13,563 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-144
+2023-08-12 14:15:13,579 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-145
+2023-08-12 14:15:13,624 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET /_debug_toolbar/static/css/toolbar.css?0.6693744546289828 HTTP/1.1" 200 - : Thread-146
+2023-08-12 14:15:13,662 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:15:13] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-147
+2023-08-12 14:16:06,694 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/admin/views.py', reloading : MainThread
+2023-08-12 14:16:08,923 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 14:16:08,933 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 14:16:10,851 app          INFO     Dashboard... : Thread-2
+2023-08-12 14:16:11,157 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "[32mGET /admin/ HTTP/1.1[0m" 302 - : Thread-3
+2023-08-12 14:16:11,219 app          INFO     Dashboard... : Thread-4
+2023-08-12 14:16:11,425 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-4
+2023-08-12 14:16:11,425 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-2
+2023-08-12 14:16:11,479 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-6
+2023-08-12 14:16:11,485 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-5
+2023-08-12 14:16:11,489 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 14:16:11,496 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-12 14:16:11,503 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 14:16:11,528 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /_debug_toolbar/static/css/toolbar.css?0.1986660620904911 HTTP/1.1" 200 - : Thread-10
+2023-08-12 14:16:11,570 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:11] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-11
+2023-08-12 14:16:13,844 app          INFO     Dashboard... : Thread-12
+2023-08-12 14:16:13,956 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:13] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-12
+2023-08-12 14:16:13,985 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:13] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-13
+2023-08-12 14:16:13,995 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:13] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-14
+2023-08-12 14:16:14,004 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:14] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-16
+2023-08-12 14:16:14,008 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:14] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-15
+2023-08-12 14:16:14,015 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:14] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-17
+2023-08-12 14:16:14,046 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:14] "GET /_debug_toolbar/static/css/toolbar.css?0.15373354066320166 HTTP/1.1" 200 - : Thread-18
+2023-08-12 14:16:14,089 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:14] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-19
+2023-08-12 14:16:49,351 app          INFO     Dashboard... : Thread-20
+2023-08-12 14:16:49,481 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:49] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-20
+2023-08-12 14:16:49,502 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:49] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-21
+2023-08-12 14:16:49,516 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:49] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-22
+2023-08-12 14:16:49,528 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:49] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-23
+2023-08-12 14:16:49,537 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:49] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-24
+2023-08-12 14:16:49,539 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:49] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-25
+2023-08-12 14:16:49,576 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:49] "GET /_debug_toolbar/static/css/toolbar.css?0.4555359578431839 HTTP/1.1" 200 - : Thread-26
+2023-08-12 14:16:49,627 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:16:49] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-27
+2023-08-12 14:17:07,803 app          INFO     Dashboard... : Thread-28
+2023-08-12 14:17:07,909 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:07] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-28
+2023-08-12 14:17:07,929 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:07] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-29
+2023-08-12 14:17:07,945 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:07] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-30
+2023-08-12 14:17:07,958 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:07] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-31
+2023-08-12 14:17:07,963 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:07] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-32
+2023-08-12 14:17:07,966 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:07] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-33
+2023-08-12 14:17:08,002 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:08] "GET /_debug_toolbar/static/css/toolbar.css?0.43264584965311825 HTTP/1.1" 200 - : Thread-34
+2023-08-12 14:17:08,040 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:08] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-35
+2023-08-12 14:17:17,242 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET / HTTP/1.1" 200 - : Thread-36
+2023-08-12 14:17:17,334 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-37
+2023-08-12 14:17:17,334 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-38
+2023-08-12 14:17:17,347 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-39
+2023-08-12 14:17:17,365 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-40
+2023-08-12 14:17:17,399 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-41
+2023-08-12 14:17:17,413 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-42
+2023-08-12 14:17:17,468 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET /_debug_toolbar/static/css/toolbar.css?0.7507300477378924 HTTP/1.1" 200 - : Thread-43
+2023-08-12 14:17:17,530 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:17] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-44
+2023-08-12 14:17:20,873 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:20] "GET / HTTP/1.1" 200 - : Thread-45
+2023-08-12 14:17:20,915 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:20] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-46
+2023-08-12 14:17:20,929 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:20] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-47
+2023-08-12 14:17:20,952 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:20] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-48
+2023-08-12 14:17:20,986 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:20] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-49
+2023-08-12 14:17:21,013 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:21] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-50
+2023-08-12 14:17:21,022 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:21] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-51
+2023-08-12 14:17:21,056 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:21] "GET /_debug_toolbar/static/css/toolbar.css?0.10375717498378279 HTTP/1.1" 200 - : Thread-52
+2023-08-12 14:17:21,116 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:21] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-53
+2023-08-12 14:17:32,350 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET / HTTP/1.1" 200 - : Thread-54
+2023-08-12 14:17:32,399 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-55
+2023-08-12 14:17:32,424 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-57
+2023-08-12 14:17:32,432 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-56
+2023-08-12 14:17:32,499 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-59
+2023-08-12 14:17:32,501 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-58
+2023-08-12 14:17:32,515 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-60
+2023-08-12 14:17:32,576 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET /_debug_toolbar/static/css/toolbar.css?0.10333505722602243 HTTP/1.1" 200 - : Thread-61
+2023-08-12 14:17:32,606 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:32] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-62
+2023-08-12 14:17:41,236 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET / HTTP/1.1" 200 - : Thread-63
+2023-08-12 14:17:41,298 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-64
+2023-08-12 14:17:41,316 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-65
+2023-08-12 14:17:41,330 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-66
+2023-08-12 14:17:41,356 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-67
+2023-08-12 14:17:41,373 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-68
+2023-08-12 14:17:41,384 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-69
+2023-08-12 14:17:41,424 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET /_debug_toolbar/static/css/toolbar.css?0.7592198329900889 HTTP/1.1" 200 - : Thread-70
+2023-08-12 14:17:41,486 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:41] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-71
+2023-08-12 14:17:49,596 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET / HTTP/1.1" 200 - : Thread-72
+2023-08-12 14:17:49,638 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-73
+2023-08-12 14:17:49,673 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-74
+2023-08-12 14:17:49,719 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-75
+2023-08-12 14:17:49,740 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-76
+2023-08-12 14:17:49,756 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-77
+2023-08-12 14:17:49,767 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-78
+2023-08-12 14:17:49,831 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET /_debug_toolbar/static/css/toolbar.css?0.7942780503610904 HTTP/1.1" 200 - : Thread-79
+2023-08-12 14:17:49,876 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:49] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-80
+2023-08-12 14:17:59,988 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:17:59] "GET / HTTP/1.1" 200 - : Thread-81
+2023-08-12 14:18:00,057 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:00] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-82
+2023-08-12 14:18:00,072 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:00] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-83
+2023-08-12 14:18:00,097 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:00] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-84
+2023-08-12 14:18:00,110 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:00] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-85
+2023-08-12 14:18:00,119 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:00] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-86
+2023-08-12 14:18:00,152 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:00] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-87
+2023-08-12 14:18:00,175 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:00] "GET /_debug_toolbar/static/css/toolbar.css?0.6995884637415264 HTTP/1.1" 200 - : Thread-88
+2023-08-12 14:18:00,211 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:00] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-89
+2023-08-12 14:18:06,148 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET / HTTP/1.1" 200 - : Thread-90
+2023-08-12 14:18:06,200 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-91
+2023-08-12 14:18:06,217 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-92
+2023-08-12 14:18:06,240 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-93
+2023-08-12 14:18:06,258 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-94
+2023-08-12 14:18:06,303 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-95
+2023-08-12 14:18:06,322 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-96
+2023-08-12 14:18:06,358 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET /_debug_toolbar/static/css/toolbar.css?0.6231178713457527 HTTP/1.1" 200 - : Thread-97
+2023-08-12 14:18:06,422 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:06] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-98
+2023-08-12 14:18:12,215 app          INFO     Dashboard... : Thread-99
+2023-08-12 14:18:12,314 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:12] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-99
+2023-08-12 14:18:12,346 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:12] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-100
+2023-08-12 14:18:12,354 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:12] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-101
+2023-08-12 14:18:12,363 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:12] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-102
+2023-08-12 14:18:12,371 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:12] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-104
+2023-08-12 14:18:12,373 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:12] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-103
+2023-08-12 14:18:12,402 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:12] "GET /_debug_toolbar/static/css/toolbar.css?0.8793119154625904 HTTP/1.1" 200 - : Thread-105
+2023-08-12 14:18:12,448 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:12] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-106
+2023-08-12 14:18:14,150 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:14] "GET /_debug_toolbar/static/img/indicator.png HTTP/1.1" 200 - : Thread-107
+2023-08-12 14:18:14,153 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:14] "GET /_debug_toolbar/static/img/close.png HTTP/1.1" 200 - : Thread-108
+2023-08-12 14:18:14,154 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:14] "GET /_debug_toolbar/static/img/bg.gif HTTP/1.1" 200 - : Thread-109
+2023-08-12 14:18:20,397 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET / HTTP/1.1" 200 - : Thread-110
+2023-08-12 14:18:20,441 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-111
+2023-08-12 14:18:20,466 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-112
+2023-08-12 14:18:20,487 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-113
+2023-08-12 14:18:20,515 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-114
+2023-08-12 14:18:20,536 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-115
+2023-08-12 14:18:20,549 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-116
+2023-08-12 14:18:20,593 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET /_debug_toolbar/static/css/toolbar.css?0.1539790481628721 HTTP/1.1" 200 - : Thread-117
+2023-08-12 14:18:20,648 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:20] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-118
+2023-08-12 14:18:21,812 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:21] "GET /_debug_toolbar/static/img/close.png HTTP/1.1" 200 - : Thread-120
+2023-08-12 14:18:21,821 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:21] "GET /_debug_toolbar/static/img/indicator.png HTTP/1.1" 200 - : Thread-119
+2023-08-12 14:18:21,830 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:21] "GET /_debug_toolbar/static/img/bg.gif HTTP/1.1" 200 - : Thread-121
+2023-08-12 14:18:48,932 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:48] "GET /_debug_toolbar/static/img/close_hover.png HTTP/1.1" 200 - : Thread-122
+2023-08-12 14:18:50,889 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:50] "[32mGET /auth/logout HTTP/1.1[0m" 302 - : Thread-123
+2023-08-12 14:18:50,993 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:50] "GET /auth/login HTTP/1.1" 200 - : Thread-124
+2023-08-12 14:18:51,003 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-125
+2023-08-12 14:18:51,011 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-126
+2023-08-12 14:18:51,021 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "[36mGET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-127
+2023-08-12 14:18:51,054 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-128
+2023-08-12 14:18:51,066 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-129
+2023-08-12 14:18:51,078 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-130
+2023-08-12 14:18:51,088 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-131
+2023-08-12 14:18:51,102 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-132
+2023-08-12 14:18:51,118 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "GET /_debug_toolbar/static/css/toolbar.css?0.5083034670155362 HTTP/1.1" 200 - : Thread-133
+2023-08-12 14:18:51,171 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:51] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-134
+2023-08-12 14:18:53,406 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-135
+2023-08-12 14:18:53,422 app          INFO     Dashboard... : Thread-136
+2023-08-12 14:18:53,519 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-136
+2023-08-12 14:18:53,566 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-137
+2023-08-12 14:18:53,582 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-138
+2023-08-12 14:18:53,600 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-140
+2023-08-12 14:18:53,605 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-139
+2023-08-12 14:18:53,610 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-141
+2023-08-12 14:18:53,654 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "GET /_debug_toolbar/static/css/toolbar.css?0.12574121777019165 HTTP/1.1" 200 - : Thread-142
+2023-08-12 14:18:53,709 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:18:53] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-143
+2023-08-12 14:19:27,670 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:27] "GET /_debug_toolbar/static/img/close_hover.png HTTP/1.1" 200 - : Thread-144
+2023-08-12 14:19:28,984 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:28] "GET / HTTP/1.1" 200 - : Thread-145
+2023-08-12 14:19:29,063 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:29] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-146
+2023-08-12 14:19:29,101 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:29] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-148
+2023-08-12 14:19:29,102 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:29] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-147
+2023-08-12 14:19:29,150 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:29] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-149
+2023-08-12 14:19:29,150 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:29] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-150
+2023-08-12 14:19:29,153 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:29] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-151
+2023-08-12 14:19:29,187 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:29] "GET /_debug_toolbar/static/css/toolbar.css?0.5572901722901397 HTTP/1.1" 200 - : Thread-152
+2023-08-12 14:19:29,314 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:29] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-153
+2023-08-12 14:19:34,050 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "[32mGET /auth/logout HTTP/1.1[0m" 302 - : Thread-154
+2023-08-12 14:19:34,120 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "GET /auth/login HTTP/1.1" 200 - : Thread-155
+2023-08-12 14:19:34,154 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-156
+2023-08-12 14:19:34,168 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-157
+2023-08-12 14:19:34,179 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-158
+2023-08-12 14:19:34,189 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-159
+2023-08-12 14:19:34,194 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-160
+2023-08-12 14:19:34,283 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "GET /_debug_toolbar/static/css/toolbar.css?0.36745224189779013 HTTP/1.1" 200 - : Thread-161
+2023-08-12 14:19:34,305 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:34] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-162
+2023-08-12 14:19:37,513 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:37] "GET /auth/login HTTP/1.1" 200 - : Thread-163
+2023-08-12 14:19:37,544 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:37] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-164
+2023-08-12 14:19:37,555 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:37] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-165
+2023-08-12 14:19:37,565 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:37] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-168
+2023-08-12 14:19:37,570 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:37] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-167
+2023-08-12 14:19:37,574 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:37] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-166
+2023-08-12 14:19:37,601 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:37] "GET /_debug_toolbar/static/css/toolbar.css?0.7620609364648235 HTTP/1.1" 200 - : Thread-169
+2023-08-12 14:19:37,636 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:37] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-170
+2023-08-12 14:19:41,076 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET / HTTP/1.1" 200 - : Thread-171
+2023-08-12 14:19:41,128 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-172
+2023-08-12 14:19:41,166 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-174
+2023-08-12 14:19:41,168 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-173
+2023-08-12 14:19:41,188 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-175
+2023-08-12 14:19:41,203 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-176
+2023-08-12 14:19:41,221 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-177
+2023-08-12 14:19:41,303 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET /_debug_toolbar/static/css/toolbar.css?0.7715479525987302 HTTP/1.1" 200 - : Thread-178
+2023-08-12 14:19:41,343 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:41] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-179
+2023-08-12 14:19:48,508 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET / HTTP/1.1" 200 - : Thread-180
+2023-08-12 14:19:48,568 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-181
+2023-08-12 14:19:48,584 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-182
+2023-08-12 14:19:48,601 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-183
+2023-08-12 14:19:48,628 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-184
+2023-08-12 14:19:48,657 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-185
+2023-08-12 14:19:48,675 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-186
+2023-08-12 14:19:48,763 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET /_debug_toolbar/static/css/toolbar.css?0.5554564705383168 HTTP/1.1" 200 - : Thread-187
+2023-08-12 14:19:48,792 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:48] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-188
+2023-08-12 14:19:57,663 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET / HTTP/1.1" 200 - : Thread-189
+2023-08-12 14:19:57,700 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-190
+2023-08-12 14:19:57,720 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-191
+2023-08-12 14:19:57,742 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-192
+2023-08-12 14:19:57,769 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-193
+2023-08-12 14:19:57,785 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-194
+2023-08-12 14:19:57,791 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-195
+2023-08-12 14:19:57,901 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET /_debug_toolbar/static/css/toolbar.css?0.13262666724367134 HTTP/1.1" 200 - : Thread-196
+2023-08-12 14:19:57,938 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:19:57] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-197
+2023-08-12 14:20:06,289 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET / HTTP/1.1" 200 - : Thread-198
+2023-08-12 14:20:06,353 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-199
+2023-08-12 14:20:06,364 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-200
+2023-08-12 14:20:06,387 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-201
+2023-08-12 14:20:06,410 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-202
+2023-08-12 14:20:06,429 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-203
+2023-08-12 14:20:06,461 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-204
+2023-08-12 14:20:06,500 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET /_debug_toolbar/static/css/toolbar.css?0.8488284743243413 HTTP/1.1" 200 - : Thread-205
+2023-08-12 14:20:06,598 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:06] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-206
+2023-08-12 14:20:13,694 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET / HTTP/1.1" 200 - : Thread-207
+2023-08-12 14:20:13,748 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-208
+2023-08-12 14:20:13,776 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-209
+2023-08-12 14:20:13,801 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-210
+2023-08-12 14:20:13,809 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-211
+2023-08-12 14:20:13,826 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-213
+2023-08-12 14:20:13,830 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-212
+2023-08-12 14:20:13,896 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET /_debug_toolbar/static/css/toolbar.css?0.838927660111253 HTTP/1.1" 200 - : Thread-214
+2023-08-12 14:20:13,950 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:13] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-215
+2023-08-12 14:20:19,422 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET / HTTP/1.1" 200 - : Thread-216
+2023-08-12 14:20:19,471 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-217
+2023-08-12 14:20:19,490 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-218
+2023-08-12 14:20:19,518 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-219
+2023-08-12 14:20:19,534 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-220
+2023-08-12 14:20:19,558 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-222
+2023-08-12 14:20:19,565 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-221
+2023-08-12 14:20:19,625 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET /_debug_toolbar/static/css/toolbar.css?0.8866716759554272 HTTP/1.1" 200 - : Thread-223
+2023-08-12 14:20:19,670 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:19] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-224
+2023-08-12 14:20:23,004 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET / HTTP/1.1" 200 - : Thread-225
+2023-08-12 14:20:23,050 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-226
+2023-08-12 14:20:23,063 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-227
+2023-08-12 14:20:23,079 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-228
+2023-08-12 14:20:23,102 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-229
+2023-08-12 14:20:23,120 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-230
+2023-08-12 14:20:23,131 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-231
+2023-08-12 14:20:23,207 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET /_debug_toolbar/static/css/toolbar.css?0.830476907072665 HTTP/1.1" 200 - : Thread-232
+2023-08-12 14:20:23,242 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:23] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-233
+2023-08-12 14:20:50,282 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/frontend/views.py', reloading : MainThread
+2023-08-12 14:20:52,307 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-12 14:20:52,315 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-12 14:20:52,575 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET / HTTP/1.1" 200 - : Thread-2
+2023-08-12 14:20:52,665 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-4
+2023-08-12 14:20:52,668 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-12 14:20:52,715 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-12 14:20:52,673 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-3
+2023-08-12 14:20:52,690 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-12 14:20:52,742 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-12 14:20:52,836 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET /_debug_toolbar/static/css/toolbar.css?0.22176750366659348 HTTP/1.1" 200 - : Thread-9
+2023-08-12 14:20:52,863 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:52] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-10
+2023-08-12 14:20:55,065 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET / HTTP/1.1" 200 - : Thread-11
+2023-08-12 14:20:55,130 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-12
+2023-08-12 14:20:55,150 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-13
+2023-08-12 14:20:55,200 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-14
+2023-08-12 14:20:55,220 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-15
+2023-08-12 14:20:55,229 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-16
+2023-08-12 14:20:55,237 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-17
+2023-08-12 14:20:55,303 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET /_debug_toolbar/static/css/toolbar.css?0.8590396452844042 HTTP/1.1" 200 - : Thread-18
+2023-08-12 14:20:55,335 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:20:55] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-19
+2023-08-12 14:21:00,631 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:00] "GET /auth/login HTTP/1.1" 200 - : Thread-20
+2023-08-12 14:21:00,668 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:00] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-21
+2023-08-12 14:21:00,679 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:00] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-22
+2023-08-12 14:21:00,695 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:00] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-23
+2023-08-12 14:21:00,709 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:00] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-25
+2023-08-12 14:21:00,719 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:00] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-24
+2023-08-12 14:21:00,749 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:00] "GET /_debug_toolbar/static/css/toolbar.css?0.007438213426827156 HTTP/1.1" 200 - : Thread-26
+2023-08-12 14:21:00,803 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:00] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-27
+2023-08-12 14:21:03,307 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-28
+2023-08-12 14:21:03,342 app          INFO     Dashboard... : Thread-29
+2023-08-12 14:21:03,541 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-29
+2023-08-12 14:21:03,592 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-30
+2023-08-12 14:21:03,604 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-31
+2023-08-12 14:21:03,619 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-32
+2023-08-12 14:21:03,629 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-33
+2023-08-12 14:21:03,638 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-34
+2023-08-12 14:21:03,665 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "GET /_debug_toolbar/static/css/toolbar.css?0.2996077877546153 HTTP/1.1" 200 - : Thread-35
+2023-08-12 14:21:03,723 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:03] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-36
+2023-08-12 14:21:07,629 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET / HTTP/1.1" 200 - : Thread-37
+2023-08-12 14:21:07,665 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-38
+2023-08-12 14:21:07,702 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-39
+2023-08-12 14:21:07,799 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-40
+2023-08-12 14:21:07,805 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-41
+2023-08-12 14:21:07,815 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-43
+2023-08-12 14:21:07,815 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-42
+2023-08-12 14:21:07,861 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET /_debug_toolbar/static/css/toolbar.css?0.5050792554869099 HTTP/1.1" 200 - : Thread-44
+2023-08-12 14:21:07,900 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:07] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-45
+2023-08-12 14:21:11,430 app          INFO     Dashboard... : Thread-46
+2023-08-12 14:21:11,521 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:11] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-46
+2023-08-12 14:21:11,545 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:11] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-47
+2023-08-12 14:21:11,554 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:11] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-48
+2023-08-12 14:21:11,562 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:11] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-49
+2023-08-12 14:21:11,573 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:11] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-51
+2023-08-12 14:21:11,578 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:11] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-50
+2023-08-12 14:21:11,599 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:11] "GET /_debug_toolbar/static/css/toolbar.css?0.05405294797284588 HTTP/1.1" 200 - : Thread-52
+2023-08-12 14:21:11,645 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 14:21:11] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-53
+2023-08-12 16:10:37,784 app          INFO     Dashboard... : Thread-54
+2023-08-12 16:10:37,922 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:37] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-54
+2023-08-12 16:10:38,190 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:38] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-55
+2023-08-12 16:10:38,200 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:38] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-56
+2023-08-12 16:10:38,210 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:38] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-57
+2023-08-12 16:10:38,223 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:38] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-59
+2023-08-12 16:10:38,224 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:38] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-58
+2023-08-12 16:10:38,287 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:38] "GET /_debug_toolbar/static/css/toolbar.css?0.5147045693088755 HTTP/1.1" 200 - : Thread-60
+2023-08-12 16:10:38,346 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:38] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-61
+2023-08-12 16:10:42,369 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET / HTTP/1.1" 200 - : Thread-62
+2023-08-12 16:10:42,506 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-63
+2023-08-12 16:10:42,560 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-64
+2023-08-12 16:10:42,577 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-65
+2023-08-12 16:10:42,594 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-66
+2023-08-12 16:10:42,630 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-67
+2023-08-12 16:10:42,654 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-68
+2023-08-12 16:10:42,728 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET /_debug_toolbar/static/css/toolbar.css?0.836650258903904 HTTP/1.1" 200 - : Thread-69
+2023-08-12 16:10:42,914 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:42] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-70
+2023-08-12 16:10:49,611 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:49] "GET /auth/login HTTP/1.1" 200 - : Thread-71
+2023-08-12 16:10:49,647 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:49] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-72
+2023-08-12 16:10:49,657 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:49] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-74
+2023-08-12 16:10:49,664 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:49] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-73
+2023-08-12 16:10:49,675 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:49] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-75
+2023-08-12 16:10:49,687 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:49] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-76
+2023-08-12 16:10:49,730 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:49] "GET /_debug_toolbar/static/css/toolbar.css?0.5062904990216677 HTTP/1.1" 200 - : Thread-77
+2023-08-12 16:10:49,796 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:49] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-78
+2023-08-12 16:10:53,505 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:53] "GET /auth/login HTTP/1.1" 200 - : Thread-79
+2023-08-12 16:10:53,546 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:53] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-80
+2023-08-12 16:10:53,547 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:53] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-81
+2023-08-12 16:10:53,557 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:53] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-83
+2023-08-12 16:10:53,562 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:53] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-82
+2023-08-12 16:10:53,575 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:53] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-84
+2023-08-12 16:10:53,645 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:53] "GET /_debug_toolbar/static/css/toolbar.css?0.09346278792408325 HTTP/1.1" 200 - : Thread-85
+2023-08-12 16:10:53,727 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:10:53] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-86
+2023-08-12 16:11:07,203 app          INFO     Dashboard... : Thread-87
+2023-08-12 16:11:07,297 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:11:07] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-87
+2023-08-12 16:11:07,329 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:11:07] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-88
+2023-08-12 16:11:07,340 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:11:07] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-90
+2023-08-12 16:11:07,344 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:11:07] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-89
+2023-08-12 16:11:07,347 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:11:07] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-91
+2023-08-12 16:11:07,360 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:11:07] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-92
+2023-08-12 16:11:07,387 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:11:07] "GET /_debug_toolbar/static/css/toolbar.css?0.018114205147682028 HTTP/1.1" 200 - : Thread-93
+2023-08-12 16:11:07,429 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:11:07] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-94
+2023-08-12 16:16:31,728 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:31] "GET / HTTP/1.1" 200 - : Thread-95
+2023-08-12 16:16:31,835 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:31] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-96
+2023-08-12 16:16:31,846 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:31] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-97
+2023-08-12 16:16:31,866 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:31] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-98
+2023-08-12 16:16:31,885 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:31] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-99
+2023-08-12 16:16:31,903 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:31] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-100
+2023-08-12 16:16:31,923 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:31] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-101
+2023-08-12 16:16:31,999 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:31] "GET /_debug_toolbar/static/css/toolbar.css?0.23456826304887513 HTTP/1.1" 200 - : Thread-102
+2023-08-12 16:16:32,123 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:32] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-103
+2023-08-12 16:16:36,596 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET / HTTP/1.1" 200 - : Thread-104
+2023-08-12 16:16:36,639 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-105
+2023-08-12 16:16:36,653 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-106
+2023-08-12 16:16:36,679 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-107
+2023-08-12 16:16:36,721 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-108
+2023-08-12 16:16:36,750 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-109
+2023-08-12 16:16:36,781 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-110
+2023-08-12 16:16:36,862 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET /_debug_toolbar/static/css/toolbar.css?0.17539061557630942 HTTP/1.1" 200 - : Thread-111
+2023-08-12 16:16:36,890 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 16:16:36] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-112
+2023-08-12 19:13:46,332 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET / HTTP/1.1" 200 - : Thread-113
+2023-08-12 19:13:46,545 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-116
+2023-08-12 19:13:46,554 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-117
+2023-08-12 19:13:46,559 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-115
+2023-08-12 19:13:46,565 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-114
+2023-08-12 19:13:46,578 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-118
+2023-08-12 19:13:46,585 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-119
+2023-08-12 19:13:46,630 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET /_debug_toolbar/static/css/toolbar.css?0.8364238938229603 HTTP/1.1" 200 - : Thread-120
+2023-08-12 19:13:46,790 werkzeug     INFO     127.0.0.1 - - [12/Aug/2023 19:13:46] "GET /_debug_toolbar/static/img/tick.png HTTP/1.1" 200 - : Thread-121

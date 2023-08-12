@@ -1,7 +1,11 @@
 from flask import Blueprint
 import click
 
-bp = Blueprint("utils", __name__, cli_group="utils")
+bp = Blueprint(
+    "utils",
+    __name__,
+    cli_group="utils"
+)
 
 bp.cli.short_help = "App Utilities"
 

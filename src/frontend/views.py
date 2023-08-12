@@ -3,14 +3,19 @@ from app import cache
 from src.frontend.forms.contact import ContactForm
 
 
-bp = Blueprint("frontend", __name__, template_folder="../../templates/frontend", static_folder="../../static/frontend")
+bp = Blueprint(
+    "frontend",
+    __name__,
+    template_folder="../../templates/frontend",
+    static_folder="../../static/frontend"
+)
 
 
 # Frontend routes
 
 
 @bp.route("/")
-@cache.cached(timeout=60)
+@cache.cached(timeout=10)
 def main():
     form = ContactForm()
     return render_template(

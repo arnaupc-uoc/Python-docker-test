@@ -40,6 +40,7 @@ Fonts:
 https://tenpy.readthedocs.io/en/stable/intro/logging.html
 https://docs.python-guide.org/writing/logging/
 https://stackoverflow.com/questions/46466408/flask-properly-configure-logging
+https://stackoverflow.com/questions/68246462/how-could-the-value-of-current-user-be-inserted-into-error-logs-emails-when-usin
 
 
 
@@ -72,6 +73,48 @@ https://learnpython.com/blog/python-requirements-file/
 
 
 
+# Tests
+
+In general, testing helps ensure that your app will work as expected for your end users.
+
+The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing. 
+pytest will recursively search through your project structure to find the Python files that start with test_*.py
+pytest supports running Python unittest-based tests out of the box.
+
+pip3 install pytest
+
+To run the tests:
+python3 -m pytest -v --setup-show
+
+If you only want to run a specific type of test:
+python3 -m pytest tests/functional/
+
+When developing tests, it's nice to get an understanding of how much of the source code is actually tested (code coverage).
+python3 -m pytest --cov=project
+
+Fonts:
+https://testdriven.io/blog/flask-pytest/
+https://flask.palletsprojects.com/en/2.3.x/testing/
+
+--> In Python you should add self as the first parameter to all defined methods in classes.
+--> Python Ternary Operator: x = a if condition else b
+--> Python Null-coalescing Operator (Elvis Operator): other = s or "some default value"
+
+
+
+# Blueprints
+
+Used to organize our application into distinct components.
+A blueprint defines a collection of views, templates, static files and other elements that can be applied to an application.
+
+Fonts:
+https://hackersandslackers.com/flask-blueprints/
+https://hackersandslackers.com/flask-assets/
+https://github.com/hackersandslackers/flask-blueprint-tutorial/blob/master/flask_blueprint_tutorial/home/home.py
+https://flask.palletsprojects.com/es/latest/patterns/appfactories/
+
+
+
 # Templates Jinja2
 
 A Jinja template is simply a text file
@@ -79,27 +122,6 @@ A Jinja template is simply a text file
 https://jinja.palletsprojects.com/en/3.1.x/templates/
 https://atufashireen.medium.com/creating-templates-with-jinja-in-python-3ff3b87d6740
 
-
-
-# Set up Tailwind CSS with Flowbite inside a Flask project 
-
-Make sure that you have both Node.js and Python installed on your local machine.
-
-Flask-Assets helps you to integrate webassets into your Flask application:
-pip install Flask-Assets
-
-Tailwind CSS is notoriously dependent on Node.js, this dependency may not be welcome in your Docker container.
-Python package pytailwindcss lets you install the Tailwind CSS executable via pip, it runs a standalone Tailwind CSS build that doesn’t require Node.js to be installed:
-
-pip install pytailwindcss
-tailwindcss init
-tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --minify
-
-Fonts:
-https://testdriven.io/blog/flask-htmx-tailwind/
-https://flowbite.com/docs/getting-started/flask/
-https://timonweb.com/python/you-can-now-use-pip-to-install-tailwind-css-nodejs-is-no-longer-required/
-https://byby.dev/at-rule-tailwind
 
 
 
@@ -116,17 +138,6 @@ We can also use variables within makefiles, usually these would be stored in a s
 
 Fonts:
 https://www.saattrupdan.com/2022-08-28-makefu
-
-
-
-# Mail
-
-The Flask-Mail extension provides a simple interface to set up SMTP with your Flask application and to send messages from your views and scripts.
-
-pip3 install Flask-Mail
-
-Fonts:
-https://pythonhosted.org/Flask-Mail/
 
 
 
@@ -193,124 +204,10 @@ https://stackoverflow.com/questions/73247204/black-not-respecting-extend-exclude
 
 
 
-# User Control Access
-
-Flask-User is a Customizable User Authentication, User Management, and more.
-
-pip install Flask-User
-pip install email_validator
-
-World timezone definitions, modern and historical:
-pip install pytz
-
-Fonts:
-https://flask-user.readthedocs.io/en/latest/authorization.html
-
-
-
-## Flask-Limiter adds rate limiting to Flask applications.
-
-
-
-# Blueprints
-
-Used to organize our application into distinct components.
-A blueprint defines a collection of views, templates, static files and other elements that can be applied to an application.
-
-Fonts:
-https://hackersandslackers.com/flask-blueprints/
-https://hackersandslackers.com/flask-assets/
-https://github.com/hackersandslackers/flask-blueprint-tutorial/blob/master/flask_blueprint_tutorial/home/home.py
-https://flask.palletsprojects.com/es/latest/patterns/appfactories/
-
-
-
 # Middleware
 
 Middlewares are created in Flask by creating a decorator; a function can have multiple middlewares, and the order matters a lot.
 A decorator is a function that takes in another function as a parameter and then returns a function.
-
-
-
-# JWT Authentication
-
-Authentication verifies identity (usually through credential validation) while authorization grants or denies permissions to a user.
-Authorization is used to verify that a user has permission to do something.
-
-Inside thie decorator function, you check if there is an Authorization field in the headers, if this is missing you return an authorization error.
-
-pip install pyjwt
-
-Fonts:
-https://www.loginradius.com/blog/engineering/guest-post/securing-flask-api-with-jwt/
-https://www.geeksforgeeks.org/using-jwt-for-user-authentication-in-flask/
-https://circleci.com/blog/authentication-decorators-flask/
-https://circleci.com/blog/authentication-decorators-flask/
-https://4geeks.com/lesson/what-is-JWT-and-how-to-implement-with-Flask
-
-
-
-# Tests
-
-In general, testing helps ensure that your app will work as expected for your end users.
-
-The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing. 
-pytest will recursively search through your project structure to find the Python files that start with test_*.py
-pytest supports running Python unittest-based tests out of the box.
-
-pip3 install pytest
-
-To run the tests:
-python3 -m pytest -v --setup-show
-
-If you only want to run a specific type of test:
-python3 -m pytest tests/functional/
-
-When developing tests, it's nice to get an understanding of how much of the source code is actually tested (code coverage).
-python3 -m pytest --cov=project
-
-Fonts:
-https://testdriven.io/blog/flask-pytest/
-https://flask.palletsprojects.com/en/2.3.x/testing/
-
---> In Python you should add self as the first parameter to all defined methods in classes.
---> Python Ternary Operator: x = a if condition else b
---> Python Null-coalescing Operator (Elvis Operator): other = s or "some default value"
-
-
-
-# I11N
-
-pip install Flask-BabelEx
-pip install pytz
-
-
-
-# Docker Live Reload
-
---> DOCKER VOLUMES !!!
-
-
-
-# Flask RESTfull
-
---> Swagger Annotations
-
-
-
-# Flask Swagger
-
-API description formats like the OpenAPI/Swagger Specification have automated the documentation process, making it easier for teams to generate and maintain them.
-Swagger UI allows to visualize and interact with the API’s resources. 
-It’s automatically generated from your OpenAPI specification.
-
-
-Fonts:
-https://pypi.org/project/flask-swagger/
-https://code.likeagirl.io/swagger-and-postman-build-a-swagger-ui-for-your-python-flask-application-141bb4d0c203
-https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7
-https://developer.lsst.io/python/numpydoc.html
-https://developer.lsst.io/python/numpydoc.html#sections-in-method-and-function-docstring-sections
 
 
 
@@ -374,6 +271,96 @@ https://flask-cors.corydolphin.com/en/latest/api.html
 
 
 
+# User Control Access
+
+pip install Flask-Login
+
+Fonts:
+https://github.com/do-community/flask_auth_scotch/blob/master/project/auth.py
+https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login
+https://flask-login.readthedocs.io/en/latest/#how-it-works
+
+
+World timezone definitions, modern and historical:
+pip install pytz
+
+
+
+# JWT Authentication
+
+Authentication verifies identity (usually through credential validation) while authorization grants or denies permissions to a user.
+Authorization is used to verify that a user has permission to do something.
+
+Inside thie decorator function, you check if there is an Authorization field in the headers, if this is missing you return an authorization error.
+
+pip install pyjwt
+
+Fonts:
+https://www.loginradius.com/blog/engineering/guest-post/securing-flask-api-with-jwt/
+https://www.geeksforgeeks.org/using-jwt-for-user-authentication-in-flask/
+https://circleci.com/blog/authentication-decorators-flask/
+https://circleci.com/blog/authentication-decorators-flask/
+https://4geeks.com/lesson/what-is-JWT-and-how-to-implement-with-Flask
+
+
+
+# Set up Tailwind CSS with Flowbite inside a Flask project 
+
+Make sure that you have both Node.js and Python installed on your local machine.
+
+Flask-Assets helps you to integrate webassets into your Flask application:
+pip install Flask-Assets
+
+Tailwind CSS is notoriously dependent on Node.js, this dependency may not be welcome in your Docker container.
+Python package pytailwindcss lets you install the Tailwind CSS executable via pip, it runs a standalone Tailwind CSS build that doesn’t require Node.js to be installed:
+
+pip install pytailwindcss
+tailwindcss init
+tailwindcss -i ./static/src/main.css -o ./static/dist/main.css --minify
+
+Fonts:
+https://testdriven.io/blog/flask-htmx-tailwind/
+https://flowbite.com/docs/getting-started/flask/
+https://timonweb.com/python/you-can-now-use-pip-to-install-tailwind-css-nodejs-is-no-longer-required/
+https://byby.dev/at-rule-tailwind
+
+
+
+# I11N
+
+pip install Flask-BabelEx
+pip install pytz
+
+
+
+# Docker Live Reload
+
+--> DOCKER VOLUMES !!!
+
+
+
+# Flask RESTfull
+
+--> Swagger Annotations
+
+
+
+# Flask Swagger
+
+API description formats like the OpenAPI/Swagger Specification have automated the documentation process, making it easier for teams to generate and maintain them.
+Swagger UI allows to visualize and interact with the API’s resources. 
+It’s automatically generated from your OpenAPI specification.
+
+
+Fonts:
+https://pypi.org/project/flask-swagger/
+https://code.likeagirl.io/swagger-and-postman-build-a-swagger-ui-for-your-python-flask-application-141bb4d0c203
+https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7
+https://developer.lsst.io/python/numpydoc.html
+https://developer.lsst.io/python/numpydoc.html#sections-in-method-and-function-docstring-sections
+
+
+
 # Flask-Caching
 
 pip install Flask-Caching
@@ -425,3 +412,12 @@ Flask-Session
 Flask-SocketIO
 
 
+
+# Mail
+
+The Flask-Mail extension provides a simple interface to set up SMTP with your Flask application and to send messages from your views and scripts.
+
+pip3 install Flask-Mail
+
+Fonts:
+https://pythonhosted.org/Flask-Mail/

@@ -9,6 +9,7 @@ from flask_debugtoolbar import DebugToolbarExtension
 from flask_cors import CORS
 from flask_caching import Cache
 from flask_wtf.csrf import CSRFProtect
+from flask_login import LoginManager
 import json
 import src.logging
 
@@ -23,6 +24,7 @@ debug_toolbar = DebugToolbarExtension()  # set debug toolbar object global
 csrf = CSRFProtect()  # set csrf object global
 cache = Cache()  # set cache object global
 assets = Environment()  # set assets object global
+login_manager = LoginManager()  # set login manager object global
 
 # Create Flask application
 
@@ -41,6 +43,15 @@ def create_app():
     debug_toolbar.init_app(app)  # set debug toolbar
     csrf.init_app(app)  # set csrf
     cache.init_app(app)  # set cache
+
+    login_manager.init_app(app)  # set login manager
+    login_manager.login_view = 'auth.login'
+    
+    from src.models import User
+    @login_manager.user_loader
+    def load_user(user_id):
+        # since the user_id is just the primary key of our user table, use it in the query for the user
+        return User.query.get(int(user_id))
 
     assets.init_app(app)  # set assets
 
@@ -85,6 +96,10 @@ def create_app():
                 return jsonify(json.load(f))
 
         # Import parts of our application
+
+        # Frontend register
+        from src.auth.views import bp as auth
+        app.register_blueprint(auth)
 
         # Frontend register
         from src.frontend.views import bp as front

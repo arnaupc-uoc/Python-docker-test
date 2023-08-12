@@ -8,12 +8,12 @@
         <a href="{{ url_for('admin.get_token') }}" target="_blank">API Token</a><br>
         <a href="{{ url_for('admin.clear_cache') }}" target="_blank">Clear Cache</a><br>
         <a href="{{ url_for('admin.test_logs') }}" target="_blank">Test Logs</a><br>
-        <!-- <a href="/admin/login">Login</a><br>
-        <a href="/admin/logout">Logout</a><br> -->
         <a href="{{ url_for('admin.users.users') }}">Users</a><br>
         <a href="{{ url_for('admin.users.user_new') }}">New User</a><br>
         <a href="{{ url_for('admin.posts.posts') }}">Posts</a><br>
         <a href="{{ url_for('admin.posts.post_new') }}">New Post</a><br>
+        <a href="{{ url_for('auth.login') }}">Login</a><br>
+        <a href="{{ url_for('auth.logout') }}">Logout</a><br>
     </div>
 </div>
 {% endblock %}

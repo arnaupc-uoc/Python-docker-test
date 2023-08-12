@@ -5,7 +5,11 @@ import jwt
 import os
 from app import db
 
-bp = Blueprint("api", __name__, url_prefix="/api")
+bp = Blueprint(
+    "api",
+    __name__,
+    url_prefix="/api"
+)
 
 
 # API Endpoints
