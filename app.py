@@ -49,7 +49,7 @@ def create_app():
     with app.app_context():
 
         # create/use database
-        
+    
         db.create_all()
 
         # set user manager
@@ -59,7 +59,7 @@ def create_app():
 
         from src.models import User
 
-        @login_manager.user_loader
+        @login_manager.user_loader  # Flask-Login calls this function to retrieve a User
         def load_user(user_id):
             # query for the user
             return User.query.get(int(user_id))
@@ -126,4 +126,4 @@ def create_app():
 
         compile_static_assets(assets)
 
-    return app
+        return app

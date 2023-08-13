@@ -6,7 +6,7 @@ import jwt
 
 def token_required(f):
     @wraps(f)
-    def decorated(*args, **kwargs):
+    def decorator(*args, **kwargs):
         token = None
         if "Authorization" in request.headers:
             token = request.headers["Authorization"]
@@ -24,4 +24,4 @@ def token_required(f):
 
         return f(token_user, *args, **kwargs)
 
-    return decorated
+    return decorator

@@ -31,6 +31,7 @@ def main():
 
 
 @bp.route("/dashboard")
+@login_required
 # @cache.cached(timeout=5)
 def dashboard():
     app.logger.info("Dashboard...")

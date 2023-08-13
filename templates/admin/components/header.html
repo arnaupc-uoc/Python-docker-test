@@ -4,4 +4,7 @@
     <div class="md:container md:mx-auto px-4 py-4">
         Admin header <a href="{{ url_for('admin.dashboard') }}">Dashboard</a><br>
         {{ current_user.email }}
+        {% for role in current_user.roles %}
+            {{ role.name }}
+        {% endfor %}
 </div>

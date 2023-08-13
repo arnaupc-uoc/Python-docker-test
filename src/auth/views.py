@@ -32,13 +32,12 @@ def login_post():
         remember = True if request.form.get('remember') else False
 
         # check if the user actually exists
-        user = User.query.filter_by(email=email).first()
+        user = User.query.filter_by(email=email, active=1).first()
         if not user or not check_password_hash(user.password, password):
             flash('Please check your login details and try again.')
             return redirect(url_for('auth.login'))
-        
+
         login_user(user, remember=remember)
-        print(user)
         return redirect(url_for("admin.dashboard"))
 
     else:
