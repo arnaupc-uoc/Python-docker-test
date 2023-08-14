@@ -25,7 +25,31 @@ csrf = CSRFProtect()  # set csrf object global
 cache = Cache()  # set cache object global
 assets = Environment()  # set assets object global
 login_manager = LoginManager()  # set login manager object global
-swagger = Swagger()  # set swagger object global
+
+
+# set up swagger
+template = {
+    "swagger": "2.0",
+    "info": {
+        "title": "My API",
+        "description": "API for my data",
+        "contact": {
+            "responsibleOrganization": "ME",
+            "responsibleDeveloper": "Me",
+            "email": "me@me.com",
+            "url": "www.me.com",
+        },
+        "termsOfService": "http://me.com/terms",
+        "version": "0.0.1"
+    },
+    "host": "127.0.0.1:5000",  # overrides localhost:500
+    "basePath": "/api",  # base bash for blueprint registration
+    "schemes": [
+        "http"
+    ],
+}
+
+swagger = Swagger(template=template)  # set swagger object global
 
 # Create Flask application
 
@@ -48,7 +72,7 @@ def create_app():
     with app.app_context():
 
         # create/use database
-    
+
         db.create_all()
 
         # set up login manager
@@ -65,8 +89,6 @@ def create_app():
             return User.query.get(int(user_id))
 
         assets.init_app(app)  # set assets
-
-        # set up swagger
 
         swagger.init_app(app)  # set swagger
 
