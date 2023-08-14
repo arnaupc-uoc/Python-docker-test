@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 from src.admin.users import bp as users
 from src.admin.posts import bp as posts
 from flask_login import login_required, current_user
-from middleware.user_auth import roles_required, roles_accepted
+from middleware.user_auth import roles_required
 from werkzeug.security import generate_password_hash
 
 
@@ -108,18 +108,18 @@ bp.register_blueprint(posts)
 # Error handlers, custom pages
 
 @bp.errorhandler(401)
-def auth_error(e):
+def unauthorized(e):
     # note that we set the 404 status explicitly
     return render_template("admin/error.html", code="401", msg="User not authenticated."), 401
 
 
 @bp.errorhandler(403)
-def privileges_error(e):
+def forbidden(e):
     # note that we set the 404 status explicitly
     return render_template("admin/error.html", code="403", msg="You don't have permissions."), 403
 
 
 @bp.errorhandler(404)
-def page_not_found(e):
+def not_found(e):
     # note that we set the 404 status explicitly
     return render_template("admin/error.html", code="404", msg="Page not found."), 404

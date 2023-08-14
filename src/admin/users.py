@@ -14,7 +14,6 @@ def users():
     # get all users
     query = db.select(User).order_by(User.username)
     users = db.session.execute(query).scalars()
-    # app.logger.info('%s logged in successfully', current_user.username)
 
     return render_template("admin/user/list.html", models=users)
 

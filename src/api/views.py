@@ -17,12 +17,12 @@ bp = Blueprint(
 
 @bp.route("/hi", methods=["GET"])
 def say_hello():
-    """Returns hello from flask.
-
-    Returns
-    -------
-    metadata : `lsst.pipe.base.Struct`
-        The metadata.
+    """Example endpoint returning a welcome message.
+    This is using docstrings for specifications.
+    ---
+    responses:
+      200:
+        description: A JSON object containing a welcome message.
     """
     return jsonify({"msg": "Hello from Flask."})
 

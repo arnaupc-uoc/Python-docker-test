@@ -23,15 +23,17 @@ class User(UserMixin, db.Model):
     roles = db.relationship("Role", secondary="user_roles")
 
     # Methods
-    def get_roles(self):
+    def role_names(self):
         roles = self.roles
         list_roles = []
         for role in roles:
             list_roles.append(role.name)
+
         return list_roles
+        
 
     def has_roles(self, *requirements):
-        role_names = self.get_roles()
+        role_names = self.role_names()
         for requirement in requirements:
             if isinstance(requirement, (list, tuple)):
                 # this is a tuple_of_role_names requirement

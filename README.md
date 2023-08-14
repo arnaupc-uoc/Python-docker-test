@@ -124,7 +124,6 @@ https://atufashireen.medium.com/creating-templates-with-jinja-in-python-3ff3b87d
 
 
 
-
 # Makefile
 
 JS developers are lucky, their package.json has a special scripts section.
@@ -306,6 +305,21 @@ https://4geeks.com/lesson/what-is-JWT-and-how-to-implement-with-Flask
 
 
 
+# API Documentation - Flask Swagger
+
+API description formats like the OpenAPI Specification have automated the documentation process, making it easier for teams to generate and maintain them.
+Swagger UI allows to visualize and interact with the API’s resources. 
+It’s automatically generated from your OpenAPI specification.
+
+
+Fonts:
+https://code.likeagirl.io/swagger-and-postman-build-a-swagger-ui-for-your-python-flask-application-141bb4d0c203
+https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7
+https://developer.lsst.io/python/numpydoc.html
+https://developer.lsst.io/python/numpydoc.html#sections-in-method-and-function-docstring-sections
+
+
+
 # Set up Tailwind CSS with Flowbite inside a Flask project 
 
 Make sure that you have both Node.js and Python installed on your local machine.
@@ -338,28 +352,6 @@ pip install pytz
 # Docker Live Reload
 
 --> DOCKER VOLUMES !!!
-
-
-
-# Flask RESTfull
-
---> Swagger Annotations
-
-
-
-# Flask Swagger
-
-API description formats like the OpenAPI/Swagger Specification have automated the documentation process, making it easier for teams to generate and maintain them.
-Swagger UI allows to visualize and interact with the API’s resources. 
-It’s automatically generated from your OpenAPI specification.
-
-
-Fonts:
-https://pypi.org/project/flask-swagger/
-https://code.likeagirl.io/swagger-and-postman-build-a-swagger-ui-for-your-python-flask-application-141bb4d0c203
-https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7
-https://developer.lsst.io/python/numpydoc.html
-https://developer.lsst.io/python/numpydoc.html#sections-in-method-and-function-docstring-sections
 
 
 

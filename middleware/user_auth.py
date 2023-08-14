@@ -3,6 +3,9 @@ from flask import abort, current_app as app, redirect, url_for
 from flask_login import current_user
 
 
+# roles_required would call has_roles(*role_names): ('A', 'B') --> ('A', 'B')
+# but roles_accepted must call has_roles(role_names):  ('A', 'B') --< (('A', 'B'),)
+
 def roles_accepted(*role_names):
     # ensures the current user is logged and has *at least one* of the specified roles
     def wrapper(f):

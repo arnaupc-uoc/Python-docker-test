@@ -1,15 +1,15 @@
-from flask import Flask, jsonify
+from flask import Flask
 from flask_assets import Environment
 from flask_babelex import Babel
 from flask_mail import Mail
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
-from flask_swagger_ui import get_swaggerui_blueprint
 from flask_debugtoolbar import DebugToolbarExtension
 from flask_cors import CORS
 from flask_caching import Cache
 from flask_wtf.csrf import CSRFProtect
 from flask_login import LoginManager
+from flasgger import Swagger
 import json
 import src.logging
 
@@ -25,6 +25,7 @@ csrf = CSRFProtect()  # set csrf object global
 cache = Cache()  # set cache object global
 assets = Environment()  # set assets object global
 login_manager = LoginManager()  # set login manager object global
+swagger = Swagger()  # set swagger object global
 
 # Create Flask application
 
@@ -44,16 +45,15 @@ def create_app():
     csrf.init_app(app)  # set csrf
     cache.init_app(app)  # set cache
 
-    login_manager.init_app(app)  # set login manager
-
     with app.app_context():
 
         # create/use database
     
         db.create_all()
 
-        # set user manager
+        # set up login manager
 
+        login_manager.init_app(app)  # set login manager
         login_manager.login_view = "auth.login"
         login_manager.session_protection = "strong"
 
@@ -66,36 +66,9 @@ def create_app():
 
         assets.init_app(app)  # set assets
 
-        # Swagger
+        # set up swagger
 
-        SWAGGER_URL = "/api/docs"  # URL for exposing Swagger UI (without trailing '/')
-        API_URL = ""  # Our API url (can of course be a local resource)
-
-        # Call factory function to create our blueprint
-        swaggerui_blueprint = get_swaggerui_blueprint(
-            SWAGGER_URL,  # Swagger UI static files will be mapped to '{SWAGGER_URL}/dist/'
-            API_URL,
-            config={  # Swagger UI config overrides
-                "app_name": "Test application",
-                "swagger": "2.0",
-                "info": {
-                    "title": "Sample API",
-                    "description": "A sample API that demonstrates how to use Flask-SwaggerUI.",
-                    "version": "1.0",
-                },
-                "basePath": "/api",
-                "schemes": ["http"],
-                "consumes": ["application/json"],
-                "produces": ["application/json"],
-            },
-        )
-
-        app.register_blueprint(swaggerui_blueprint)
-
-        @app.route("/swagger.json")
-        def swagger():
-            with open("swagger.json", "r") as f:
-                return jsonify(json.load(f))
+        swagger.init_app(app)  # set swagger
 
         # Import parts of our application
 
