@@ -1,26 +1,22 @@
 from functools import wraps
-from flask import request, abort, current_app as app
+from flask import abort, current_app as app, redirect, url_for
 from flask_login import current_user
-from src.models import User
 
 
 def roles_accepted(*role_names):
-    # ensures the current user is logged and has *at least one* of the specified roles (OR operation)
+    # ensures the current user is logged and has *at least one* of the specified roles
     def wrapper(f):
-        @wraps(f)    # Tells debuggers that is is a function wrapper
+        @wraps(f)
         def decorator(*args, **kwargs):
-            user_manager = app.user_manager
+            login_manager = app.login_manager
 
             # User must be logged
-            allowed = _is_logged_in_with_confirmed_email(user_manager)
-            if not allowed:
-                # Redirect to unauthenticated page
-                return user_manager.unauthenticated_view()
+            if not current_user.is_authenticated:
+                return redirect(url_for(login_manager.login_view))
 
             # User must have the required roles
             if not current_user.has_roles(role_names):
-                # Redirect to the unauthorized page
-                return user_manager.unauthorized_view()
+                abort(403)
 
             # It's OK to call the view
             return f(*args, **kwargs)
@@ -31,22 +27,19 @@ def roles_accepted(*role_names):
 
 
 def roles_required(*role_names):
-    # ensures the current user is logged and has *all* of the specified roles (OR operation)
+    # ensures the current user is logged and has *all* of the specified roles
     def wrapper(f):
         @wraps(f)
         def decorator(*args, **kwargs):
-            user_manager = app.user_manager
+            login_manager = app.login_manager
 
-            # User must be logged in with a confirmed email address
-            allowed = _is_logged_in_with_confirmed_email(user_manager)
-            if not allowed:
-                # Redirect to unauthenticated page
-                return user_manager.unauthenticated_view()
+            # User must be logged
+            if not current_user.is_authenticated:
+                return redirect(url_for(login_manager.login_view))
 
             # User must have the required roles
             if not current_user.has_roles(*role_names):
-                # Redirect to the unauthorized page
-                return user_manager.unauthorized_view()
+                abort(403)
 
             # It's OK to call the view
             return f(*args, **kwargs)

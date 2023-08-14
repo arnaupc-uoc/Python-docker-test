@@ -22,6 +22,37 @@ class User(UserMixin, db.Model):
     # Relationships
     roles = db.relationship("Role", secondary="user_roles")
 
+    # Methods
+    def get_roles(self):
+        roles = self.roles
+        list_roles = []
+        for role in roles:
+            list_roles.append(role.name)
+        return list_roles
+
+    def has_roles(self, *requirements):
+        role_names = self.get_roles()
+        for requirement in requirements:
+            if isinstance(requirement, (list, tuple)):
+                # this is a tuple_of_role_names requirement
+                tuple_of_role_names = requirement
+                authorized = False
+                for role_name in tuple_of_role_names:
+                    if role_name in role_names:
+                        # tuple_of_role_names requirement was met: break out of loop
+                        authorized = True
+                        break
+                if not authorized:
+                    return False  # tuple_of_role_names requirement failed: return False
+            else:
+                # this is a role_name requirement
+                role_name = requirement
+                # the user must have this role
+                if role_name not in role_names:
+                    return False
+
+        return True
+
 
 # Define the Role data-model
 class Role(db.Model):

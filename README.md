@@ -280,6 +280,7 @@ https://github.com/do-community/flask_auth_scotch/blob/master/project/auth.py
 https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login
 https://flask-login.readthedocs.io/en/latest/#how-it-works
 https://github.com/toddbirchard/flasklogin-tutorial/tree/master/flask_login_tutorial
+https://github.com/lingthio/Flask-User/blob/master/flask_user
 
 
 World timezone definitions, modern and historical:

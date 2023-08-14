@@ -14,11 +14,9 @@ def token_required(f):
             return {"message": "Authentication Token is missing!", "data": None, "error": "Unauthorized"}, 401
         try:
             data = jwt.decode(token, app.config["SECRET_KEY"], algorithms=["HS256"])
-            token_user = User.query.get(data["id"])
+            token_user = User.filter_by(id=data["id"], active=1).first()
             if token_user is None:
                 return {"message": "Invalid Authentication token!", "data": None, "error": "Unauthorized"}, 401
-            if not token_user.active:
-                abort(403)
         except Exception as e:
             return {"message": "Something went wrong", "data": None, "error": str(e)}, 500
 

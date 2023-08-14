@@ -6,6 +6,7 @@ from datetime import datetime, timezone, timedelta
 from src.admin.users import bp as users
 from src.admin.posts import bp as posts
 from flask_login import login_required, current_user
+from middleware.user_auth import roles_required, roles_accepted
 from werkzeug.security import generate_password_hash
 
 
@@ -32,13 +33,14 @@ def main():
 
 @bp.route("/dashboard")
 @login_required
-# @cache.cached(timeout=5)
+@cache.cached(timeout=5)
 def dashboard():
     app.logger.info("Dashboard...")
     return render_template("admin/dashboard.html")
 
 
 @bp.route("/get-token", methods=["GET"])
+@roles_required("Admin")
 def get_token():
     # generate the JWT Token
     token = jwt.encode(
@@ -103,10 +105,21 @@ bp.register_blueprint(users)
 bp.register_blueprint(posts)
 
 
-# Error handlers
+# Error handlers, custom pages
+
+@bp.errorhandler(401)
+def auth_error(e):
+    # note that we set the 404 status explicitly
+    return render_template("admin/error.html", code="401", msg="User not authenticated."), 401
+
+
+@bp.errorhandler(403)
+def privileges_error(e):
+    # note that we set the 404 status explicitly
+    return render_template("admin/error.html", code="403", msg="You don't have permissions."), 403
 
 
 @bp.errorhandler(404)
 def page_not_found(e):
     # note that we set the 404 status explicitly
-    return render_template("admin/error.html"), 404  # need folder
+    return render_template("admin/error.html", code="404", msg="Page not found."), 404
