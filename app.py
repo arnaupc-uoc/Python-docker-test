@@ -8,7 +8,7 @@ from flask_debugtoolbar import DebugToolbarExtension
 from flask_cors import CORS
 from flask_caching import Cache
 from flask_wtf.csrf import CSRFProtect
-from flask_login import LoginManager
+from flask_login import LoginManager, login_required
 from flasgger import Swagger
 import json
 import src.logging
@@ -47,9 +47,22 @@ template = {
     "schemes": [
         "http"
     ],
+    "securityDefinitions": {
+        "ApiKeyAuth": {
+            "type": "apiKey",
+            "in": "header",
+            "name": "Authorization",
+            "description": "JWT Authorization header. Example: \"Authorization: {token}\""
+        }
+    },
+    "security": [
+        {
+            "ApiKeyAuth": []
+        }
+    ],
 }
 
-swagger = Swagger(template=template)  # set swagger object global
+swagger = Swagger(template=template, decorators=[login_required])  # set swagger object global
 
 # Create Flask application
 

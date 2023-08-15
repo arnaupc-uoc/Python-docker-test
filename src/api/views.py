@@ -20,6 +20,8 @@ def say_hello():
     """Example endpoint returning a welcome message.
     This is using docstrings for specifications.
     ---
+    tags:
+        - Example
     responses:
       200:
         description: A JSON object containing a welcome message.
@@ -38,6 +40,14 @@ def decode_token():
 @bp.route("/check-token", methods=["GET"])
 @token_required
 def check_token(token_user):
+    """Endpoint to check user token provided.
+    ---
+    tags:
+        - Example
+    responses:
+      200:
+        description: A JSON object containing a success message.
+    """
     return jsonify({"msg": "Token is valid."})
 
 

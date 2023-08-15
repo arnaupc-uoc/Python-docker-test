@@ -309,7 +309,7 @@ https://4geeks.com/lesson/what-is-JWT-and-how-to-implement-with-Flask
 
 API description formats like the OpenAPI Specification have automated the documentation process, making it easier for teams to generate and maintain them.
 Swagger UI allows to visualize and interact with the API’s resources. 
-It’s automatically generated from your OpenAPI specification.
+It’s automatically generated from your OpenAPI specification (using docstrings).
 
 
 Fonts:
@@ -317,6 +317,9 @@ https://code.likeagirl.io/swagger-and-postman-build-a-swagger-ui-for-your-python
 https://diptochakrabarty.medium.com/flask-python-swagger-for-rest-apis-6efdf0100bd7
 https://developer.lsst.io/python/numpydoc.html
 https://developer.lsst.io/python/numpydoc.html#sections-in-method-and-function-docstring-sections
+https://stackoverflow.com/questions/62049028/flasgger-add-bearer-authorization
+http://flasgger.pythonanywhere.com
+
 
 
 
