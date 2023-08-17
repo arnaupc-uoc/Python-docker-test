@@ -1,0 +1,9 @@
+/* static/src/main.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#flDebug, #flDebug * {
+    overflow-y: auto;
+}

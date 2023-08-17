@@ -30,9 +30,10 @@ login_manager = LoginManager()  # set login manager object global
 # set up swagger
 template = {
     "swagger": "2.0",
+    "title": "API Docs | Swagger",
     "info": {
-        "title": "My API",
-        "description": "API for my data",
+        "title": "Demo API",
+        "description": "API for demo data",
         "contact": {
             "responsibleOrganization": "ME",
             "responsibleDeveloper": "Me",
@@ -40,7 +41,8 @@ template = {
             "url": "www.me.com",
         },
         "termsOfService": "http://me.com/terms",
-        "version": "0.0.1"
+        "version": "0.0.1",
+
     },
     "host": "127.0.0.1:5000",  # overrides localhost:500
     "basePath": "/api",  # base bash for blueprint registration
@@ -62,7 +64,14 @@ template = {
     ],
 }
 
-swagger = Swagger(template=template, decorators=[login_required])  # set swagger object global
+# "explorer": False
+# "persistAuthorization": True
+
+swagger_config = {
+    "title": "API Docs | Swagger"
+}
+
+swagger = Swagger(config=swagger_config, template=template, decorators=[login_required], merge=True)  # set swagger object global
 
 # Create Flask application
 

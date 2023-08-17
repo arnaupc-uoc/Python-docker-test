@@ -1,6 +1,7 @@
 .env
 venv
-static
+static/css
+static/js
 .webassets-cache/
 .pytest_cache/
 .cache/

@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, render_template
 from src.models import User
 from middleware.token_auth import token_required
 import jwt
@@ -13,6 +13,13 @@ bp = Blueprint(
 
 
 # API Endpoints
+
+
+@bp.route("/docs")
+def docs():
+    return render_template(
+        "flasgger/index.html",
+    )
 
 
 @bp.route("/hi", methods=["GET"])

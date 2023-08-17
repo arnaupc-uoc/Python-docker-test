@@ -1,0 +1,1052 @@
+2023-08-15 11:03:00,045 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:03:03,395 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:03:03,424 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:03:09,954 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:09] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:03:10,258 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:03:10,261 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:03:10,265 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:03:10,273 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:03:10,274 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:03:10,278 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:03:10,281 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:03:10,563 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /_debug_toolbar/static/css/toolbar.css?0.23134868289038668 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:03:10,760 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:03:10,772 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:03:10] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:07:59,416 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:08:02,138 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:08:02,149 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:08:18,495 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:09:24,661 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:09:24,715 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:09:25,294 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:09:25,416 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:09:25,419 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:09:25,433 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:09:25,435 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:09:25,437 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:09:25,447 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:09:25,448 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:09:25,831 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /_debug_toolbar/static/css/toolbar.css?0.3927170914186152 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:09:25,999 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:25] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:09:26,013 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:26] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:09:39,219 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:09:39] "GET /api/check-token HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:12:10,218 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/api/views.py', reloading : MainThread
+2023-08-15 11:12:12,718 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:12:12,729 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:12:13,036 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:12:13,147 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:12:13,147 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:12:13,148 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:12:13,155 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:12:13,156 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:12:13,157 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:12:13,165 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:12:13,437 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /_debug_toolbar/static/css/toolbar.css?0.27723716135433385 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:12:13,652 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:12:13,657 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:13] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:12:24,304 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:12:24] "[31m[1mGET /api/check-token HTTP/1.1[0m" 401 - : Thread-13
+2023-08-15 11:13:02,275 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:13:02] "[31m[1mGET /api/check-token HTTP/1.1[0m" 401 - : Thread-14
+2023-08-15 11:13:12,209 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:13:12] "[31m[1mGET /api/check-token HTTP/1.1[0m" 401 - : Thread-15
+2023-08-15 11:13:15,567 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:13:15] "[31m[1mGET /api/check-token HTTP/1.1[0m" 401 - : Thread-16
+2023-08-15 11:15:25,933 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:19:38,702 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:19:38,712 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:19:39,003 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:19:39,066 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:19:39,074 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:19:39,077 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:19:39,080 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:19:39,083 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:19:39,084 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:19:39,089 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:19:39,390 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /_debug_toolbar/static/css/toolbar.css?0.5240495641368534 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:19:39,638 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:19:39,639 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:39] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:19:49,010 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "[32mGET /auth/logout HTTP/1.1[0m" 302 - : Thread-13
+2023-08-15 11:19:49,125 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "GET /auth/login HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:19:49,139 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "[36mGET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1[0m" 304 - : Thread-15
+2023-08-15 11:19:49,149 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 - : Thread-17
+2023-08-15 11:19:49,187 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 - : Thread-19
+2023-08-15 11:19:49,203 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "[36mGET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1[0m" 304 - : Thread-20
+2023-08-15 11:19:49,207 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 - : Thread-16
+2023-08-15 11:19:49,210 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 - : Thread-18
+2023-08-15 11:19:49,273 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-21
+2023-08-15 11:19:49,298 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-23
+2023-08-15 11:19:49,309 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-22
+2023-08-15 11:19:49,360 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "GET /_debug_toolbar/static/css/toolbar.css?0.2808713808047437 HTTP/1.1" 200 - : Thread-24
+2023-08-15 11:19:49,480 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-25
+2023-08-15 11:19:49,632 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - : Thread-26
+2023-08-15 11:19:52,056 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "[32mGET /apidocs/ HTTP/1.1[0m" 302 - : Thread-27
+2023-08-15 11:19:52,122 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "GET /auth/login?next=/apidocs/ HTTP/1.1" 200 - : Thread-28
+2023-08-15 11:19:52,149 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-29
+2023-08-15 11:19:52,156 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-30
+2023-08-15 11:19:52,167 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-31
+2023-08-15 11:19:52,168 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-32
+2023-08-15 11:19:52,169 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-33
+2023-08-15 11:19:52,196 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "GET /_debug_toolbar/static/css/toolbar.css?0.6246347140556441 HTTP/1.1" 200 - : Thread-34
+2023-08-15 11:19:52,222 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:52] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-35
+2023-08-15 11:19:55,410 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-36
+2023-08-15 11:19:55,427 app          INFO     Dashboard... : Thread-37
+2023-08-15 11:19:55,656 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-37
+2023-08-15 11:19:55,732 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-39
+2023-08-15 11:19:55,740 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-38
+2023-08-15 11:19:55,750 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-41
+2023-08-15 11:19:55,750 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-40
+2023-08-15 11:19:55,767 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-42
+2023-08-15 11:19:55,775 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "GET /_debug_toolbar/static/css/toolbar.css?0.8836877534695348 HTTP/1.1" 200 - : Thread-43
+2023-08-15 11:19:55,834 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:19:55] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-44
+2023-08-15 11:27:22,606 app          INFO     Dashboard... : Thread-45
+2023-08-15 11:27:22,702 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:22] "[35m[1mGET /admin/dashboard HTTP/1.1[0m" 500 - : Thread-45
+2023-08-15 11:27:22,742 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:22] "GET /admin/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - : Thread-46
+2023-08-15 11:27:22,742 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:22] "GET /admin/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-47
+2023-08-15 11:27:22,756 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:22] "GET /admin/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - : Thread-48
+2023-08-15 11:27:38,764 app          INFO     Dashboard... : Thread-49
+2023-08-15 11:27:38,895 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:38] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-49
+2023-08-15 11:27:38,922 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:38] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-50
+2023-08-15 11:27:38,931 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:38] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-51
+2023-08-15 11:27:38,941 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:38] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-52
+2023-08-15 11:27:38,944 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:38] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-53
+2023-08-15 11:27:38,949 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:38] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-54
+2023-08-15 11:27:38,980 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:38] "GET /_debug_toolbar/static/css/toolbar.css?0.49957113525496233 HTTP/1.1" 200 - : Thread-55
+2023-08-15 11:27:39,017 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:39] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-56
+2023-08-15 11:27:41,561 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /apidocs/ HTTP/1.1" 200 - : Thread-57
+2023-08-15 11:27:41,614 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-58
+2023-08-15 11:27:41,621 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-59
+2023-08-15 11:27:41,634 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-60
+2023-08-15 11:27:41,643 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-62
+2023-08-15 11:27:41,645 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-61
+2023-08-15 11:27:41,654 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-63
+2023-08-15 11:27:41,670 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-64
+2023-08-15 11:27:41,999 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:41] "GET /_debug_toolbar/static/css/toolbar.css?0.7661077618755499 HTTP/1.1" 200 - : Thread-65
+2023-08-15 11:27:42,119 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:42] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-66
+2023-08-15 11:27:42,125 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:27:42] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-67
+2023-08-15 11:29:57,863 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:30:00,245 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:30:00,253 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:30:23,995 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:23] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:30:24,052 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:30:24,055 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:30:24,080 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:30:24,082 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:30:24,083 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:30:24,084 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:30:24,098 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:30:24,323 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /_debug_toolbar/static/css/toolbar.css?0.5376709053034332 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:30:24,482 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:30:24,485 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:30:24] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:31:06,822 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:06] "GET /apidocs/ HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:31:06,878 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:06] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:31:06,886 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:06] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:31:06,891 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:06] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 11:31:06,895 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:06] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 11:31:06,899 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:06] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 11:31:06,907 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:06] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 11:31:06,908 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:06] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 11:31:07,073 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:07] "GET /_debug_toolbar/static/css/toolbar.css?0.23490593954338534 HTTP/1.1" 200 - : Thread-21
+2023-08-15 11:31:07,209 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:07] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-22
+2023-08-15 11:31:07,210 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:07] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-23
+2023-08-15 11:31:25,538 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:25] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-25
+2023-08-15 11:31:25,541 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:25] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-24
+2023-08-15 11:31:25,546 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:31:25] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-26
+2023-08-15 11:32:42,617 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:32:45,444 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:32:45,461 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:32:45,872 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:45] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:32:46,010 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:32:46,010 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:32:46,053 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:32:46,055 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:32:46,059 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:32:46,062 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:32:46,084 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:32:46,368 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:32:46,378 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:32:46,382 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:32:46,392 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:32:46,456 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /_debug_toolbar/static/css/toolbar.css?0.05415677171238886 HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:32:46,884 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:32:46,892 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:32:46] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-16
+2023-08-15 11:33:04,884 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:04] "GET /api/hi HTTP/1.1" 200 - : Thread-17
+2023-08-15 11:33:27,618 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:33:29,756 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:33:29,763 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:33:37,163 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:33:37,262 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:33:37,262 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:33:37,270 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:33:37,292 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:33:37,294 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:33:37,294 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:33:37,303 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:33:37,338 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:33:37,415 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /_debug_toolbar/static/css/toolbar.css?0.8135408657640596 HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:33:37,484 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:33:37,504 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:33:37,569 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:33:37,570 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:33:37] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:35:18,960 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:35:21,633 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:35:21,642 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:35:22,799 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:22] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:35:22,904 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:22] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:35:22,905 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:22] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:35:22,912 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:22] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:35:22,916 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:22] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:35:22,922 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:22] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:35:22,927 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:22] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:35:22,937 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:22] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:35:23,054 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:23] "GET /_debug_toolbar/static/css/toolbar.css?0.615395457063094 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:35:23,142 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:23] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:35:23,146 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:23] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:35:23,153 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:23] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:35:23,235 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:23] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:35:23,255 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:35:23] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:40:31,963 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:40:34,389 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:40:34,401 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:40:35,388 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:40:35,499 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:40:35,501 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:40:35,523 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:40:35,524 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:40:35,537 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:40:35,544 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:40:35,546 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:40:35,602 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:40:35,826 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /_debug_toolbar/static/css/toolbar.css?0.4669420500821012 HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:40:35,963 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:40:35,967 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:35] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:40:36,058 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:36] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:40:36,155 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:36] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:40:59,109 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /apidocs/ HTTP/1.1" 200 - : Thread-16
+2023-08-15 11:40:59,171 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-17
+2023-08-15 11:40:59,188 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 11:40:59,191 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 11:40:59,202 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-21
+2023-08-15 11:40:59,204 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 11:40:59,222 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-22
+2023-08-15 11:40:59,228 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-23
+2023-08-15 11:40:59,298 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-24
+2023-08-15 11:40:59,386 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /_debug_toolbar/static/css/toolbar.css?0.9034367397174408 HTTP/1.1" 200 - : Thread-25
+2023-08-15 11:40:59,421 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-26
+2023-08-15 11:40:59,459 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-27
+2023-08-15 11:40:59,526 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-29
+2023-08-15 11:40:59,528 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:40:59] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-28
+2023-08-15 11:46:27,629 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:46:30,082 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:46:30,096 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:46:32,039 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:46:32,203 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:46:32,208 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:46:32,221 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:46:32,222 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:46:32,225 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:46:32,235 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:46:32,239 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:46:32,498 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /_debug_toolbar/static/css/toolbar.css?0.6703904100788534 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:46:32,582 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:46:32,600 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:46:32,604 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:46:32,707 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:46:32,727 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:32] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:46:36,271 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /apidocs/ HTTP/1.1" 200 - : Thread-16
+2023-08-15 11:46:36,335 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 11:46:36,335 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-17
+2023-08-15 11:46:36,343 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 11:46:36,348 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 11:46:36,355 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-23
+2023-08-15 11:46:36,359 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-22
+2023-08-15 11:46:36,366 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-21
+2023-08-15 11:46:36,407 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-24
+2023-08-15 11:46:36,471 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /_debug_toolbar/static/css/toolbar.css?0.16389445855164742 HTTP/1.1" 200 - : Thread-25
+2023-08-15 11:46:36,501 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-26
+2023-08-15 11:46:36,537 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-27
+2023-08-15 11:46:36,616 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-28
+2023-08-15 11:46:36,617 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:46:36] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-29
+2023-08-15 11:47:03,957 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:47:05,905 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:47:05,913 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:47:06,237 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:47:06,283 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "[33mGET /static/swagger-ui.css HTTP/1.1[0m" 404 - : Thread-3
+2023-08-15 11:47:06,294 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "[33mGET /static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 404 - : Thread-4
+2023-08-15 11:47:06,303 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "[33mGET /static/lib/jquery.min.js HTTP/1.1[0m" 404 - : Thread-5
+2023-08-15 11:47:06,334 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:47:06,337 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "[33mGET /static/swagger-ui-bundle.js HTTP/1.1[0m" 404 - : Thread-7
+2023-08-15 11:47:06,348 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:47:06,355 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:47:06,385 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "GET /_debug_toolbar/static/css/toolbar.css?0.4053475459416226 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:47:06,437 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:06] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:47:08,145 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "GET /apidocs/ HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:47:08,187 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "[33mGET /static/swagger-ui.css HTTP/1.1[0m" 404 - : Thread-13
+2023-08-15 11:47:08,199 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "[33mGET /static/swagger-ui-bundle.js HTTP/1.1[0m" 404 - : Thread-14
+2023-08-15 11:47:08,209 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "[33mGET /static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 404 - : Thread-15
+2023-08-15 11:47:08,224 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "[33mGET /static/lib/jquery.min.js HTTP/1.1[0m" 404 - : Thread-16
+2023-08-15 11:47:08,235 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 11:47:08,254 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 11:47:08,260 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 11:47:08,290 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "GET /_debug_toolbar/static/css/toolbar.css?0.2022107799975299 HTTP/1.1" 200 - : Thread-20
+2023-08-15 11:47:08,321 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:08] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-21
+2023-08-15 11:47:19,554 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:47:21,073 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:47:21,081 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:47:21,360 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:47:21,418 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:47:21,431 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:47:21,440 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:47:21,441 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:47:21,449 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:47:21,457 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:47:21,468 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:47:21,477 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:47:21,585 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /_debug_toolbar/static/css/toolbar.css?0.6471354785905827 HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:47:21,719 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:47:21,724 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:47:21,834 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:47:21,835 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:21] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:47:44,934 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:47:46,715 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:47:46,724 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-15 11:47:46,758 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:46] "[35m[1mGET /apidocs/ HTTP/1.1[0m" 500 - : Thread-2
+2023-08-15 11:47:46,823 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:46] "GET /apidocs/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:47:46,824 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:46] "GET /apidocs/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:47:46,862 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:47:46] "GET /apidocs/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:48:17,372 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:48:19,693 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:48:19,701 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:48:20,001 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:48:20,085 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:48:20,091 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:48:20,095 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:48:20,096 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:48:20,107 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:48:20,108 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:48:20,120 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:48:20,167 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:48:20,252 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /_debug_toolbar/static/css/toolbar.css?0.12153843341576565 HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:48:20,342 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:48:20,352 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:48:20,517 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:48:20,518 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:20] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:48:44,106 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:44] "GET /api/hi HTTP/1.1" 200 - : Thread-16
+2023-08-15 11:48:49,006 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:49] "GET /api/check-token HTTP/1.1" 200 - : Thread-17
+2023-08-15 11:48:55,491 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /apidocs/ HTTP/1.1" 200 - : Thread-18
+2023-08-15 11:48:55,543 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-19
+2023-08-15 11:48:55,564 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-21
+2023-08-15 11:48:55,579 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 11:48:55,581 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-22
+2023-08-15 11:48:55,590 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-23
+2023-08-15 11:48:55,612 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-25
+2023-08-15 11:48:55,615 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-24
+2023-08-15 11:48:55,616 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-26
+2023-08-15 11:48:55,758 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /_debug_toolbar/static/css/toolbar.css?0.3453056958142504 HTTP/1.1" 200 - : Thread-27
+2023-08-15 11:48:55,799 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-28
+2023-08-15 11:48:55,803 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-29
+2023-08-15 11:48:55,954 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-31
+2023-08-15 11:48:55,956 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:48:55] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-30
+2023-08-15 11:49:14,855 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:14] "GET /api/check-token HTTP/1.1" 200 - : Thread-32
+2023-08-15 11:49:18,456 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /apidocs/ HTTP/1.1" 200 - : Thread-33
+2023-08-15 11:49:18,522 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-35
+2023-08-15 11:49:18,524 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-34
+2023-08-15 11:49:18,555 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-36
+2023-08-15 11:49:18,564 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-38
+2023-08-15 11:49:18,567 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-37
+2023-08-15 11:49:18,590 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-39
+2023-08-15 11:49:18,600 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-40
+2023-08-15 11:49:18,744 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-41
+2023-08-15 11:49:18,745 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /_debug_toolbar/static/css/toolbar.css?0.5250142920281555 HTTP/1.1" 200 - : Thread-42
+2023-08-15 11:49:18,749 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-43
+2023-08-15 11:49:18,752 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-44
+2023-08-15 11:49:18,939 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-46
+2023-08-15 11:49:18,950 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:49:18] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-45
+2023-08-15 11:49:58,205 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:50:00,283 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:50:00,292 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-15 11:50:00,714 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:50:00] "[35m[1mGET /apidocs/ HTTP/1.1[0m" 500 - : Thread-2
+2023-08-15 11:50:00,782 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:50:00] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-15 11:50:00,783 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:50:00] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-15 11:50:00,819 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:50:00] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-15 11:50:43,108 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:51:11,729 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:51:11,740 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-15 11:51:15,632 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:15] "[35m[1mGET /apidocs/ HTTP/1.1[0m" 500 - : Thread-2
+2023-08-15 11:51:15,705 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:15] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-15 11:51:15,706 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:15] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-15 11:51:15,745 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:15] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-15 11:51:23,997 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 11:51:25,645 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:51:25,654 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:51:25,975 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:25] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:51:26,045 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:51:26,060 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:51:26,061 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:51:26,066 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:51:26,071 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:51:26,073 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:51:26,081 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:51:26,182 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /_debug_toolbar/static/css/toolbar.css?0.056638611682582995 HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:51:26,263 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:51:26,282 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:51:26,286 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:51:26,468 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:51:26,473 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:51:26] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:59:23,572 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/api/views.py', reloading : MainThread
+2023-08-15 11:59:26,133 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:59:26,145 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:59:26,996 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:26] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:59:27,169 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:59:27,175 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:59:27,177 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:59:27,188 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:59:27,194 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:59:27,197 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:59:27,218 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:59:27,260 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:59:27,486 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /_debug_toolbar/static/css/toolbar.css?0.4537311292971262 HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:59:27,700 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:59:27,717 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:59:27,731 root         ERROR    jsonify failure; defaulting to json.dumps : Thread-14
+Traceback (most recent call last):
+  File "/Volumes/Transcend/www/php8/python-docker-test/venv/lib/python3.9/site-packages/flasgger/base.py", line 164, in get
+    return jsonify(self.loader())
+  File "/Volumes/Transcend/www/php8/python-docker-test/venv/lib/python3.9/site-packages/flasgger/base.py", line 438, in get_apispecs
+    specs = get_specs(
+  File "/Volumes/Transcend/www/php8/python-docker-test/venv/lib/python3.9/site-packages/flasgger/utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+  File "/Volumes/Transcend/www/php8/python-docker-test/venv/lib/python3.9/site-packages/flasgger/utils.py", line 675, in parse_docstring
+    swag = yaml.safe_load(full_doc[yaml_sep + 4:])
+  File "/Volumes/Transcend/www/php8/python-docker-test/venv/lib/python3.9/site-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "/Volumes/Transcend/www/php8/python-docker-test/venv/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/Volumes/Transcend/www/php8/python-docker-test/venv/lib/python3.9/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/Volumes/Transcend/www/php8/python-docker-test/venv/lib/python3.9/site-packages/yaml/composer.py", line 41, in get_single_node
+    raise ComposerError("expected a single document in the stream",
+yaml.composer.ComposerError: expected a single document in the stream
+  in "<unicode string>", line 1, column 1:
+    tags:
+    ^
+but found another document
+  in "<unicode string>", line 3, column 1:
+    ---
+    ^
+2023-08-15 11:59:27,812 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:27] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:59:28,106 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:28] "[35m[1mGET /apispec_1.json HTTP/1.1[0m" 500 - : Thread-14
+2023-08-15 11:59:34,445 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/api/views.py', reloading : MainThread
+2023-08-15 11:59:36,527 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 11:59:36,536 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 11:59:36,834 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:36] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 11:59:36,946 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:36] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 11:59:36,950 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:36] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 11:59:36,955 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:36] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 11:59:36,958 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:36] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 11:59:36,962 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:36] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 11:59:36,962 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:36] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 11:59:36,972 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:36] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 11:59:37,033 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-10
+2023-08-15 11:59:37,075 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-11
+2023-08-15 11:59:37,094 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 11:59:37,180 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-13
+2023-08-15 11:59:37,210 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-14
+2023-08-15 11:59:37,299 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 11:59:37,391 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 11:59:37,413 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 11:59:37,501 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /_debug_toolbar/static/css/toolbar.css?0.07564925733908057 HTTP/1.1" 200 - : Thread-18
+2023-08-15 11:59:37,678 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-19
+2023-08-15 11:59:37,679 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 11:59:37] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:03:25,874 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/api/views.py', reloading : MainThread
+2023-08-15 12:03:28,714 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:03:28,726 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:03:29,035 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:03:29,184 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:03:29,185 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:03:29,192 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:03:29,193 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:03:29,193 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:03:29,203 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:03:29,210 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:03:29,280 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:03:29,559 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /_debug_toolbar/static/css/toolbar.css?0.9582944470734545 HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:03:29,676 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:03:29,683 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:03:29,908 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:03:29,915 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:29] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:03:52,513 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/src/api/views.py', reloading : MainThread
+2023-08-15 12:03:54,894 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:03:54,911 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:03:55,297 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:03:55,400 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:03:55,413 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:03:55,417 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:03:55,421 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:03:55,425 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:03:55,440 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:03:55,448 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:03:55,458 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:03:55,571 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /_debug_toolbar/static/css/toolbar.css?0.2261635925572567 HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:03:55,653 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:03:55,667 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:03:55,828 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:03:55,834 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:03:55] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:04:24,668 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /apidocs/ HTTP/1.1" 200 - : Thread-16
+2023-08-15 12:04:24,733 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:04:24,757 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 12:04:24,811 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 12:04:24,818 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:04:24,832 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-22
+2023-08-15 12:04:24,839 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-23
+2023-08-15 12:04:24,853 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 - : Thread-24
+2023-08-15 12:04:24,854 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-21
+2023-08-15 12:04:24,994 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:24] "GET /_debug_toolbar/static/css/toolbar.css?0.6981862330877451 HTTP/1.1" 200 - : Thread-25
+2023-08-15 12:04:25,038 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:25] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 - : Thread-27
+2023-08-15 12:04:25,044 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:25] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 - : Thread-26
+2023-08-15 12:04:25,197 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:25] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-28
+2023-08-15 12:04:25,199 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:04:25] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-29
+2023-08-15 12:05:52,962 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:05:55,475 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:05:55,486 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:05:55,795 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:55] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:05:55,868 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:55] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:05:55,875 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:55] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:05:55,879 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:55] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:05:55,887 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:55] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:05:55,889 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:55] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:05:55,891 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:55] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:05:55,895 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:55] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:05:56,130 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:56] "GET /_debug_toolbar/static/css/toolbar.css?0.6162976649912425 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:05:56,299 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:56] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:05:56,299 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:05:56] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:06:00,986 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:00] "GET /apidocs/ HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:06:01,039 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:06:01,050 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:06:01,055 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 12:06:01,071 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:06:01,074 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 12:06:01,079 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:06:01,082 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 12:06:01,157 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /_debug_toolbar/static/css/toolbar.css?0.35627988344277706 HTTP/1.1" 200 - : Thread-21
+2023-08-15 12:06:01,273 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-23
+2023-08-15 12:06:01,289 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:06:01] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-22
+2023-08-15 12:06:52,923 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:06:55,503 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:06:55,518 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:14:17,594 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:14:19,819 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:14:19,830 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:14:37,201 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:14:39,653 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:14:39,661 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:15:26,687 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:15:29,010 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:15:29,020 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:15:29,331 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:15:29,430 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:15:29,436 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:15:29,437 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:15:29,443 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:15:29,448 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:15:29,456 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:15:29,458 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:15:29,729 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /_debug_toolbar/static/css/toolbar.css?0.7341957632554661 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:15:29,904 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:15:29,905 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:15:29] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:17:06,297 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:17:08,585 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:17:08,594 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:17:08,905 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:08] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:17:08,973 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:08] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:17:08,976 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:08] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:17:08,984 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:08] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:17:08,992 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:08] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:17:08,993 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:08] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:17:08,993 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:08] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:17:08,996 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:08] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:17:09,088 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:09] "GET /_debug_toolbar/static/css/toolbar.css?0.7243396665677879 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:17:09,222 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:09] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:17:09,222 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:09] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:17:26,152 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:17:27,752 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:17:27,759 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:17:28,052 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:17:28,110 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:17:28,114 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:17:28,117 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:17:28,124 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:17:28,125 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:17:28,132 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:17:28,134 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:17:28,202 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /_debug_toolbar/static/css/toolbar.css?0.6505079443193449 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:17:28,322 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:17:28,322 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:28] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:17:35,207 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:17:36,990 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:17:36,997 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:17:37,330 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:17:37,403 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:17:37,407 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:17:37,414 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:17:37,418 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:17:37,424 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:17:37,427 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:17:37,433 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:17:37,527 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /_debug_toolbar/static/css/toolbar.css?0.3487456864084627 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:17:37,665 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:17:37,667 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:37] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:17:44,557 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:17:46,322 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:17:46,331 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:17:46,980 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:46] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:17:47,033 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:17:47,033 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:17:47,034 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:17:47,042 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:17:47,043 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:17:47,052 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:17:47,057 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:17:47,128 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /_debug_toolbar/static/css/toolbar.css?0.33828086450330885 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:17:47,219 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:17:47,224 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:17:47] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:19:47,846 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:19:50,117 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:19:50,131 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:19:50,443 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:19:50,510 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:19:50,518 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:19:50,519 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:19:50,523 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:19:50,524 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:19:50,524 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:19:50,525 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:19:50,715 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /_debug_toolbar/static/css/toolbar.css?0.4558014519046464 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:19:50,874 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:19:50,876 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:19:50] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:19:57,700 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:19:59,956 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:19:59,965 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:20:00,329 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:20:00,374 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:20:00,375 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:20:00,376 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:20:00,378 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:20:00,389 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:20:00,393 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:20:00,395 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:20:00,496 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /_debug_toolbar/static/css/toolbar.css?0.9330358013797734 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:20:00,617 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:20:00,618 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:00] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:20:05,555 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /apidocs/ HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:20:05,596 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:20:05,600 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:20:05,605 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 12:20:05,610 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 12:20:05,614 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 12:20:05,621 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:20:05,623 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:20:05,721 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /_debug_toolbar/static/css/toolbar.css?0.6036733318425673 HTTP/1.1" 200 - : Thread-21
+2023-08-15 12:20:05,831 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-23
+2023-08-15 12:20:05,853 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:05] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-22
+2023-08-15 12:20:28,989 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:20:31,254 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:20:31,262 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:20:31,566 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:20:31,632 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:20:31,634 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:20:31,641 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:20:31,655 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:20:31,655 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:20:31,657 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:20:31,661 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:20:31,736 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /_debug_toolbar/static/css/toolbar.css?0.2274613813256986 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:20:31,872 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:20:31,873 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:20:31] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:24:25,940 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:24:28,656 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:24:28,667 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:24:28,973 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:28] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:24:29,057 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:24:29,064 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:24:29,065 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:24:29,069 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:24:29,088 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:24:29,091 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:24:29,093 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:24:29,342 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /_debug_toolbar/static/css/toolbar.css?0.7620397976088251 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:24:29,539 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:24:29,545 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:29] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:24:31,046 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /apidocs/ HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:24:31,103 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:24:31,115 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 12:24:31,122 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:24:31,131 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:24:31,141 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 12:24:31,142 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 12:24:31,144 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:24:31,219 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /_debug_toolbar/static/css/toolbar.css?0.8871865236436945 HTTP/1.1" 200 - : Thread-21
+2023-08-15 12:24:31,345 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-23
+2023-08-15 12:24:31,346 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:24:31] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-22
+2023-08-15 12:25:10,817 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:25:13,670 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:25:13,680 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:26:16,915 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:27:20,435 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:27:20,446 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:27:21,813 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:21] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:27:21,886 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:21] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:27:21,887 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:21] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:27:21,899 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:21] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:27:21,901 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:21] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:27:21,901 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:21] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:27:21,901 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:21] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:27:21,904 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:21] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:27:22,162 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:22] "GET /_debug_toolbar/static/css/toolbar.css?0.712641358901418 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:27:22,336 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:22] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:27:22,338 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:27:22] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:28:03,310 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:28:05,709 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:28:05,717 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:28:06,351 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:28:06,410 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:28:06,410 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:28:06,418 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:28:06,421 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:28:06,431 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:28:06,440 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:28:06,453 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:28:06,522 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /_debug_toolbar/static/css/toolbar.css?0.6216037243889724 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:28:06,645 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:28:06,655 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:06] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:28:21,062 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:28:23,425 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:28:23,436 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:28:23,729 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:28:23,796 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:28:23,800 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:28:23,801 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:28:23,801 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:28:23,804 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:28:23,805 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:28:23,811 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:28:23,896 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:23] "GET /_debug_toolbar/static/css/toolbar.css?0.9194664406761407 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:28:24,028 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:24] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:28:24,037 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:24] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:28:44,255 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /apidocs/ HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:28:44,296 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:28:44,300 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:28:44,311 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:28:44,312 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 12:28:44,313 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 12:28:44,314 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 12:28:44,320 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:28:44,455 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /_debug_toolbar/static/css/toolbar.css?0.6761932343637459 HTTP/1.1" 200 - : Thread-21
+2023-08-15 12:28:44,582 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-22
+2023-08-15 12:28:44,597 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:28:44] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-23
+2023-08-15 12:29:25,912 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:29:28,265 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:29:28,274 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:29:30,689 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:29:30,747 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:29:30,759 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:29:30,763 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:29:30,767 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:29:30,777 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:29:30,778 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:29:30,780 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:29:30,863 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /_debug_toolbar/static/css/toolbar.css?0.389267967554494 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:29:30,991 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:30] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:29:31,007 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:31] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:29:45,654 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:29:48,006 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:29:48,014 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:29:48,314 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:29:48,360 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:29:48,363 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:29:48,374 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:29:48,376 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:29:48,378 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:29:48,385 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:29:48,387 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:29:48,464 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /_debug_toolbar/static/css/toolbar.css?0.66322451260017 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:29:48,581 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:29:48,598 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:29:48] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:29:57,544 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:29:59,647 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:29:59,657 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:30:00,039 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:30:00,103 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:30:00,116 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:30:00,123 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:30:00,124 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:30:00,125 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:30:00,129 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:30:00,135 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:30:00,203 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /_debug_toolbar/static/css/toolbar.css?0.5540046442181584 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:30:00,312 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:30:00,321 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:00] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:30:18,523 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:30:21,351 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:30:21,361 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:30:21,710 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:30:21,773 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:30:21,790 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:30:21,792 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:30:21,800 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:30:21,800 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:30:21,801 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:30:21,803 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:30:21,889 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:21] "GET /_debug_toolbar/static/css/toolbar.css?0.5821005015159574 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:30:22,012 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:22] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:30:22,018 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:22] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:30:25,784 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:25] "[32mGET /auth/logout HTTP/1.1[0m" 302 - : Thread-13
+2023-08-15 12:30:25,896 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:25] "GET /auth/login HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:30:25,908 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:25] "[36mGET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1[0m" 304 - : Thread-15
+2023-08-15 12:30:25,913 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:25] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 - : Thread-14
+2023-08-15 12:30:25,950 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:25] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 - : Thread-18
+2023-08-15 12:30:25,955 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:25] "[36mGET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1[0m" 304 - : Thread-16
+2023-08-15 12:30:25,960 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:25] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 - : Thread-19
+2023-08-15 12:30:25,971 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:25] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 - : Thread-20
+2023-08-15 12:30:26,018 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:26] "GET /_debug_toolbar/static/css/toolbar.css?0.5441677253855446 HTTP/1.1" 200 - : Thread-21
+2023-08-15 12:30:26,075 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:26] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-22
+2023-08-15 12:30:28,386 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /apidocs/ HTTP/1.1" 200 - : Thread-23
+2023-08-15 12:30:28,416 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-24
+2023-08-15 12:30:28,434 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-25
+2023-08-15 12:30:28,435 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-26
+2023-08-15 12:30:28,437 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-27
+2023-08-15 12:30:28,442 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-29
+2023-08-15 12:30:28,447 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-28
+2023-08-15 12:30:28,453 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-30
+2023-08-15 12:30:28,527 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /_debug_toolbar/static/css/toolbar.css?0.7565983133032612 HTTP/1.1" 200 - : Thread-31
+2023-08-15 12:30:28,617 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-32
+2023-08-15 12:30:28,620 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:28] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-33
+2023-08-15 12:30:30,739 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:30] "GET /apidocs/ HTTP/1.1" 200 - : Thread-34
+2023-08-15 12:30:30,815 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:30] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-35
+2023-08-15 12:30:30,882 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:30] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-36
+2023-08-15 12:30:30,888 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:30] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-37
+2023-08-15 12:30:30,893 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:30] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-38
+2023-08-15 12:30:30,930 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:30] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-41
+2023-08-15 12:30:30,936 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:30] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-40
+2023-08-15 12:30:30,937 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:30] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-39
+2023-08-15 12:30:31,095 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:31] "GET /_debug_toolbar/static/css/toolbar.css?0.5420556535335908 HTTP/1.1" 200 - : Thread-42
+2023-08-15 12:30:31,308 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:31] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-43
+2023-08-15 12:30:31,315 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:31] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-44
+2023-08-15 12:30:33,542 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /apidocs/ HTTP/1.1" 200 - : Thread-45
+2023-08-15 12:30:33,599 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-46
+2023-08-15 12:30:33,609 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-47
+2023-08-15 12:30:33,624 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-48
+2023-08-15 12:30:33,636 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-49
+2023-08-15 12:30:33,653 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-50
+2023-08-15 12:30:33,670 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-51
+2023-08-15 12:30:33,676 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-52
+2023-08-15 12:30:33,726 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /_debug_toolbar/static/css/toolbar.css?0.6301094774034306 HTTP/1.1" 200 - : Thread-53
+2023-08-15 12:30:33,848 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-54
+2023-08-15 12:30:33,853 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:30:33] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-55
+2023-08-15 12:30:58,570 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:31:00,867 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:31:00,875 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:31:00,902 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:00] "[32mGET /apidocs/ HTTP/1.1[0m" 302 - : Thread-2
+2023-08-15 12:31:01,092 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:01] "GET /auth/login?next=/apidocs/ HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:31:01,141 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:01] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:31:01,154 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:01] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:31:01,158 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:01] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:31:01,158 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:01] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:31:01,165 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:01] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:31:01,182 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:01] "GET /_debug_toolbar/static/css/toolbar.css?0.4569948493611943 HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:31:01,220 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:01] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:31:03,840 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:03] "[32mPOST /auth/login HTTP/1.1[0m" 302 - : Thread-11
+2023-08-15 12:31:03,859 app          INFO     Dashboard... : Thread-12
+2023-08-15 12:31:04,066 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:04] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:31:04,125 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:04] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:31:04,133 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:04] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:31:04,138 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:04] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:31:04,139 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:04] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:31:04,144 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:04] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 12:31:04,168 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:04] "GET /_debug_toolbar/static/css/toolbar.css?0.46889037279275403 HTTP/1.1" 200 - : Thread-18
+2023-08-15 12:31:04,225 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:04] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-19
+2023-08-15 12:31:06,090 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "GET /apidocs/ HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:31:06,104 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 - : Thread-22
+2023-08-15 12:31:06,118 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - : Thread-21
+2023-08-15 12:31:06,140 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 - : Thread-24
+2023-08-15 12:31:06,149 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 - : Thread-23
+2023-08-15 12:31:06,161 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 - : Thread-26
+2023-08-15 12:31:06,187 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 - : Thread-25
+2023-08-15 12:31:06,199 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /_debug_toolbar/static/css/toolbar.css?0.7661077618755499 HTTP/1.1[0m" 304 - : Thread-27
+2023-08-15 12:31:06,216 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 - : Thread-28
+2023-08-15 12:31:06,230 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "[36mGET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1[0m" 304 - : Thread-29
+2023-08-15 12:31:06,477 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "GET /_debug_toolbar/static/css/toolbar.css?0.5380345874638703 HTTP/1.1" 200 - : Thread-30
+2023-08-15 12:31:06,596 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:31:06] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-31
+2023-08-15 12:35:31,600 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /apidocs/ HTTP/1.1" 200 - : Thread-32
+2023-08-15 12:35:31,644 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-33
+2023-08-15 12:35:31,646 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-34
+2023-08-15 12:35:31,658 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-35
+2023-08-15 12:35:31,661 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-36
+2023-08-15 12:35:31,667 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-37
+2023-08-15 12:35:31,671 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-38
+2023-08-15 12:35:31,678 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-39
+2023-08-15 12:35:31,859 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /_debug_toolbar/static/css/toolbar.css?0.07844111219463068 HTTP/1.1" 200 - : Thread-40
+2023-08-15 12:35:31,957 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-41
+2023-08-15 12:35:31,957 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:31] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-42
+2023-08-15 12:35:49,300 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:35:51,660 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:35:51,670 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:35:51,976 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:51] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:35:52,048 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:35:52,049 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:35:52,049 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:35:52,060 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:35:52,060 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:35:52,065 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:35:52,073 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:35:52,177 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /_debug_toolbar/static/css/toolbar.css?0.2550130770982779 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:35:52,274 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:35:52,275 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:52] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:35:53,448 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /apidocs/ HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:35:53,481 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:35:53,487 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 12:35:53,496 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:35:53,500 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:35:53,502 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 12:35:53,507 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 12:35:53,525 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:35:53,589 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /_debug_toolbar/static/css/toolbar.css?0.13701738795373486 HTTP/1.1" 200 - : Thread-21
+2023-08-15 12:35:53,661 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-23
+2023-08-15 12:35:53,661 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:35:53] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-22
+2023-08-15 12:38:21,797 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:38:23,744 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:38:23,753 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-15 12:38:23,782 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:38:23] "[35m[1mGET /apidocs/ HTTP/1.1[0m" 500 - : Thread-2
+2023-08-15 12:38:23,820 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:38:23] "GET /apidocs/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:38:23,826 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:38:23] "GET /apidocs/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:38:23,847 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:38:23] "GET /apidocs/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:38:33,066 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:38:34,362 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:38:34,369 werkzeug     INFO      * Debugger PIN: 160-819-707 : MainThread
+2023-08-15 12:38:34,396 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:38:34] "[35m[1mGET /apidocs/ HTTP/1.1[0m" 500 - : Thread-2
+2023-08-15 12:38:34,436 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:38:34] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 - : Thread-3
+2023-08-15 12:38:34,437 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:38:34] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 - : Thread-4
+2023-08-15 12:38:34,458 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:38:34] "[36mGET /apidocs/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 - : Thread-5
+2023-08-15 12:46:36,675 werkzeug     INFO      * Detected change in '/Volumes/Transcend/www/php8/python-docker-test/app.py', reloading : MainThread
+2023-08-15 12:46:38,955 werkzeug     WARNING   * Debugger is active! : MainThread
+2023-08-15 12:46:38,965 werkzeug     INFO      * Debugger PIN: 330-413-422 : MainThread
+2023-08-15 12:46:50,111 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /apidocs/ HTTP/1.1" 200 - : Thread-2
+2023-08-15 12:46:50,214 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-7
+2023-08-15 12:46:50,217 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-6
+2023-08-15 12:46:50,223 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-5
+2023-08-15 12:46:50,232 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-4
+2023-08-15 12:46:50,232 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-3
+2023-08-15 12:46:50,238 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-8
+2023-08-15 12:46:50,240 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-9
+2023-08-15 12:46:50,688 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /_debug_toolbar/static/css/toolbar.css?0.466724188732642 HTTP/1.1" 200 - : Thread-10
+2023-08-15 12:46:50,821 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-11
+2023-08-15 12:46:50,821 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:46:50] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-12
+2023-08-15 12:59:51,107 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /apidocs/ HTTP/1.1" 200 - : Thread-13
+2023-08-15 12:59:51,249 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-14
+2023-08-15 12:59:51,254 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-16
+2023-08-15 12:59:51,259 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-15
+2023-08-15 12:59:51,273 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-18
+2023-08-15 12:59:51,276 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-17
+2023-08-15 12:59:51,287 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-19
+2023-08-15 12:59:51,288 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-20
+2023-08-15 12:59:51,561 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /_debug_toolbar/static/css/toolbar.css?0.48398860919939546 HTTP/1.1" 200 - : Thread-21
+2023-08-15 12:59:51,662 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-22
+2023-08-15 12:59:51,663 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 12:59:51] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-23
+2023-08-15 13:56:45,706 flask_wtf.csrf INFO     The CSRF token has expired. : Thread-24
+2023-08-15 13:56:45,733 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:56:45] "[31m[1mPOST /auth/login HTTP/1.1[0m" 400 - : Thread-24
+2023-08-15 13:56:52,340 flask_wtf.csrf INFO     The CSRF token has expired. : Thread-25
+2023-08-15 13:56:52,341 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:56:52] "[31m[1mPOST /auth/login HTTP/1.1[0m" 400 - : Thread-25
+2023-08-15 13:56:56,839 flask_wtf.csrf INFO     The CSRF token has expired. : Thread-26
+2023-08-15 13:56:56,840 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:56:56] "[31m[1mPOST /auth/login HTTP/1.1[0m" 400 - : Thread-26
+2023-08-15 13:57:00,547 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:00] "[32mGET /auth/login HTTP/1.1[0m" 302 - : Thread-27
+2023-08-15 13:57:00,579 app          INFO     Dashboard... : Thread-28
+2023-08-15 13:57:00,826 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:00] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-28
+2023-08-15 13:57:00,887 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:00] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-29
+2023-08-15 13:57:00,901 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:00] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-30
+2023-08-15 13:57:00,916 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:00] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-31
+2023-08-15 13:57:00,925 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:00] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-33
+2023-08-15 13:57:00,925 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:00] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-32
+2023-08-15 13:57:00,970 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:00] "GET /_debug_toolbar/static/css/toolbar.css?0.38932158093290115 HTTP/1.1" 200 - : Thread-34
+2023-08-15 13:57:01,057 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:01] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-35
+2023-08-15 13:57:06,266 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /apidocs/ HTTP/1.1" 200 - : Thread-36
+2023-08-15 13:57:06,334 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-38
+2023-08-15 13:57:06,343 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-41
+2023-08-15 13:57:06,354 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-37
+2023-08-15 13:57:06,367 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-39
+2023-08-15 13:57:06,367 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-42
+2023-08-15 13:57:06,367 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-40
+2023-08-15 13:57:06,386 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-43
+2023-08-15 13:57:06,804 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /_debug_toolbar/static/css/toolbar.css?0.4187680129629249 HTTP/1.1" 200 - : Thread-44
+2023-08-15 13:57:06,952 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-46
+2023-08-15 13:57:06,953 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:06] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-45
+2023-08-15 13:57:24,649 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 13:57:24] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-47
+2023-08-15 14:11:25,585 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:25] "[32mGET /auth/login HTTP/1.1[0m" 302 - : Thread-48
+2023-08-15 14:11:25,615 app          INFO     Dashboard... : Thread-49
+2023-08-15 14:11:25,941 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:25] "GET /admin/dashboard HTTP/1.1" 200 - : Thread-49
+2023-08-15 14:11:26,145 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:26] "GET /static/css/admin/main.css?33ad39b6 HTTP/1.1" 200 - : Thread-50
+2023-08-15 14:11:26,182 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:26] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-53
+2023-08-15 14:11:26,185 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:26] "GET /static/js/admin/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-51
+2023-08-15 14:11:26,192 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:26] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-52
+2023-08-15 14:11:26,200 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:26] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-54
+2023-08-15 14:11:26,265 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:26] "GET /_debug_toolbar/static/css/toolbar.css?0.8214169797539664 HTTP/1.1" 200 - : Thread-55
+2023-08-15 14:11:26,415 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:11:26] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-56
+2023-08-15 14:12:49,698 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:49] "GET /apidocs/ HTTP/1.1" 200 - : Thread-57
+2023-08-15 14:12:50,007 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-58
+2023-08-15 14:12:50,017 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-59
+2023-08-15 14:12:50,030 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-60
+2023-08-15 14:12:50,038 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-61
+2023-08-15 14:12:50,044 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-62
+2023-08-15 14:12:50,062 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-63
+2023-08-15 14:12:50,076 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-64
+2023-08-15 14:12:50,391 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /_debug_toolbar/static/css/toolbar.css?0.700747469750862 HTTP/1.1" 200 - : Thread-65
+2023-08-15 14:12:50,512 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-66
+2023-08-15 14:12:50,513 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:12:50] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-67
+2023-08-15 14:18:46,440 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /apidocs/ HTTP/1.1" 200 - : Thread-68
+2023-08-15 14:18:46,483 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-69
+2023-08-15 14:18:46,488 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-71
+2023-08-15 14:18:46,492 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-70
+2023-08-15 14:18:46,495 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-73
+2023-08-15 14:18:46,499 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-72
+2023-08-15 14:18:46,506 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-75
+2023-08-15 14:18:46,509 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-74
+2023-08-15 14:18:46,743 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /_debug_toolbar/static/css/toolbar.css?0.22522931406230218 HTTP/1.1" 200 - : Thread-76
+2023-08-15 14:18:46,848 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-77
+2023-08-15 14:18:46,849 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 14:18:46] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-78
+2023-08-15 17:34:14,124 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET / HTTP/1.1" 200 - : Thread-79
+2023-08-15 17:34:14,417 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET /static/css/frontend/main.css?b6ee1b37 HTTP/1.1" 200 - : Thread-80
+2023-08-15 17:34:14,454 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET /static/js/frontend/main.js?d41d8cd9 HTTP/1.1" 200 - : Thread-82
+2023-08-15 17:34:14,464 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET /static/img/flask5.png HTTP/1.1" 200 - : Thread-81
+2023-08-15 17:34:14,505 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-84
+2023-08-15 17:34:14,518 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-83
+2023-08-15 17:34:14,529 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-85
+2023-08-15 17:34:14,634 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET /_debug_toolbar/static/css/toolbar.css?0.7342012928586209 HTTP/1.1" 200 - : Thread-86
+2023-08-15 17:34:14,885 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:34:14] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-87
+2023-08-15 17:59:57,479 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:57] "GET /apidocs/ HTTP/1.1" 200 - : Thread-88
+2023-08-15 17:59:57,674 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:57] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-90
+2023-08-15 17:59:57,678 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:57] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-89
+2023-08-15 17:59:57,686 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:57] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-92
+2023-08-15 17:59:57,691 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:57] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-91
+2023-08-15 17:59:57,694 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:57] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-93
+2023-08-15 17:59:57,728 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:57] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-94
+2023-08-15 17:59:57,728 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:57] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-95
+2023-08-15 17:59:58,232 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:58] "GET /_debug_toolbar/static/css/toolbar.css?0.3558390308272883 HTTP/1.1" 200 - : Thread-96
+2023-08-15 17:59:58,352 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:58] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-97
+2023-08-15 17:59:58,353 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 17:59:58] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-98
+2023-08-15 18:12:07,404 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /apidocs/ HTTP/1.1" 200 - : Thread-99
+2023-08-15 18:12:07,449 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-100
+2023-08-15 18:12:07,460 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-102
+2023-08-15 18:12:07,460 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-104
+2023-08-15 18:12:07,461 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-101
+2023-08-15 18:12:07,475 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-103
+2023-08-15 18:12:07,485 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-105
+2023-08-15 18:12:07,495 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-106
+2023-08-15 18:12:07,722 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /_debug_toolbar/static/css/toolbar.css?0.6254229533821803 HTTP/1.1" 200 - : Thread-107
+2023-08-15 18:12:07,836 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-108
+2023-08-15 18:12:07,836 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:12:07] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-109
+2023-08-15 18:23:23,252 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /apidocs/ HTTP/1.1" 200 - : Thread-110
+2023-08-15 18:23:23,359 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 - : Thread-112
+2023-08-15 18:23:23,359 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 - : Thread-111
+2023-08-15 18:23:23,367 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 - : Thread-113
+2023-08-15 18:23:23,369 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 - : Thread-114
+2023-08-15 18:23:23,375 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /_debug_toolbar/static/js/jquery.js HTTP/1.1" 200 - : Thread-115
+2023-08-15 18:23:23,378 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1" 200 - : Thread-116
+2023-08-15 18:23:23,395 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /_debug_toolbar/static/js/toolbar.js HTTP/1.1" 200 - : Thread-117
+2023-08-15 18:23:23,712 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /_debug_toolbar/static/css/toolbar.css?0.030778045022337386 HTTP/1.1" 200 - : Thread-118
+2023-08-15 18:23:23,826 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /apispec_1.json HTTP/1.1" 200 - : Thread-119
+2023-08-15 18:23:23,828 werkzeug     INFO     127.0.0.1 - - [15/Aug/2023 18:23:23] "GET /_debug_toolbar/static/img/djdt_vertical.png HTTP/1.1" 200 - : Thread-120

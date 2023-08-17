@@ -319,6 +319,8 @@ https://developer.lsst.io/python/numpydoc.html
 https://developer.lsst.io/python/numpydoc.html#sections-in-method-and-function-docstring-sections
 https://stackoverflow.com/questions/62049028/flasgger-add-bearer-authorization
 http://flasgger.pythonanywhere.com
+https://github.com/flasgger/flasgger/blob/master/examples/example_app.py
+https://medium.com/the-ai-analytics-corner/swagger-ui-to-your-python-flask-api-9bf1c8fc0178
 
 
 
