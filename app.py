@@ -9,7 +9,6 @@ from flask_cors import CORS
 from flask_caching import Cache
 from flask_wtf.csrf import CSRFProtect
 from flask_login import LoginManager, login_required
-from flasgger import Swagger
 import json
 import src.logging
 
@@ -26,52 +25,6 @@ cache = Cache()  # set cache object global
 assets = Environment()  # set assets object global
 login_manager = LoginManager()  # set login manager object global
 
-
-# set up swagger
-template = {
-    "swagger": "2.0",
-    "title": "API Docs | Swagger",
-    "info": {
-        "title": "Demo API",
-        "description": "API for demo data",
-        "contact": {
-            "responsibleOrganization": "ME",
-            "responsibleDeveloper": "Me",
-            "email": "me@me.com",
-            "url": "www.me.com",
-        },
-        "termsOfService": "http://me.com/terms",
-        "version": "0.0.1",
-
-    },
-    "host": "127.0.0.1:5000",  # overrides localhost:500
-    "basePath": "/api",  # base bash for blueprint registration
-    "schemes": [
-        "http"
-    ],
-    "securityDefinitions": {
-        "ApiKeyAuth": {
-            "type": "apiKey",
-            "in": "header",
-            "name": "Authorization",
-            "description": "JWT Authorization header. Example: \"Authorization: {token}\""
-        }
-    },
-    "security": [
-        {
-            "ApiKeyAuth": []
-        }
-    ],
-}
-
-# "explorer": False
-# "persistAuthorization": True
-
-swagger_config = {
-    "title": "API Docs | Swagger"
-}
-
-swagger = Swagger(config=swagger_config, template=template, decorators=[login_required], merge=True)  # set swagger object global
 
 # Create Flask application
 
@@ -111,8 +64,6 @@ def create_app():
             return User.query.get(int(user_id))
 
         assets.init_app(app)  # set assets
-
-        swagger.init_app(app)  # set swagger
 
         # Import parts of our application
 

@@ -1,9 +1,11 @@
-from flask import Blueprint, request, jsonify, render_template
+from flask import Blueprint, request, jsonify, render_template, current_app as app
 from src.models import User
 from middleware.token_auth import token_required
 import jwt
 import os
 from app import db
+from flask_swagger import swagger
+from flask_login import login_required
 
 bp = Blueprint(
     "api",
@@ -12,14 +14,50 @@ bp = Blueprint(
 )
 
 
-# API Endpoints
+# Swagger Endpoints
 
-
+@login_required
 @bp.route("/docs")
 def docs():
     return render_template(
-        "flasgger/index.html",
+        "swagger-ui.html",
     )
+
+
+@login_required
+@bp.route("/spec")
+def spec():
+    swag = swagger(app)
+    # configuration values for swagger 2.0
+    config = {
+        "info": {
+            "title": "Sample API",
+            "summary": "User and posts CRUD an other utilities.",
+            "description": "This is a sample api for a simple app.",
+            "termsOfService": "/terms",
+            "contact": {
+                "name": "API Support",
+                "url": "/support",
+                "email": "support@example.com"
+            },
+            "version": "1.0.0"
+        },
+        "securityDefinitions": {    
+            'api_key': {
+                'type': 'apiKey',
+                'in': 'header',
+                'name': 'Authoriation'
+            }
+        },
+        "security": {
+            'api_key': []
+        }
+    }
+    swag.update(config)
+    return jsonify(swag)
+
+
+# API Endpoints
 
 
 @bp.route("/hi", methods=["GET"])
