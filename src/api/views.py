@@ -6,6 +6,8 @@ import os
 from app import db
 from flask_swagger import swagger
 from flask_login import login_required
+from src.api.users import bp as users
+from src.api.posts import bp as posts
 
 bp = Blueprint(
     "api",
@@ -15,6 +17,7 @@ bp = Blueprint(
 
 
 # Swagger Endpoints
+
 
 @login_required
 @bp.route("/docs")
@@ -28,11 +31,11 @@ def docs():
 @bp.route("/spec")
 def spec():
     swag = swagger(app)
-    # configuration values for swagger 2.0
+    # configuration values for swagger 2.0: info and security options
     config = {
+        "swagger": "2.0",
         "info": {
             "title": "Sample API",
-            "summary": "User and posts CRUD an other utilities.",
             "description": "This is a sample api for a simple app.",
             "termsOfService": "/terms",
             "contact": {
@@ -42,16 +45,19 @@ def spec():
             },
             "version": "1.0.0"
         },
-        "securityDefinitions": {    
-            'api_key': {
-                'type': 'apiKey',
-                'in': 'header',
-                'name': 'Authoriation'
+        "securityDefinitions": {
+            "apiKey": {
+                "type": "apiKey",
+                "description": "JWT authorization of an API",
+                "in": "header",
+                "name": "Authorization"
             }
         },
-        "security": {
-            'api_key': []
-        }
+        "security": [
+            {
+                "apiKey": []
+            }
+        ]
     }
     swag.update(config)
     return jsonify(swag)
@@ -60,40 +66,41 @@ def spec():
 # API Endpoints
 
 
-@bp.route("/hi", methods=["GET"])
-def say_hello():
-    """Example endpoint returning a welcome message.
-    This is using docstrings for specifications.
-    ---
-    tags:
-        - Example
-    responses:
-      200:
-        description: A JSON object containing a welcome message.
-    """
-    return jsonify({"msg": "Hello from Flask."})
-
-
-@bp.route("/decode-token", methods=["POST"])
-def decode_token():
-    token = request.headers.get("Authorization")
-    data = jwt.decode(token, os.environ.get("SECRET_KEY"), algorithms=["HS256"])
-    token_user = db.get_or_404(User, data["id"])
-    return jsonify(token_user.id)
-
-
 @bp.route("/check-token", methods=["GET"])
 @token_required
 def check_token(token_user):
     """Endpoint to check user token provided.
     ---
     tags:
-        - Example
+        - Token
     responses:
       200:
         description: A JSON object containing a success message.
     """
     return jsonify({"msg": "Token is valid."})
+
+
+@bp.route("/decode-token", methods=["GET"])
+@token_required
+def decode_token(token_user):
+    """Example endpoint decoding token to return user id.
+    ---
+    tags:
+        - Token
+    responses:
+      200:
+        description: A JSON object containing user info.
+    """
+    token = request.headers.get("Authorization")
+    data = jwt.decode(token, os.environ.get("SECRET_KEY"), algorithms=["HS256"])
+    token_user = db.get_or_404(User, data["id"])
+    return jsonify(token_user.id)
+
+
+# Register admin subroutes
+
+bp.register_blueprint(users)
+bp.register_blueprint(posts)
 
 
 # Error handlers

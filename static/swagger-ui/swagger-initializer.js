@@ -8,7 +8,7 @@ window.onload = function() {
     deepLinking: true,
     presets: [
       SwaggerUIBundle.presets.apis,
-      SwaggerUIStandalonePreset
+      SwaggerUIStandalonePreset.slice(1) // remove the first preset (topbar explorer)
     ],
     plugins: [
       SwaggerUIBundle.plugins.DownloadUrl

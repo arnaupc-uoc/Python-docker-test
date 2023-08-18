@@ -319,8 +319,10 @@ https://developer.lsst.io/python/numpydoc.html
 https://developer.lsst.io/python/numpydoc.html#sections-in-method-and-function-docstring-sections
 https://github.com/getsling/flask-swagger/tree/master
 https://swagger.io/specification/v2/
-
-
+https://apitools.dev/swagger-parser/online/
+https://github.com/swagger-api/swagger-ui/issues/3229
+https://stackoverflow.com/questions/63846280/swagger-ui-requestinterceptor-throws-the-cannot-set-property-x-csrf-token-of
+https://flask-wtf.readthedocs.io/en/latest/api.html#flask_wtf.csrf.CSRFProtect.exempt
 
 
 

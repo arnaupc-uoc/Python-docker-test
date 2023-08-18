@@ -26,7 +26,7 @@ assets = Environment()  # set assets object global
 login_manager = LoginManager()  # set login manager object global
 
 
-# Create Flask application
+# Create Flask App (Flask Application Factory Pattern)
 
 
 def create_app():
@@ -81,7 +81,6 @@ def create_app():
 
         # API register
         from src.api.views import bp as api
-
         app.register_blueprint(api)
 
         # Import commands
