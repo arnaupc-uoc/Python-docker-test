@@ -241,6 +241,16 @@ https://www.digitalocean.com/community/tutorials/https://www.digitalocean.com/co
 https://docs.sqlalchemy.org/en/20/orm/session_basics.html
 
 
+# Marshmallow
+
+It allows you to create serializers to represent your model instances with support to relations and nested objects.
+
+pip install -U marshmallow
+
+Fonts:
+https://marshmallow.readthedocs.io/
+
+
 
 # WTForms
 

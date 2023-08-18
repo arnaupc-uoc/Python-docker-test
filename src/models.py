@@ -1,5 +1,6 @@
 from app import db
 from flask_login import UserMixin
+from marshmallow import Schema, fields
 
 # Define User data-model
 
@@ -69,3 +70,14 @@ class UserRoles(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
     user_id = db.Column(db.Integer(), db.ForeignKey("users.id", ondelete="CASCADE"))
     role_id = db.Column(db.Integer(), db.ForeignKey("roles.id", ondelete="CASCADE"))
+
+
+# Marsmallow schema for User model
+class UserSchema(Schema):
+    id = fields.Int(dump_only=True)
+    email = fields.Str()
+    username = fields.Str()
+    name = fields.Method("format_name", dump_only=True)
+
+    def format_name(self, user):
+        return "{} {}".format(user.first_name, user.last_name)

@@ -1,6 +1,6 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, jsonify
 from middleware.token_auth import token_required
-from src.models import User
+from src.models import User, UserSchema
 from app import db, csrf
 
 bp = Blueprint("api_users", __name__, url_prefix="")
@@ -21,17 +21,16 @@ def users():
       200:
         description: A JSON object containing list of users.
     """
-    return jsonify({"msg": "List of users."})
-    # get all users
-    # query = db.select(User).order_by(User.username)
-    # users = db.session.execute(query).scalars()
-
-    # return render_template("admin/user/list.html", models=users)
+    query = db.select(User).order_by(User.id)
+    users = db.session.execute(query).scalars()
+    schema = UserSchema()
+    result = schema.dump(users, many=True)
+    return jsonify(result)
 
 
 @bp.route("/user/<int:id>", methods=["GET"])
 @token_required
-def user_update(id):
+def user_detail(id):
     """Endpoint to get single user detail.
     ---
     tags:
@@ -46,16 +45,16 @@ def user_update(id):
       200:
         description: A JSON object containing user detail.
     """
-    return jsonify({"msg": "User detail."})
-    # user = db.get_or_404(User, id)
-
-    # return render_template("admin/user/show.html", model=user)
+    user = db.get_or_404(User, id)
+    schema = UserSchema()
+    result = schema.dump(user)
+    return jsonify(result)
 
 
 @bp.route("/user/<int:id>", methods=["PUT"])
 @token_required
 @csrf.exempt
-def user_detail(id):
+def user_update(id):
     """Endpoint to update single user detail.
     ---
     tags:
@@ -70,7 +69,7 @@ def user_detail(id):
       200:
         description: A JSON object containing updated user detail.
     """
-    return jsonify({"msg": "User detail."})
-    # user = db.get_or_404(User, id)
-
-    # return render_template("admin/user/show.html", model=user)
+    user = db.get_or_404(User, id)
+    schema = UserSchema()
+    result = schema.dump(user)
+    return jsonify(result)
