@@ -21,6 +21,7 @@ def login():
     form = LoginForm()
     return render_template('auth/login.html', form=form)
 
+# TODO: queries !!!
 
 @bp.route('/login', methods=['POST'])
 def login_post():

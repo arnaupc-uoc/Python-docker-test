@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify, render_template, current_app as app
+from flask import Blueprint, g, request, jsonify, render_template, current_app as app
 from src.models import User
 from middleware.token_auth import token_required
 import jwt
@@ -68,7 +68,7 @@ def spec():
 
 @bp.route("/check-token", methods=["GET"])
 @token_required
-def check_token(token_user):
+def check_token():
     """Endpoint to check user token provided.
     ---
     tags:
@@ -80,9 +80,9 @@ def check_token(token_user):
     return jsonify({"msg": "Token is valid."})
 
 
-@bp.route("/decode-token", methods=["GET"])
+@bp.route("/token-user", methods=["GET"])
 @token_required
-def decode_token(token_user):
+def token_user():
     """Example endpoint decoding token to return user id.
     ---
     tags:
@@ -91,9 +91,7 @@ def decode_token(token_user):
       200:
         description: A JSON object containing user info.
     """
-    token = request.headers.get("Authorization")
-    data = jwt.decode(token, os.environ.get("SECRET_KEY"), algorithms=["HS256"])
-    token_user = db.get_or_404(User, data["id"])
+    token_user = g.token_user
     return jsonify(token_user.id)
 
 

@@ -7,7 +7,7 @@ bp = Blueprint("users", __name__, url_prefix="")
 
 
 # Admin User routes
-
+# TODO: queries !!!
 
 @bp.route("/users")
 def users():

@@ -11,10 +11,7 @@
   </head>
 
   <body>
-    <div id="swagger-ui"></div>
-    <script type="text/javascript">
-        var csrf_token = "{{ csrf_token() }}";
-    </script>
+    <div id="swagger-ui" style="padding-bottom:50px;"></div>
     <script src="{{ url_for('static', filename='swagger-ui/swagger-ui-bundle.js') }}" charset="UTF-8"> </script>
     <script src="{{ url_for('static', filename='swagger-ui/swagger-ui-standalone-preset.js') }}" charset="UTF-8"> </script>
     <script src="{{ url_for('static', filename='swagger-ui/swagger-initializer.js') }}" charset="UTF-8"> </script>
